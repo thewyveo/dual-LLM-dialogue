@@ -1,0 +1,1 @@
+# this init file is necessary for the memory module to be recognized as a package

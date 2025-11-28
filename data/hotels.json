@@ -1,0 +1,62 @@
+[
+    {
+        "id": "hotel_1",
+        "name": "Canal View Inn",
+        "location": "Amsterdam",
+        "rating": 4.5,
+        "price": "$$",
+        "price_numeric": 2,
+        "review_snippets": [
+            "Beautiful view over the canals and cozy rooms.",
+            "Staff was friendly and the breakfast was decent."
+        ]
+    },
+    {
+        "id": "hotel_2",
+        "name": "Budget Stay Central",
+        "location": "Amsterdam",
+        "rating": 3.8,
+        "price": "$",
+        "price_numeric": 1,
+        "review_snippets": [
+            "Very affordable and close to the city center.",
+            "Rooms are small and a bit noisy at night."
+        ]
+    },
+    {
+        "id": "hotel_3",
+        "name": "Quiet Garden Hotel",
+        "location": "Amsterdam",
+        "rating": 4.7,
+        "price": "$$",
+        "price_numeric": 2,
+        "review_snippets": [
+            "Lovely quiet location with a beautiful garden.",
+            "Perfect if you want to relax away from the crowds."
+        ]
+    },
+    {
+        "id": "hotel_4",
+        "name": "Luxury Canal Palace",
+        "location": "Amsterdam",
+        "rating": 4.9,
+        "price": "$$$",
+        "price_numeric": 3,
+        "review_snippets": [
+            "Amazing service and spacious rooms with canal views.",
+            "Quite expensive but worth it for a special stay."
+        ]
+    },
+    {
+        "id": "hotel_5",
+        "name": "Hostel City Hub",
+        "location": "Amsterdam",
+        "rating": 4.1,
+        "price": "$",
+        "price_numeric": 1,
+        "review_snippets": [
+            "Great social atmosphere and very cheap.",
+            "Bathrooms could be cleaner, but overall good value."
+        ]
+    }
+]
