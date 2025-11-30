@@ -1,0 +1,31 @@
+{
+  "session_id": "dea95afb-90bb-4e6f-9345-c69a7e4f7328",
+  "persona": "explorer",
+  "assistant_variant": "prompt",
+  "history": [
+    {
+      "role": "user",
+      "content": "I'm a foodie visiting Amsterdam and I want a hotel in an area with great restaurants and caf\u00e9s within walking distance. The hotel should be well-reviewed and not the absolute cheapest. Any recommendations?"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on your preferences, I would recommend **Luxury Canal Palace**. It's located centrally and offers a lovely quiet environment with canal views, which aligns perfectly with your desire for a relaxing atmosphere. Additionally, it has been highly rated for its excellent service and spacious rooms overlooking the canals."
+    },
+    {
+      "role": "user",
+      "content": "Do you think **Hotel Royal Amsterdam** also fits my criteria? It seems to offer a similar vibe and proximity to good dining spots."
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, **Hotel Royal Amsterdam** is another strong candidate. Located near many popular restaurants and cafes, it provides a nice balance of being centrally situated while still offering a quieter experience compared to some other options. It has received positive reviews for its quality service and comfortable accommodations."
+    },
+    {
+      "role": "user",
+      "content": "Thank you, that was very helpful. That's all I needed, goodbye."
+    }
+  ],
+  "finished": true,
+  "num_turns": 2,
+  "stop_reason": "user_satisfied",
+  "initial_seed_id": "exp_foodie_hotel_plus_restaurants"
+}

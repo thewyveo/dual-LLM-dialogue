@@ -1,29 +1,60 @@
 import time
 from typing import List, Dict
-
 import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
+import os
 
-# Global cache
-_tokenizer = None
-_model = None
+
 _DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
+LOCAL_MODEL_CACHE = {}
 
 
-def _load_local_model(model_name: str):
+def _resolve_model_path(model_name: str) -> str:
     """
-    Lazy-load the local chat model once and reuse it.
+    Resolve a model name to an actual path / identifier for AutoModel.
+
+    Rules:
+    - "assistant-ft-qwen" -> ./models/assistant_ft_qwen
+    - if ./models/<model_name> exists -> use that as local path
+    - otherwise -> assume it's a HuggingFace hub id and use as-is
     """
-    global _tokenizer, _model
+    base_dir = os.path.dirname(os.path.abspath(__file__))
 
-    if _tokenizer is None or _model is None:
-        print(f"[llm_client] Loading local model '{model_name}' on device={_DEVICE}...")
-        _tokenizer = AutoTokenizer.from_pretrained(model_name)
-        _model = AutoModelForCausalLM.from_pretrained(model_name)
-        _model.to(_DEVICE)
-        _model.eval()
+    # Special case: fine-tuned assistant
+    if model_name == "assistant-ft-qwen":
+        return os.path.join(base_dir, "models", "assistant_ft_qwen")
 
-    return _tokenizer, _model
+    # If there's a local directory under ./models/<model_name>, use that
+    local_dir = os.path.join(base_dir, "models", model_name)
+    if os.path.isdir(local_dir):
+        return local_dir
+
+    # Otherwise, treat the string as a HF model id, e.g. "mistralai/Mistral-7B-v0.1"
+    return model_name
+
+
+def _get_local_model_and_tokenizer(model_name: str):
+    """
+    Return (model, tokenizer) for a given model name.
+    We cache them so they're loaded only once.
+    """
+    if model_name in LOCAL_MODEL_CACHE:
+        return LOCAL_MODEL_CACHE[model_name]
+
+    model_path = _resolve_model_path(model_name)
+    print(f"[llm_client] Loading model '{model_name}' from '{model_path}' on device {_DEVICE}...")
+
+    tokenizer = AutoTokenizer.from_pretrained(model_path, use_fast=True)
+    if tokenizer.pad_token is None:
+        tokenizer.pad_token = tokenizer.eos_token
+
+    model = AutoModelForCausalLM.from_pretrained(
+        model_path,
+        torch_dtype=torch.float16 if torch.cuda.is_available() else torch.float32,
+    ).to(_DEVICE)
+
+    LOCAL_MODEL_CACHE[model_name] = (model, tokenizer)
+    return model, tokenizer
 
 
 def call_llm(
@@ -38,10 +69,15 @@ def call_llm(
     messages: list of {"role": "system" | "user" | "assistant", "content": "..."}.
     Returns only the NEW generated text (assistant or traveler turn).
     """
-    tokenizer, hf_model = _load_local_model(model)
+    hf_model, tokenizer = _get_local_model_and_tokenizer(model)
 
-    # 1) Build prompt using chat template if available
-    if hasattr(tokenizer, "apply_chat_template"):
+    # 1) Build prompt using chat template if it actually exists
+    use_chat_template = (
+        hasattr(tokenizer, "apply_chat_template")
+        and getattr(tokenizer, "chat_template", None) is not None
+    )
+
+    if use_chat_template:
         prompt = tokenizer.apply_chat_template(
             messages,
             tokenize=False,
@@ -59,6 +95,7 @@ def call_llm(
             else:
                 prompt += f"<assistant>\n{m['content']}\n</assistant>\n"
         prompt += "<assistant>\n"
+
 
     inputs = tokenizer(prompt, return_tensors="pt").to(_DEVICE)
 
