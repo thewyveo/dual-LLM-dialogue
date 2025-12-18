@@ -79,7 +79,10 @@ def run_batch(
                     with open(single_out_path, "w") as f_single:
                         json.dump(res, f_single, indent=2)
                     print(f"  Saved conversation to {single_out_path}")
-                    cleaner()
+                    if "bootstrap" in profile_path or "beginning" in profile_path:
+                        print(f"[cleaner] Refusing to clean protected profile file: {profile_path}")
+                    else:
+                        cleaner(profile_path)
                 except Exception as e:
                     print(f"  WARNING: Failed to save per-convo log {single_out_path}: {e}")
 

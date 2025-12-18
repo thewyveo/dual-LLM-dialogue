@@ -61,7 +61,7 @@
     "budget_min": null,
     "budget_max": null,
     "currency": "EUR",
-    "wants_central_location": true,
+    "wants_central_location": false,
     "wants_local_neighborhood": true,
     "prefers_quiet": true,
     "prefers_social": false,
@@ -80,7 +80,7 @@
     ],
     "rejected_hotels": [],
     "free_form_notes": null,
-    "sessions_count": 7
+    "sessions_count": 8
   },
   "minimalist__min_central_budget_wifi_3n": {
     "trip_type": "leisure",
@@ -369,7 +369,7 @@
     "currency": "EUR",
     "wants_central_location": true,
     "wants_local_neighborhood": true,
-    "prefers_quiet": false,
+    "prefers_quiet": true,
     "prefers_social": false,
     "cares_about_wifi": true,
     "cares_about_desk": true,
@@ -378,16 +378,17 @@
     "cares_about_gym": false,
     "cares_about_rooftop": false,
     "cares_about_spa": false,
-    "foodie": null,
-    "romantic": null,
+    "foodie": true,
+    "romantic": false,
     "preferred_hotels": [
       "Budget Stay Central",
       "Hotel Amsterdam City Center",
-      "The Modern Hideaway"
+      "The Modern Hideaway",
+      "Le Grand Canalhouse"
     ],
     "rejected_hotels": [],
     "free_form_notes": null,
-    "sessions_count": 8
+    "sessions_count": 10
   },
   "minimalist__min_short_stay_no_frills": {
     "trip_type": "leisure",

@@ -1,0 +1,48 @@
+{
+  "session_id": "97b5f1f2-c04f-4dc1-bd58-4a1a53194bf9",
+  "persona": "minimalist",
+  "assistant_variant": "prompt",
+  "history": [
+    {
+      "role": "user",
+      "content": "Please recommend a quiet hotel in Amsterdam within walking distance of the city center, with at least a 4.0 rating and not too expensive."
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the criteria you've specified, I would recommend **The Modern Hideaway**. It's located in the Zuid neighborhood, which is close to the city center, offers a great atmosphere, and has a 4.9 rating. While it doesn't have an outdoor pool or breakfast included, it does offer a terrace and a free billiards table, making it a relaxing place to stay."
+    },
+    {
+      "role": "user",
+      "content": "Do you think The Modern Hideaway also has free Wi-Fi?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, according to the internal reviews, The Modern Hideaway provides free Wi-Fi. This should meet your requirement for good Wi-Fi connectivity while staying in this particular hotel."
+    },
+    {
+      "role": "user",
+      "content": "Could you provide more details on the restaurant options near The Modern Hideaway? I'd like to try something local after my stay."
+    },
+    {
+      "role": "assistant",
+      "content": "Certainly! The Modern Hideaway is conveniently located near several dining options in the Zuid neighborhood. Here are some local restaurants you might consider:\n\n1."
+    },
+    {
+      "role": "user",
+      "content": "Could you tell me if there are any rooftop bars nearby where I could enjoy a drink after dinner?"
+    },
+    {
+      "role": "assistant",
+      "content": "Unfortunately, based solely on the information provided, there isn't any mention of rooftop bars near The Modern Hideaway. However, you can explore other areas around the hotel for rooftop bars, such as the Westermarkt district or the Jordaan neighborhood, both known for their vibrant nightlife scene."
+    },
+    {
+      "role": "user",
+      "content": "Thank you, that was very helpful. That's all I needed, goodbye."
+    }
+  ],
+  "finished": true,
+  "num_turns": 4,
+  "stop_reason": "user_satisfied",
+  "initial_seed_id": "min_quiet_near_center",
+  "long_term_memory_profile": true
+}
