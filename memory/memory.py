@@ -116,4 +116,6 @@ def get_profile_prompt_for_user(
     if not summary or summary.strip() == "":
         return default_text
 
+    summary = summary[:500]
+
     return summary

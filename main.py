@@ -5,8 +5,8 @@ def main():
     set_profile_store("profiles_beginning.json")
     results = run_batch(
         n_histories=20,
-        personas=("minimalist", "explorer"),
-        assistant_variants=("prompt",),
+        personas=("explorer",),
+        assistant_variants=("peft",),
         use_memory=True,
     )
     print(f"Finished {len(results)} conversations. Logs saved to logs/conversations.json")

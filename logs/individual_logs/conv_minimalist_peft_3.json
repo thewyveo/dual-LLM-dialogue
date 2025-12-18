@@ -1,0 +1,32 @@
+{
+  "session_id": "420dd9a4-69e6-4689-b8b3-e7583b57b761",
+  "persona": "minimalist",
+  "assistant_variant": "peft",
+  "history": [
+    {
+      "role": "user",
+      "content": "I'm staying just one or two nights in Amsterdam and want a no-frills hotel that's reliable and not overpriced. Any suggestions?"
+    },
+    {
+      "role": "assistant",
+      "content": "The Modern Hideaway seems like a solid choice based on its rating and proximity to the city center. It offers amenities like room service, terrace, garden, free billiards, and a hot tub, which should meet your needs while being budget-friendly. However, keep an eye out for any issues mentioned in the internal reviews regarding reliability and comfort levels."
+    },
+    {
+      "role": "user",
+      "content": "Do you think the Hotel Amsterdam City Center Plus would be suitable? It sounds like it might fit my needs without breaking the bank."
+    },
+    {
+      "role": "assistant",
+      "content": "Hotel Amsterdam City Center Plus is another option worth considering. It has a great location near the city center and provides amenities like room service, air conditioning, and a rooftop terrace. While some guests mention occasional issues with Wi-Fi, overall it appears to offer a reliable stay."
+    },
+    {
+      "role": "user",
+      "content": "Thank you, that was very helpful. That's all I needed, goodbye."
+    }
+  ],
+  "finished": true,
+  "num_turns": 2,
+  "stop_reason": "user_satisfied",
+  "initial_seed_id": "min_short_stay_no_frills",
+  "long_term_memory_profile": true
+}

@@ -56,13 +56,13 @@ def run_conversation(
         )
     elif assistant_variant == "peft":
         assistant = AssistantFineTunedAgent(
+        model="assistant-peft-qwen",
         user_id=user_key if long_term_memory_profile else None,
-        model_name="assistant-peft-qwen",
         )
     else:
         assistant = AssistantFineTunedAgent(
+        model="assistant-ft-qwen",
         user_id=user_key if long_term_memory_profile else None,
-        model_name="assistant-ft-qwen",
         )
 
     hotel_client = HotelAPIClient()

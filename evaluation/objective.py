@@ -7,7 +7,7 @@ from transformers import AutoTokenizer
 
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-LOGS_PATH = os.path.join(BASE_DIR, "logs", "conversations.json")
+LOGS_PATH = os.path.join(BASE_DIR, "data", "training_conversations.json")
 OUT_PATH = os.path.join(BASE_DIR, "results", "objective_metrics.json")
 
 TOKENIZER_NAME = "Qwen/Qwen2.5-1.5B-Instruct"

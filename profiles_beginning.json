@@ -219,11 +219,12 @@
     "preferred_hotels": [
       "Luxury Canal Palace",
       "Quiet Garden Hotel",
-      "Hotel Royal Amsterdam"
+      "Hotel Royal Amsterdam",
+      "The Vintage Hotel"
     ],
     "rejected_hotels": [],
-    "free_form_notes": "The Quiet Garden Hotel seems like a good fit for someone who values both central location and unique atmosphere.",
-    "sessions_count": 7
+    "free_form_notes": "Great suggestions!",
+    "sessions_count": 8
   },
   "explorer__exp_social_budget_hostel_vibe": {
     "trip_type": "leisure",
@@ -309,13 +310,13 @@
     "sessions_count": 2
   },
   "explorer__exp_long_stay_explore_city": {
-    "trip_type": null,
+    "trip_type": "leisure",
     "persona_name": "explorer",
     "budget_min": null,
     "budget_max": null,
     "currency": "EUR",
     "wants_central_location": true,
-    "wants_local_neighborhood": null,
+    "wants_local_neighborhood": true,
     "prefers_quiet": false,
     "prefers_social": null,
     "cares_about_wifi": true,
@@ -328,11 +329,12 @@
     "foodie": true,
     "romantic": false,
     "preferred_hotels": [
-      "Luxury Canal Palace"
+      "Luxury Canal Palace",
+      "The Modern Hideaway"
     ],
     "rejected_hotels": [],
     "free_form_notes": null,
-    "sessions_count": 2
+    "sessions_count": 3
   },
   "explorer__exp_local_neighborhood_feel": {
     "trip_type": null,
@@ -355,11 +357,12 @@
     "romantic": false,
     "preferred_hotels": [
       "Quiet Garden Hotel",
-      "The Vintage Hotel"
+      "The Vintage Hotel",
+      "The Modern Hideaway"
     ],
     "rejected_hotels": [],
     "free_form_notes": null,
-    "sessions_count": 5
+    "sessions_count": 6
   },
   "minimalist__min_just_the_cheapest_ok": {
     "trip_type": "leisure",
@@ -414,7 +417,7 @@
     ],
     "rejected_hotels": [],
     "free_form_notes": null,
-    "sessions_count": 2
+    "sessions_count": 4
   },
   "minimalist__min_simple_business_stopover": {
     "trip_type": "business",
@@ -429,7 +432,7 @@
     "cares_about_wifi": true,
     "cares_about_desk": true,
     "cares_about_breakfast": true,
-    "cares_about_parking": false,
+    "cares_about_parking": true,
     "cares_about_gym": false,
     "cares_about_rooftop": false,
     "cares_about_spa": false,
@@ -441,7 +444,7 @@
     ],
     "rejected_hotels": [],
     "free_form_notes": null,
-    "sessions_count": 3
+    "sessions_count": 4
   },
   "minimalist__min_good_reviews_under_budget": {
     "trip_type": "leisure",
@@ -476,7 +479,7 @@
     "budget_max": 200,
     "currency": "EUR",
     "wants_central_location": true,
-    "wants_local_neighborhood": true,
+    "wants_local_neighborhood": false,
     "prefers_quiet": true,
     "prefers_social": false,
     "cares_about_wifi": true,
@@ -490,11 +493,12 @@
     "romantic": false,
     "preferred_hotels": [
       "The Modern Hideaway",
-      "Elegant Lodge"
+      "Elegant Lodge",
+      "Le Grand Canalhouse"
     ],
     "rejected_hotels": [],
     "free_form_notes": null,
-    "sessions_count": 3
+    "sessions_count": 5
   },
   "minimalist__min_sleep_only_priority": {
     "trip_type": "leisure",
@@ -503,14 +507,14 @@
     "budget_max": null,
     "currency": "EUR",
     "wants_central_location": true,
-    "wants_local_neighborhood": true,
+    "wants_local_neighborhood": false,
     "prefers_quiet": true,
     "prefers_social": false,
     "cares_about_wifi": true,
-    "cares_about_desk": false,
+    "cares_about_desk": true,
     "cares_about_breakfast": true,
     "cares_about_parking": true,
-    "cares_about_gym": false,
+    "cares_about_gym": true,
     "cares_about_rooftop": false,
     "cares_about_spa": false,
     "foodie": false,
@@ -520,6 +524,32 @@
     ],
     "rejected_hotels": [],
     "free_form_notes": null,
-    "sessions_count": 2
+    "sessions_count": 4
+  },
+  "explorer__exp_comfort_plus_atmosphere": {
+    "trip_type": null,
+    "persona_name": "explorer",
+    "budget_min": null,
+    "budget_max": null,
+    "currency": "EUR",
+    "wants_central_location": true,
+    "wants_local_neighborhood": null,
+    "prefers_quiet": null,
+    "prefers_social": null,
+    "cares_about_wifi": true,
+    "cares_about_desk": true,
+    "cares_about_breakfast": true,
+    "cares_about_parking": true,
+    "cares_about_gym": true,
+    "cares_about_rooftop": null,
+    "cares_about_spa": null,
+    "foodie": null,
+    "romantic": null,
+    "preferred_hotels": [
+      "The Modern Hideaway"
+    ],
+    "rejected_hotels": [],
+    "free_form_notes": "Central location, good amenities, friendly staff.",
+    "sessions_count": 1
   }
 }

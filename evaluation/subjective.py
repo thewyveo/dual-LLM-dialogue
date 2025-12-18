@@ -1,12 +1,15 @@
 import json
 import os
+import sys
 from typing import Dict, List
+PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, PROJECT_ROOT)
 
 from llm_client import call_llm
 
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-LOGS_PATH = os.path.join(BASE_DIR, "logs", "conversations.json")
+LOGS_PATH = os.path.join(BASE_DIR, "data", "training_conversations.json")
 OUT_PATH = os.path.join(BASE_DIR, "results", "subjective_metrics.json")
 
 
@@ -28,6 +31,7 @@ IMPORTANT:
 
 Score each dimension from 1 (very poor) to 5 (excellent).
 Be strict but fair.
+OUTPUT A JSON object ONLY.
 """
 
 

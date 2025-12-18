@@ -1,0 +1,18 @@
+{
+  "prompt__explorer__memory_True": {
+    "num_conversations": 20,
+    "success_rate": 1.0,
+    "avg_turns": 3.95,
+    "avg_tokens_user": 130.25,
+    "avg_tokens_assistant": 221.0,
+    "avg_tokens_total": 351.25
+  },
+  "prompt__minimalist__memory_True": {
+    "num_conversations": 20,
+    "success_rate": 1.0,
+    "avg_turns": 5.35,
+    "avg_tokens_user": 167.3,
+    "avg_tokens_assistant": 296.6,
+    "avg_tokens_total": 463.9
+  }
+}

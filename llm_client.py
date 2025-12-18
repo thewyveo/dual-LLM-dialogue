@@ -47,7 +47,7 @@ def _get_local_model_and_tokenizer(model_name: str):
 
     # --- TOKENIZER ---
     tokenizer = AutoTokenizer.from_pretrained(
-        model_path if model_name != "assistant-peft-qwen" else "Qwen/Qwen2.5-0.5B-Instruct",
+        model_path if model_name != "assistant-peft-qwen" else "Qwen/Qwen2.5-1.5B-Instruct",
         use_fast=True,
     )
     if tokenizer.pad_token is None:
@@ -57,7 +57,7 @@ def _get_local_model_and_tokenizer(model_name: str):
     if model_name == "assistant-peft-qwen":
         # 1. load BASE model
         base_model = AutoModelForCausalLM.from_pretrained(
-            "Qwen/Qwen2.5-0.5B-Instruct",
+            "Qwen/Qwen2.5-1.5B-Instruct",
             torch_dtype=torch.float16 if torch.cuda.is_available() else torch.float32,
         )
 

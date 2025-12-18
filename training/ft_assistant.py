@@ -17,7 +17,7 @@ from transformers import (
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_PATH = os.path.join(BASE_DIR, "data", "assistant_ft_train.jsonl")
 
-BASE_MODEL_NAME = "Qwen/Qwen2.5-0.5B-Instruct"
+BASE_MODEL_NAME = "Qwen/Qwen2.5-1.5B-Instruct"
 OUTPUT_DIR = os.path.join(BASE_DIR, "models", "assistant_ft_qwen")
 
 

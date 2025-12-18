@@ -1,0 +1,32 @@
+{
+  "session_id": "4f77708c-e846-4124-82e2-c4bc5ed04114",
+  "persona": "explorer",
+  "assistant_variant": "prompt",
+  "history": [
+    {
+      "role": "user",
+      "content": "I'm looking for a small, atmospheric hotel in Amsterdam with a nice canal view and a cozy vibe. I care more about character than price as long as it's not extreme. What would you recommend?"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on your preferences, I would suggest checking out **The Vintage Hotel**. It offers a charming atmosphere with a great location near the Oost neighborhood, which is known for its historic charm and proximity to canals. While some guests mention issues with Wi-Fi reliability, others appreciate the friendly staff who often go above and beyond to assist guests."
+    },
+    {
+      "role": "user",
+      "content": "Do you think The Vintage Hotel also has bicycles available for rent? That would be really convenient for exploring the city!"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, The Vintage Hotel does offer bicycle rental services. This makes it an excellent choice for those interested in exploring the city on two wheels. Enjoy your stay!"
+    },
+    {
+      "role": "user",
+      "content": "Thank you, that was very helpful. That's all I needed, goodbye."
+    }
+  ],
+  "finished": true,
+  "num_turns": 2,
+  "stop_reason": "user_satisfied",
+  "initial_seed_id": "exp_canal_view_atmosphere",
+  "long_term_memory_profile": true
+}

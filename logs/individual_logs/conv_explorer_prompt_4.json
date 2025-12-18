@@ -1,5 +1,5 @@
 {
-  "session_id": "e6e62da0-c468-4861-887e-2c4e183140a3",
+  "session_id": "e0ea98ad-e629-4193-a932-409351a7a918",
   "persona": "explorer",
   "assistant_variant": "prompt",
   "history": [
@@ -9,15 +9,23 @@
     },
     {
       "role": "assistant",
-      "content": "Based on your preferences for a friendly, social atmosphere and reasonable prices, **The Modern Hideaway** seems like a great fit. It's located in Zuid Amsterdam and offers a welcoming environment. The reviewers mention that the staff went above and beyond to assist guests, which is important for a social experience."
+      "content": "Based on your preferences for a friendly, social atmosphere and good reviews, I would recommend checking out **The Modern Hideaway**. It's located in Zuid Amsterdam, which is close to the city center and offers a great balance between affordability and social ambiance. The hotel provides amenities like room service, terrace, garden, free billiards, and a hot tub, ensuring you can relax and enjoy your stay."
     },
     {
       "role": "user",
-      "content": "Do you think **The Modern Hideaway** also has outdoor seating areas where we can relax after exploring the city? That would be really nice!"
+      "content": "Do they offer any activities or tours nearby? I'd love to explore more during my visit."
     },
     {
       "role": "assistant",
-      "content": "Yes, **The Modern Hideaway** does offer an outdoor terrace where you can enjoy some relaxation after exploring the city. This would certainly enhance your social experience. Enjoy your stay!"
+      "content": "Yes, The Modern Hideaway does offer some activities and tours nearby. They provide breakfast included, so you'll have something delicious to start your day. Additionally, they have a terrace where you can enjoy views of the city while having breakfast."
+    },
+    {
+      "role": "user",
+      "content": "Do they have any recommendations for places to grab a bite after exploring the city? I want something casual but not too expensive."
+    },
+    {
+      "role": "assistant",
+      "content": "Certainly! For a casual yet affordable meal after exploring the city, consider checking out **Copper Villa**. Located in Osdorp, it's just a short walk away from the city center, making it easy to get back into the action once you've had your fill."
     },
     {
       "role": "user",
@@ -25,7 +33,8 @@
     }
   ],
   "finished": true,
-  "num_turns": 2,
+  "num_turns": 3,
   "stop_reason": "user_satisfied",
-  "initial_seed_id": "exp_social_budget_hostel_vibe"
+  "initial_seed_id": "exp_social_budget_hostel_vibe",
+  "long_term_memory_profile": true
 }

@@ -1,0 +1,40 @@
+{
+  "session_id": "5596afbf-c6a7-40d2-9d62-dca2c8880fa8",
+  "persona": "minimalist",
+  "assistant_variant": "peft",
+  "history": [
+    {
+      "role": "user",
+      "content": "I need a hotel in central Amsterdam for 3 nights next month, under 150 euros per night, with good reviews and reliable Wi-Fi. What would you recommend?"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on your criteria, I would suggest staying at The Modern Hideaway. It is centrally located, offers room service, a terrace, a garden, and free biliards, which seems to meet your preferences. Additionally, it has good reviews regarding Wi-Fi reliability."
+    },
+    {
+      "role": "user",
+      "content": "Do you think the Hotel Renaissance Amsterdam Central also meets my criteria?"
+    },
+    {
+      "role": "assistant",
+      "content": "The Hotel Renaissance Amsterdam Central is another great choice. It's centrally located, offers room service, a terrace, a garden, and free WiFi, all of which align with your requirements. It also has positive reviews about Wi-Fi reliability."
+    },
+    {
+      "role": "user",
+      "content": "Do you have any other specific preferences or considerations?"
+    },
+    {
+      "role": "assistant",
+      "content": "If you're looking for more amenities, consider staying at The Modern Hideaway. It offers a gym, family rooms, air conditioning, breakfast included, and a terrace/garden. These additional perks might appeal to you."
+    },
+    {
+      "role": "user",
+      "content": "Thank you, that was very helpful. That's all I needed, goodbye."
+    }
+  ],
+  "finished": true,
+  "num_turns": 3,
+  "stop_reason": "user_satisfied",
+  "initial_seed_id": "min_central_budget_wifi_3n",
+  "long_term_memory_profile": true
+}

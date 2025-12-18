@@ -1,0 +1,32 @@
+{
+  "session_id": "427faea4-f1ec-4959-b47d-6a8b71895931",
+  "persona": "explorer",
+  "assistant_variant": "peft",
+  "history": [
+    {
+      "role": "user",
+      "content": "I'd love a hotel in Amsterdam where I can really relax, ideally with a garden or spa feeling, away from the loudest streets but still not too far from the center. What would you suggest?"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on your preferences for a relaxing atmosphere, proximity to the center, and a garden/spa feel, I would recommend **The Vintage Hotel**. It offers a great location, is centrally located, and has a garden and spa facilities which should provide a serene experience. However, it's worth noting that some guests mentioned issues with Wi-Fi reliability, so make sure to check this before booking."
+    },
+    {
+      "role": "user",
+      "content": "Do you think The Vintage Hotel also has good dining options? I'm looking for somewhere both relaxing and having a meal nearby."
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, The Vintage Hotel does offer good dining options. While some guests noted that breakfast options were okay, others appreciated the variety available. Additionally, there are several cafes and restaurants nearby that cater to different tastes, including those interested in foodie experiences."
+    },
+    {
+      "role": "user",
+      "content": "Thank you, that was very helpful. That's all I needed, goodbye."
+    }
+  ],
+  "finished": true,
+  "num_turns": 2,
+  "stop_reason": "user_satisfied",
+  "initial_seed_id": "exp_spa_relax_trip",
+  "long_term_memory_profile": true
+}

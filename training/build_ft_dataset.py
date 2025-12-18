@@ -4,7 +4,7 @@ from typing import List, Dict
 
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-LOGS_PATH = os.path.join(BASE_DIR, "logs", "conversations.json")
+LOGS_PATH = os.path.join(BASE_DIR, "data", "training_conversations.json")
 OUT_PATH = os.path.join(BASE_DIR, "data", "assistant_ft_train.jsonl")
 
 
