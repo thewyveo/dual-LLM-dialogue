@@ -12,12 +12,79 @@ Each entry:
         "content": str
     }
 ]
-                    For now we only use a single initial user message.
 """
 
 INITIAL_HISTORIES = [
-    # --- Minimalist personas: short, focused, budget-conscious ---
-
+        {
+        "id": "min_walkable_transport_hub",
+        "persona": "minimalist",
+        "location": "Amsterdam",
+        "messages": [
+            {
+                "role": "user",
+                "content": (
+                    "I need a reasonably priced hotel in Amsterdam that's within walking distance "
+                    "of public transport. Clean, quiet, and practical is all I care about."
+                ),
+            }
+        ],
+    },
+    {
+        "id": "min_short_stay_no_frills",
+        "persona": "minimalist",
+        "location": "Amsterdam",
+        "messages": [
+            {
+                "role": "user",
+                "content": (
+                    "I'm staying just one or two nights in Amsterdam and want a no-frills hotel "
+                    "that's reliable and not overpriced. Any suggestions?"
+                ),
+            }
+        ],
+    },
+    {
+        "id": "min_good_reviews_under_budget",
+        "persona": "minimalist",
+        "location": "Amsterdam",
+        "messages": [
+            {
+                "role": "user",
+                "content": (
+                    "Can you recommend a hotel in Amsterdam with consistently good reviews "
+                    "that stays within a reasonable budget? I don't need luxury."
+                ),
+            }
+        ],
+    },
+    {
+        "id": "min_simple_business_stopover",
+        "persona": "minimalist",
+        "location": "Amsterdam",
+        "messages": [
+            {
+                "role": "user",
+                "content": (
+                    "I'm stopping in Amsterdam briefly for work and need a straightforward hotel "
+                    "that's quiet, dependable, and close enough to get around easily."
+                ),
+            }
+        ],
+    },
+    {
+        "id": "min_sleep_only_priority",
+        "persona": "minimalist",
+        "location": "Amsterdam",
+        "messages": [
+            {
+                "role": "user",
+                "content": (
+                    "I mostly just need a place to sleep in Amsterdam. As long as it's safe, clean, "
+                    "and not too expensive, that's fine."
+                ),
+            }
+        ],
+    },
     {
         "id": "min_central_budget_wifi_3n",
         "persona": "minimalist",
@@ -90,8 +157,76 @@ INITIAL_HISTORIES = [
         ],
     },
 
-    # --- Explorer personas: curious, vibe/ambience/local experience focused ---
-
+    {
+        "id": "exp_artsy_creative_vibe",
+        "persona": "explorer",
+        "location": "Amsterdam",
+        "messages": [
+            {
+                "role": "user",
+                "content": (
+                    "I'm looking for a hotel in Amsterdam with a creative or artsy feel, somewhere "
+                    "that has character and good reviews rather than a generic chain vibe."
+                ),
+            }
+        ],
+    },
+    {
+        "id": "exp_green_relaxed_area",
+        "persona": "explorer",
+        "location": "Amsterdam",
+        "messages": [
+            {
+                "role": "user",
+                "content": (
+                    "Can you suggest a hotel in Amsterdam that feels calm and green, maybe with "
+                    "a garden or relaxed atmosphere, but still connected to the city?"
+                ),
+            }
+        ],
+    },
+    {
+        "id": "exp_unique_small_hotel",
+        "persona": "explorer",
+        "location": "Amsterdam",
+        "messages": [
+            {
+                "role": "user",
+                "content": (
+                    "I prefer smaller, unique hotels over big ones. Is there a well-reviewed "
+                    "hotel in Amsterdam that feels more personal and distinctive?"
+                ),
+            }
+        ],
+    },
+    {
+        "id": "exp_neighborhood_exploration_base",
+        "persona": "explorer",
+        "location": "Amsterdam",
+        "messages": [
+            {
+                "role": "user",
+                "content": (
+                    "I want a hotel in Amsterdam that's a good base for exploring different "
+                    "neighborhoods and getting a feel for local life. Any recommendations?"
+                ),
+            }
+        ],
+    },
+    {
+        "id": "exp_comfort_plus_atmosphere",
+        "persona": "explorer",
+        "location": "Amsterdam",
+        "messages": [
+            {
+                "role": "user",
+                "content": (
+                    "I'm looking for a hotel in Amsterdam that balances comfort with atmosphere — "
+                    "somewhere pleasant to come back to after a full day of exploring."
+                ),
+            }
+        ],
+    },
     {
         "id": "exp_canal_view_atmosphere",
         "persona": "explorer",

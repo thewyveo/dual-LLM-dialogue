@@ -13,18 +13,31 @@ from transformers import (
     TrainingArguments,
 )
 
+from peft import (
+    LoraConfig,
+    get_peft_model,
+    TaskType,
+)
+
+
+# =========================
+# Paths & model config
+# =========================
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_PATH = os.path.join(BASE_DIR, "data", "assistant_ft_train.jsonl")
 
 BASE_MODEL_NAME = "Qwen/Qwen2.5-0.5B-Instruct"
-OUTPUT_DIR = os.path.join(BASE_DIR, "models", "assistant_ft_qwen")
+
+OUTPUT_DIR = os.path.join(
+    BASE_DIR, "models", "assistant_peft_qwen"
+)
 
 
 @dataclass
 class AssistantExample:
-    prompt: str
-    answer: str
+    input: str
+    output: str
 
 
 class AssistantDataset(Dataset):
@@ -38,8 +51,8 @@ class AssistantDataset(Dataset):
                 ex = json.loads(line)
                 self.examples.append(
                     AssistantExample(
-                        prompt=ex["input"],
-                        answer=ex["output"],
+                        input=ex["input"],
+                        output=ex["output"],
                     )
                 )
 
@@ -49,10 +62,9 @@ class AssistantDataset(Dataset):
     def __getitem__(self, idx):
         ex = self.examples[idx]
 
-        # build full text
-        full_text = ex.prompt + " " + ex.answer + self.tokenizer.eos_token
+        # prompt + answer (instruction tuning)
+        full_text = ex.input + " " + ex.output + self.tokenizer.eos_token
 
-        # tokenize full sequence
         enc = self.tokenizer(
             full_text,
             truncation=True,
@@ -64,19 +76,8 @@ class AssistantDataset(Dataset):
         input_ids = enc["input_ids"].squeeze(0)
         attention_mask = enc["attention_mask"].squeeze(0)
 
-        # tokenize prompt only
-        prompt_enc = self.tokenizer(
-            ex.prompt,
-            truncation=True,
-            max_length=self.max_length,
-            padding=False,
-            return_tensors="pt",
-        )
-
-        prompt_len = prompt_enc["input_ids"].size(1)
-
+        # labels = LM objective
         labels = input_ids.clone()
-        labels[:prompt_len] = -100  # ignore prompt tokens in loss
 
         return {
             "input_ids": input_ids,
@@ -86,7 +87,7 @@ class AssistantDataset(Dataset):
 
 
 def main():
-    os.makedirs(os.path.dirname(OUTPUT_DIR), exist_ok=True)
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
 
     tokenizer = AutoTokenizer.from_pretrained(BASE_MODEL_NAME, use_fast=True)
     if tokenizer.pad_token is None:
@@ -97,6 +98,24 @@ def main():
         torch_dtype=torch.float16 if torch.cuda.is_available() else torch.float32,
     )
 
+    # lora configuration
+    lora_config = LoraConfig(
+        task_type=TaskType.CAUSAL_LM,
+        r=8,                       # rank
+        lora_alpha=16,
+        lora_dropout=0.05,
+        target_modules=[
+            "q_proj",
+            "k_proj",
+            "v_proj",
+            "o_proj",
+        ],
+        bias="none",
+    )
+
+    model = get_peft_model(model, lora_config)
+    model.print_trainable_parameters()
+
     dataset = AssistantDataset(DATA_PATH, tokenizer)
 
     training_args = TrainingArguments(
@@ -104,13 +123,13 @@ def main():
         per_device_train_batch_size=2,
         gradient_accumulation_steps=8,
         num_train_epochs=3,
-        learning_rate=5e-5,
+        learning_rate=2e-4, # (higher LR for lora)
         warmup_ratio=0.03,
-        weight_decay=0.01,
         logging_steps=50,
         save_strategy="epoch",
         fp16=torch.cuda.is_available(),
         report_to=[],
+        remove_unused_columns=False,
     )
 
     trainer = Trainer(
@@ -121,10 +140,11 @@ def main():
 
     trainer.train()
 
-    trainer.save_model(OUTPUT_DIR)
+    # save only adapters + tokenizer
+    model.save_pretrained(OUTPUT_DIR)
     tokenizer.save_pretrained(OUTPUT_DIR)
 
-    print(f"Fine-tuned model saved to {OUTPUT_DIR}")
+    print(f"LoRA model saved to {OUTPUT_DIR}")
 
 
 if __name__ == "__main__":

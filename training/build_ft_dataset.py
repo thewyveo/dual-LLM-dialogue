@@ -67,7 +67,7 @@ def main():
         persona = conv.get("persona", "unknown")
         variant = conv.get("assistant_variant", "")
 
-        # Only use prompt-based assistant as "teacher"
+        # only use prompt-based assistant as "teacher"
         if variant != "prompt":
             continue
 
@@ -78,13 +78,11 @@ def main():
         print("No examples extracted. Check that logs/conversations.json contains prompt-based runs.")
         return
 
-    # ---- BALANCE BY PERSONA ----
     by_persona: Dict[str, List[Dict[str, str]]] = {}
     for ex in all_examples:
         p = ex.get("persona", "unknown")
         by_persona.setdefault(p, []).append(ex)
 
-    # Only balance the personas you care about
     target_personas = ["minimalist", "explorer"]
     counts = [
         len(by_persona[p]) for p in target_personas if p in by_persona
@@ -113,7 +111,6 @@ def main():
 
     random.shuffle(balanced_examples)
 
-    # ---- WRITE OUT WITHOUT persona FIELD ----
     with open(OUT_PATH, "w") as f:
         for ex in balanced_examples:
             f.write(

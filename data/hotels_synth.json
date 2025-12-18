@@ -1,0 +1,2311 @@
+[
+  {
+    "id": "hotel_1",
+    "name": "Le Grand Residence",
+    "location": "Amsterdam",
+    "neighborhood": "Noord",
+    "distance_to_center_km": 2.3,
+    "rating": 4.1,
+    "price": "$$$",
+    "price_numeric": 3,
+    "amenities": [
+      "air_conditioning",
+      "room_service",
+      "sauna",
+      "swimming_pool",
+      "non_smoking_rooms",
+      "gym"
+    ],
+    "review_snippets": [
+      "Friendly staff and smooth check-in process.",
+      "Staff were polite but not particularly engaging."
+    ]
+  },
+  {
+    "id": "hotel_2",
+    "name": "Amber Residency",
+    "location": "Amsterdam",
+    "neighborhood": "Noord",
+    "distance_to_center_km": 4.6,
+    "rating": 3.3,
+    "price": "$$",
+    "price_numeric": 2,
+    "amenities": [
+      "pet_friendly",
+      "hot_tub",
+      "parking",
+      "family_rooms"
+    ],
+    "review_snippets": [
+      "Wi-Fi was unreliable during peak hours.",
+      "Breakfast options were okay, not too many choices.",
+      "The staff went above and beyond to help us.",
+      "Wi-Fi worked fine most of the time."
+    ]
+  },
+  {
+    "id": "hotel_3",
+    "name": "Nordic Inn",
+    "location": "Amsterdam",
+    "neighborhood": "Nieuwmarkt",
+    "distance_to_center_km": 4.3,
+    "rating": 3.5,
+    "price": "$$",
+    "price_numeric": 2,
+    "amenities": [
+      "free_wifi",
+      "restaurant",
+      "spa"
+    ],
+    "review_snippets": [
+      "The hotel is in a busy area, expect some street noise.",
+      "Great location, ideal for exploring the city.",
+      "The elevator is slow during peak hours."
+    ]
+  },
+  {
+    "id": "hotel_4",
+    "name": "Le Ch\u00e2teau Hub",
+    "location": "Amsterdam",
+    "neighborhood": "Westerpark",
+    "distance_to_center_km": 3.1,
+    "rating": 3.4,
+    "price": "$$$",
+    "price_numeric": 3,
+    "amenities": [
+      "24h_front_desk",
+      "rooftop_terrace",
+      "luggage_storage"
+    ],
+    "review_snippets": [
+      "Staff were polite but not particularly engaging.",
+      "Great location, ideal for exploring the city.",
+      "Unfriendly staff who seemed uninterested in helping.",
+      "The room smelled musty and unpleasant.",
+      "Good Wi-Fi connection throughout the hotel."
+    ]
+  },
+  {
+    "id": "hotel_5",
+    "name": "The Urban Dwell",
+    "location": "Amsterdam",
+    "neighborhood": "Osdorp",
+    "distance_to_center_km": 4.4,
+    "rating": 4.4,
+    "price": "$",
+    "price_numeric": 1,
+    "amenities": [
+      "pet_friendly",
+      "air_conditioning",
+      "spa",
+      "elevator",
+      "family_rooms",
+      "swimming_pool",
+      "gym"
+    ],
+    "review_snippets": [
+      "Noisy street made it hard to sleep.",
+      "The pool was closed for maintenance during our stay.",
+      "Location is fairly convenient."
+    ]
+  },
+  {
+    "id": "hotel_6",
+    "name": "Elegant Stay",
+    "location": "Amsterdam",
+    "neighborhood": "Westerpark",
+    "distance_to_center_km": 2.3,
+    "rating": 4.7,
+    "price": "$$",
+    "price_numeric": 2,
+    "amenities": [
+      "garden",
+      "swimming_pool",
+      "rooftop_terrace",
+      "pet_friendly",
+      "free_wifi"
+    ],
+    "review_snippets": [
+      "The gym equipment was old and poorly maintained.",
+      "Unfriendly staff who seemed uninterested in helping."
+    ]
+  },
+  {
+    "id": "hotel_7",
+    "name": "Nordic Residency",
+    "location": "Amsterdam",
+    "neighborhood": "De Pijp",
+    "distance_to_center_km": 3.0,
+    "rating": 4.2,
+    "price": "$",
+    "price_numeric": 1,
+    "amenities": [
+      "breakfast_included",
+      "free_billiards",
+      "pet_friendly",
+      "rooftop_terrace"
+    ],
+    "review_snippets": [
+      "Breakfast was disappointing and lacked variety.",
+      "Quiet neighborhood, ideal for a restful stay.",
+      "The elevator is slow during peak hours."
+    ]
+  },
+  {
+    "id": "hotel_8",
+    "name": "The Modern Hideaway",
+    "location": "Amsterdam",
+    "neighborhood": "Zuid",
+    "distance_to_center_km": 1.6,
+    "rating": 4.9,
+    "price": "$",
+    "price_numeric": 1,
+    "amenities": [
+      "room_service",
+      "terrace",
+      "garden",
+      "free_billiards",
+      "hot_tub",
+      "gym"
+    ],
+    "review_snippets": [
+      "The staff went above and beyond to help us.",
+      "The gym equipment was old and poorly maintained.",
+      "Wi-Fi was unreliable during peak hours.",
+      "Breakfast was decent with fresh pastries.",
+      "Good Wi-Fi connection throughout the hotel."
+    ]
+  },
+  {
+    "id": "hotel_9",
+    "name": "Classic Palace",
+    "location": "Amsterdam",
+    "neighborhood": "De Pijp",
+    "distance_to_center_km": 5.7,
+    "rating": 3.0,
+    "price": "$$",
+    "price_numeric": 2,
+    "amenities": [
+      "luggage_storage",
+      "24h_front_desk",
+      "restaurant"
+    ],
+    "review_snippets": [
+      "The staff went above and beyond to help us.",
+      "Great location, ideal for exploring the city.",
+      "Wi-Fi was unreliable during peak hours.",
+      "Excellent value for money.",
+      "The hotel is in a busy area, expect some street noise.",
+      "Friendly staff and smooth check-in process."
+    ]
+  },
+  {
+    "id": "hotel_10",
+    "name": "Royal Stay",
+    "location": "Amsterdam",
+    "neighborhood": "Noord",
+    "distance_to_center_km": 4.8,
+    "rating": 4.4,
+    "price": "$",
+    "price_numeric": 1,
+    "amenities": [
+      "terrace",
+      "gym",
+      "24h_front_desk"
+    ],
+    "review_snippets": [
+      "Friendly staff and smooth check-in process.",
+      "The pool was closed for maintenance during our stay.",
+      "The gym equipment was old and poorly maintained.",
+      "Breakfast options were okay, not too many choices.",
+      "Clean bathrooms with good water pressure."
+    ]
+  },
+  {
+    "id": "hotel_11",
+    "name": "The Vintage Hotel",
+    "location": "Amsterdam",
+    "neighborhood": "Oost",
+    "distance_to_center_km": 2.9,
+    "rating": 5.0,
+    "price": "$$",
+    "price_numeric": 2,
+    "amenities": [
+      "room_service",
+      "spa",
+      "garden",
+      "rooftop_terrace",
+      "airport_shuttle",
+      "parking"
+    ],
+    "review_snippets": [
+      "Walls are thin, could hear neighbors at night.",
+      "Wi-Fi was unreliable during peak hours.",
+      "Wi-Fi worked fine most of the time."
+    ]
+  },
+  {
+    "id": "hotel_12",
+    "name": "El Palacio Residency",
+    "location": "Amsterdam",
+    "neighborhood": "Haarlemmerbuurt",
+    "distance_to_center_km": 2.7,
+    "rating": 3.2,
+    "price": "$$",
+    "price_numeric": 2,
+    "amenities": [
+      "breakfast_included",
+      "luggage_storage",
+      "family_rooms",
+      "garden",
+      "restaurant",
+      "24h_front_desk",
+      "bar"
+    ],
+    "review_snippets": [
+      "Walls are thin, could hear neighbors at night.",
+      "Staff were polite but not particularly engaging.",
+      "Great location, ideal for exploring the city.",
+      "Friendly staff and smooth check-in process.",
+      "Close to public transport and major attractions."
+    ]
+  },
+  {
+    "id": "hotel_13",
+    "name": "Riverside Nook",
+    "location": "Amsterdam",
+    "neighborhood": "Slotermeer",
+    "distance_to_center_km": 3.0,
+    "rating": 4.3,
+    "price": "$$",
+    "price_numeric": 2,
+    "amenities": [
+      "family_rooms",
+      "spa",
+      "free_billiards"
+    ],
+    "review_snippets": [
+      "The staff went above and beyond to help us.",
+      "The breakfast area can get crowded in the mornings.",
+      "Spacious rooms with comfortable beds.",
+      "Friendly staff and smooth check-in process.",
+      "Staff were polite but not particularly engaging."
+    ]
+  },
+  {
+    "id": "hotel_14",
+    "name": "Le Grand Canalhouse",
+    "location": "Amsterdam",
+    "neighborhood": "De Pijp",
+    "distance_to_center_km": 5.9,
+    "rating": 5.0,
+    "price": "$",
+    "price_numeric": 1,
+    "amenities": [
+      "room_service",
+      "hot_tub",
+      "24h_front_desk",
+      "gym"
+    ],
+    "review_snippets": [
+      "Bathroom cleanliness could be improved.",
+      "Clean bathrooms with good water pressure.",
+      "Rooms are clean and well-maintained.",
+      "Good Wi-Fi connection throughout the hotel."
+    ]
+  },
+  {
+    "id": "hotel_15",
+    "name": "Harbor Courtyard",
+    "location": "Amsterdam",
+    "neighborhood": "IJburg",
+    "distance_to_center_km": 1.4,
+    "rating": 3.7,
+    "price": "$$$",
+    "price_numeric": 3,
+    "amenities": [
+      "free_billiards",
+      "breakfast_included",
+      "laundry_service",
+      "restaurant",
+      "room_service",
+      "non_smoking_rooms"
+    ],
+    "review_snippets": [
+      "Spacious rooms with comfortable beds.",
+      "Bathroom cleanliness could be improved."
+    ]
+  },
+  {
+    "id": "hotel_16",
+    "name": "Golden Stay",
+    "location": "Amsterdam",
+    "neighborhood": "Grachtengordel",
+    "distance_to_center_km": 0.5,
+    "rating": 3.0,
+    "price": "$",
+    "price_numeric": 1,
+    "amenities": [
+      "bar",
+      "bike_rental",
+      "terrace",
+      "room_service"
+    ],
+    "review_snippets": [
+      "The elevator is slow during peak hours.",
+      "Good Wi-Fi connection throughout the hotel.",
+      "Clean bathrooms with good water pressure.",
+      "Unfriendly staff who seemed uninterested in helping."
+    ]
+  },
+  {
+    "id": "hotel_17",
+    "name": "The Elegant Retreat",
+    "location": "Amsterdam",
+    "neighborhood": "Amstelveld",
+    "distance_to_center_km": 2.3,
+    "rating": 3.3,
+    "price": "$",
+    "price_numeric": 1,
+    "amenities": [
+      "spa",
+      "air_conditioning",
+      "restaurant",
+      "hot_tub",
+      "gym",
+      "luggage_storage",
+      "sauna"
+    ],
+    "review_snippets": [
+      "Friendly staff and smooth check-in process.",
+      "Bathroom cleanliness could be improved.",
+      "Close to public transport and major attractions."
+    ]
+  },
+  {
+    "id": "hotel_18",
+    "name": "Modern Hub",
+    "location": "Amsterdam",
+    "neighborhood": "Centrum",
+    "distance_to_center_km": 5.3,
+    "rating": 4.8,
+    "price": "$$$",
+    "price_numeric": 3,
+    "amenities": [
+      "24h_front_desk",
+      "parking",
+      "restaurant"
+    ],
+    "review_snippets": [
+      "The staff went above and beyond to help us.",
+      "The breakfast area can get crowded in the mornings."
+    ]
+  },
+  {
+    "id": "hotel_19",
+    "name": "Il Magnifico Retreat",
+    "location": "Amsterdam",
+    "neighborhood": "Bos en Lommer",
+    "distance_to_center_km": 1.5,
+    "rating": 4.8,
+    "price": "$",
+    "price_numeric": 1,
+    "amenities": [
+      "room_service",
+      "elevator",
+      "sauna",
+      "breakfast_included",
+      "free_billiards",
+      "pet_friendly",
+      "garden"
+    ],
+    "review_snippets": [
+      "Breakfast was decent with fresh pastries.",
+      "Friendly staff and smooth check-in process.",
+      "Staff were polite but not particularly engaging.",
+      "Reasonable stay for the price.",
+      "Unfriendly staff who seemed uninterested in helping."
+    ]
+  },
+  {
+    "id": "hotel_20",
+    "name": "Heritage Hotel",
+    "location": "Amsterdam",
+    "neighborhood": "Zuid",
+    "distance_to_center_km": 1.8,
+    "rating": 3.9,
+    "price": "$",
+    "price_numeric": 1,
+    "amenities": [
+      "bar",
+      "air_conditioning",
+      "sauna",
+      "room_service",
+      "free_billiards",
+      "24h_front_desk",
+      "swimming_pool"
+    ],
+    "review_snippets": [
+      "Wi-Fi was unreliable during peak hours.",
+      "The location is far from major attractions.",
+      "Clean bathrooms with good water pressure.",
+      "Reasonable stay for the price.",
+      "Close to public transport and major attractions."
+    ]
+  },
+  {
+    "id": "hotel_21",
+    "name": "Urban Manor",
+    "location": "Amsterdam",
+    "neighborhood": "Sloterdijk",
+    "distance_to_center_km": 1.8,
+    "rating": 3.0,
+    "price": "$",
+    "price_numeric": 1,
+    "amenities": [
+      "gym",
+      "airport_shuttle",
+      "restaurant",
+      "garden"
+    ],
+    "review_snippets": [
+      "The location is far from major attractions.",
+      "Close to public transport and major attractions.",
+      "Breakfast options were okay, not too many choices.",
+      "The pool was closed for maintenance during our stay.",
+      "Wi-Fi worked fine most of the time.",
+      "Spacious rooms with comfortable beds."
+    ]
+  },
+  {
+    "id": "hotel_22",
+    "name": "Moonlight Quarters",
+    "location": "Amsterdam",
+    "neighborhood": "Plantage",
+    "distance_to_center_km": 4.6,
+    "rating": 3.5,
+    "price": "$$",
+    "price_numeric": 2,
+    "amenities": [
+      "bar",
+      "sauna",
+      "spa",
+      "pet_friendly",
+      "swimming_pool"
+    ],
+    "review_snippets": [
+      "Breakfast was disappointing and lacked variety.",
+      "Wi-Fi was unreliable during peak hours.",
+      "The breakfast area can get crowded in the mornings.",
+      "Location is fairly convenient.",
+      "Reasonable stay for the price.",
+      "Breakfast was decent with fresh pastries."
+    ]
+  },
+  {
+    "id": "hotel_23",
+    "name": "Cosy Quarters",
+    "location": "Amsterdam",
+    "neighborhood": "Oost",
+    "distance_to_center_km": 1.9,
+    "rating": 3.1,
+    "price": "$$$",
+    "price_numeric": 3,
+    "amenities": [
+      "restaurant",
+      "24h_front_desk",
+      "sauna",
+      "gym"
+    ],
+    "review_snippets": [
+      "Good Wi-Fi connection throughout the hotel.",
+      "Unfriendly staff who seemed uninterested in helping.",
+      "The breakfast area can get crowded in the mornings.",
+      "The elevator is slow during peak hours.",
+      "Overpriced for what you get.",
+      "Excellent value for money."
+    ]
+  },
+  {
+    "id": "hotel_24",
+    "name": "Nordic Stay",
+    "location": "Amsterdam",
+    "neighborhood": "Amstelveld",
+    "distance_to_center_km": 4.5,
+    "rating": 3.6,
+    "price": "$$",
+    "price_numeric": 2,
+    "amenities": [
+      "bar",
+      "parking",
+      "airport_shuttle",
+      "air_conditioning",
+      "terrace",
+      "24h_front_desk"
+    ],
+    "review_snippets": [
+      "Overpriced for what you get.",
+      "Unfriendly staff who seemed uninterested in helping."
+    ]
+  },
+  {
+    "id": "hotel_25",
+    "name": "Royal Hideaway",
+    "location": "Amsterdam",
+    "neighborhood": "Oost",
+    "distance_to_center_km": 4.6,
+    "rating": 4.1,
+    "price": "$$$",
+    "price_numeric": 3,
+    "amenities": [
+      "bike_rental",
+      "free_wifi",
+      "airport_shuttle"
+    ],
+    "review_snippets": [
+      "Wi-Fi worked fine most of the time.",
+      "Spacious rooms with comfortable beds.",
+      "Good Wi-Fi connection throughout the hotel.",
+      "The pool was closed for maintenance during our stay.",
+      "Clean bathrooms with good water pressure."
+    ]
+  },
+  {
+    "id": "hotel_26",
+    "name": "Das Schloss Nook",
+    "location": "Amsterdam",
+    "neighborhood": "De Pijp",
+    "distance_to_center_km": 4.6,
+    "rating": 3.2,
+    "price": "$$$",
+    "price_numeric": 3,
+    "amenities": [
+      "gym",
+      "free_billiards",
+      "swimming_pool",
+      "spa",
+      "garden"
+    ],
+    "review_snippets": [
+      "Staff were polite but not particularly engaging.",
+      "The breakfast area can get crowded in the mornings."
+    ]
+  },
+  {
+    "id": "hotel_27",
+    "name": "The Vintage Retreat",
+    "location": "Amsterdam",
+    "neighborhood": "Bos en Lommer",
+    "distance_to_center_km": 0.9,
+    "rating": 4.9,
+    "price": "$$$",
+    "price_numeric": 3,
+    "amenities": [
+      "luggage_storage",
+      "rooftop_terrace",
+      "spa",
+      "elevator",
+      "free_billiards",
+      "bar",
+      "hot_tub"
+    ],
+    "review_snippets": [
+      "The staff went above and beyond to help us.",
+      "Excellent value for money.",
+      "Rooms are clean and well-maintained.",
+      "Overpriced for what you get.",
+      "Quiet neighborhood, ideal for a restful stay.",
+      "Bathroom cleanliness could be improved."
+    ]
+  },
+  {
+    "id": "hotel_28",
+    "name": "Moonlight Sanctuary",
+    "location": "Amsterdam",
+    "neighborhood": "Zuidoost",
+    "distance_to_center_km": 0.7,
+    "rating": 2.8,
+    "price": "$$$",
+    "price_numeric": 3,
+    "amenities": [
+      "terrace",
+      "non_smoking_rooms",
+      "bar",
+      "airport_shuttle"
+    ],
+    "review_snippets": [
+      "The elevator is slow during peak hours.",
+      "Staff were polite but not particularly engaging.",
+      "The staff went above and beyond to help us.",
+      "Close to public transport and major attractions.",
+      "Noisy street made it hard to sleep.",
+      "Unfriendly staff who seemed uninterested in helping."
+    ]
+  },
+  {
+    "id": "hotel_29",
+    "name": "The Classic Canalhouse",
+    "location": "Amsterdam",
+    "neighborhood": "De Pijp",
+    "distance_to_center_km": 5.8,
+    "rating": 2.8,
+    "price": "$",
+    "price_numeric": 1,
+    "amenities": [
+      "air_conditioning",
+      "elevator",
+      "swimming_pool",
+      "rooftop_terrace",
+      "24h_front_desk",
+      "breakfast_included"
+    ],
+    "review_snippets": [
+      "Excellent value for money.",
+      "The room smelled musty and unpleasant.",
+      "Rooms are clean and well-maintained."
+    ]
+  },
+  {
+    "id": "hotel_30",
+    "name": "Cosy Palace",
+    "location": "Amsterdam",
+    "neighborhood": "Oost",
+    "distance_to_center_km": 4.2,
+    "rating": 3.6,
+    "price": "$",
+    "price_numeric": 1,
+    "amenities": [
+      "free_wifi",
+      "sauna",
+      "laundry_service",
+      "free_billiards"
+    ],
+    "review_snippets": [
+      "Breakfast was disappointing and lacked variety.",
+      "The room smelled musty and unpleasant.",
+      "The location is far from major attractions.",
+      "The breakfast area can get crowded in the mornings."
+    ]
+  },
+  {
+    "id": "hotel_31",
+    "name": "The Urban View",
+    "location": "Amsterdam",
+    "neighborhood": "Museumkwartier",
+    "distance_to_center_km": 4.1,
+    "rating": 4.5,
+    "price": "$$$",
+    "price_numeric": 3,
+    "amenities": [
+      "24h_front_desk",
+      "family_rooms",
+      "hot_tub",
+      "terrace"
+    ],
+    "review_snippets": [
+      "Great location, ideal for exploring the city.",
+      "The room smelled musty and unpleasant.",
+      "Breakfast was decent with fresh pastries.",
+      "Friendly staff and smooth check-in process.",
+      "Unfriendly staff who seemed uninterested in helping."
+    ]
+  },
+  {
+    "id": "hotel_32",
+    "name": "Le Ch\u00e2teau Getaway",
+    "location": "Amsterdam",
+    "neighborhood": "Plantage",
+    "distance_to_center_km": 5.6,
+    "rating": 4.5,
+    "price": "$",
+    "price_numeric": 1,
+    "amenities": [
+      "laundry_service",
+      "terrace",
+      "elevator",
+      "spa",
+      "airport_shuttle",
+      "pet_friendly",
+      "swimming_pool"
+    ],
+    "review_snippets": [
+      "Friendly staff and smooth check-in process.",
+      "The gym equipment was old and poorly maintained.",
+      "Bathroom cleanliness could be improved.",
+      "Staff were polite but not particularly engaging.",
+      "Spacious rooms with comfortable beds."
+    ]
+  },
+  {
+    "id": "hotel_33",
+    "name": "Le Grand Escape",
+    "location": "Amsterdam",
+    "neighborhood": "Nieuwmarkt",
+    "distance_to_center_km": 2.0,
+    "rating": 2.8,
+    "price": "$",
+    "price_numeric": 1,
+    "amenities": [
+      "airport_shuttle",
+      "laundry_service",
+      "free_billiards"
+    ],
+    "review_snippets": [
+      "The hotel is in a busy area, expect some street noise.",
+      "Friendly staff and smooth check-in process.",
+      "Breakfast was decent with fresh pastries.",
+      "Breakfast options were okay, not too many choices."
+    ]
+  },
+  {
+    "id": "hotel_34",
+    "name": "Modern Suites",
+    "location": "Amsterdam",
+    "neighborhood": "Noord",
+    "distance_to_center_km": 1.9,
+    "rating": 2.9,
+    "price": "$$$",
+    "price_numeric": 3,
+    "amenities": [
+      "family_rooms",
+      "non_smoking_rooms",
+      "pet_friendly",
+      "restaurant",
+      "elevator",
+      "terrace",
+      "gym"
+    ],
+    "review_snippets": [
+      "Bathroom cleanliness could be improved.",
+      "Breakfast options were okay, not too many choices.",
+      "Overpriced for what you get.",
+      "The staff went above and beyond to help us.",
+      "Noisy street made it hard to sleep."
+    ]
+  },
+  {
+    "id": "hotel_35",
+    "name": "Sunny Rooms",
+    "location": "Amsterdam",
+    "neighborhood": "Plantage",
+    "distance_to_center_km": 3.7,
+    "rating": 4.8,
+    "price": "$",
+    "price_numeric": 1,
+    "amenities": [
+      "laundry_service",
+      "air_conditioning",
+      "restaurant"
+    ],
+    "review_snippets": [
+      "The location is far from major attractions.",
+      "The gym equipment was old and poorly maintained.",
+      "Good Wi-Fi connection throughout the hotel.",
+      "The hotel is in a busy area, expect some street noise.",
+      "Close to public transport and major attractions.",
+      "Friendly staff and smooth check-in process."
+    ]
+  },
+  {
+    "id": "hotel_36",
+    "name": "Maple Nook",
+    "location": "Amsterdam",
+    "neighborhood": "Slotermeer",
+    "distance_to_center_km": 2.5,
+    "rating": 3.3,
+    "price": "$",
+    "price_numeric": 1,
+    "amenities": [
+      "elevator",
+      "luggage_storage",
+      "non_smoking_rooms",
+      "24h_front_desk"
+    ],
+    "review_snippets": [
+      "Spacious rooms with comfortable beds.",
+      "The room smelled musty and unpleasant.",
+      "Reasonable stay for the price."
+    ]
+  },
+  {
+    "id": "hotel_37",
+    "name": "The Social Escape",
+    "location": "Amsterdam",
+    "neighborhood": "Plantage",
+    "distance_to_center_km": 1.1,
+    "rating": 4.3,
+    "price": "$$$",
+    "price_numeric": 3,
+    "amenities": [
+      "pet_friendly",
+      "free_billiards",
+      "rooftop_terrace",
+      "gym"
+    ],
+    "review_snippets": [
+      "Wi-Fi was unreliable during peak hours.",
+      "The room smelled musty and unpleasant.",
+      "The gym equipment was old and poorly maintained.",
+      "The staff went above and beyond to help us."
+    ]
+  },
+  {
+    "id": "hotel_38",
+    "name": "Central Hub",
+    "location": "Amsterdam",
+    "neighborhood": "Grachtengordel",
+    "distance_to_center_km": 2.8,
+    "rating": 3.8,
+    "price": "$$$",
+    "price_numeric": 3,
+    "amenities": [
+      "non_smoking_rooms",
+      "breakfast_included",
+      "laundry_service"
+    ],
+    "review_snippets": [
+      "Breakfast was decent with fresh pastries.",
+      "Excellent value for money.",
+      "Wi-Fi worked fine most of the time."
+    ]
+  },
+  {
+    "id": "hotel_39",
+    "name": "Central Villa",
+    "location": "Amsterdam",
+    "neighborhood": "Osdorp",
+    "distance_to_center_km": 0.6,
+    "rating": 4.2,
+    "price": "$$$",
+    "price_numeric": 3,
+    "amenities": [
+      "family_rooms",
+      "spa",
+      "restaurant"
+    ],
+    "review_snippets": [
+      "Clean bathrooms with good water pressure.",
+      "Wi-Fi was unreliable during peak hours.",
+      "The gym equipment was old and poorly maintained.",
+      "Unfriendly staff who seemed uninterested in helping."
+    ]
+  },
+  {
+    "id": "hotel_40",
+    "name": "The Urban Palace",
+    "location": "Amsterdam",
+    "neighborhood": "Noord",
+    "distance_to_center_km": 2.7,
+    "rating": 4.6,
+    "price": "$$$",
+    "price_numeric": 3,
+    "amenities": [
+      "elevator",
+      "spa",
+      "breakfast_included",
+      "bike_rental",
+      "family_rooms",
+      "parking",
+      "room_service"
+    ],
+    "review_snippets": [
+      "The pool was closed for maintenance during our stay.",
+      "Good Wi-Fi connection throughout the hotel.",
+      "Great location, ideal for exploring the city.",
+      "Wi-Fi was unreliable during peak hours.",
+      "The elevator is slow during peak hours.",
+      "Staff were polite but not particularly engaging."
+    ]
+  },
+  {
+    "id": "hotel_41",
+    "name": "Harbor Boutique",
+    "location": "Amsterdam",
+    "neighborhood": "Zuid",
+    "distance_to_center_km": 0.6,
+    "rating": 4.0,
+    "price": "$$",
+    "price_numeric": 2,
+    "amenities": [
+      "terrace",
+      "parking",
+      "luggage_storage",
+      "air_conditioning",
+      "hot_tub",
+      "24h_front_desk",
+      "garden"
+    ],
+    "review_snippets": [
+      "Great location, ideal for exploring the city.",
+      "Wi-Fi worked fine most of the time."
+    ]
+  },
+  {
+    "id": "hotel_42",
+    "name": "The Social Rooms",
+    "location": "Amsterdam",
+    "neighborhood": "Plantage",
+    "distance_to_center_km": 1.7,
+    "rating": 4.8,
+    "price": "$",
+    "price_numeric": 1,
+    "amenities": [
+      "hot_tub",
+      "airport_shuttle",
+      "restaurant",
+      "terrace",
+      "sauna",
+      "free_billiards"
+    ],
+    "review_snippets": [
+      "Quiet neighborhood, ideal for a restful stay.",
+      "Excellent value for money.",
+      "Walls are thin, could hear neighbors at night."
+    ]
+  },
+  {
+    "id": "hotel_43",
+    "name": "Grand Residence",
+    "location": "Amsterdam",
+    "neighborhood": "Westerpark",
+    "distance_to_center_km": 5.3,
+    "rating": 3.9,
+    "price": "$",
+    "price_numeric": 1,
+    "amenities": [
+      "elevator",
+      "non_smoking_rooms",
+      "air_conditioning"
+    ],
+    "review_snippets": [
+      "Clean bathrooms with good water pressure.",
+      "Location is fairly convenient.",
+      "Unfriendly staff who seemed uninterested in helping.",
+      "The gym equipment was old and poorly maintained."
+    ]
+  },
+  {
+    "id": "hotel_44",
+    "name": "Amber Dwell",
+    "location": "Amsterdam",
+    "neighborhood": "Oud-West",
+    "distance_to_center_km": 2.3,
+    "rating": 3.0,
+    "price": "$$",
+    "price_numeric": 2,
+    "amenities": [
+      "free_billiards",
+      "family_rooms",
+      "spa",
+      "swimming_pool",
+      "24h_front_desk",
+      "non_smoking_rooms"
+    ],
+    "review_snippets": [
+      "Unfriendly staff who seemed uninterested in helping.",
+      "Wi-Fi worked fine most of the time.",
+      "The room smelled musty and unpleasant.",
+      "Friendly staff and smooth check-in process.",
+      "Bathroom cleanliness could be improved.",
+      "Wi-Fi was unreliable during peak hours."
+    ]
+  },
+  {
+    "id": "hotel_45",
+    "name": "Riverside Yard",
+    "location": "Amsterdam",
+    "neighborhood": "Plantage",
+    "distance_to_center_km": 2.6,
+    "rating": 3.1,
+    "price": "$$$",
+    "price_numeric": 3,
+    "amenities": [
+      "swimming_pool",
+      "restaurant",
+      "pet_friendly",
+      "bike_rental",
+      "free_billiards",
+      "parking",
+      "family_rooms"
+    ],
+    "review_snippets": [
+      "The staff went above and beyond to help us.",
+      "Excellent value for money.",
+      "Staff were polite but not particularly engaging.",
+      "The elevator is slow during peak hours.",
+      "Friendly staff and smooth check-in process.",
+      "The pool was closed for maintenance during our stay."
+    ]
+  },
+  {
+    "id": "hotel_46",
+    "name": "The Grand Manor",
+    "location": "Amsterdam",
+    "neighborhood": "Plantage",
+    "distance_to_center_km": 4.5,
+    "rating": 4.8,
+    "price": "$$$",
+    "price_numeric": 3,
+    "amenities": [
+      "hot_tub",
+      "room_service",
+      "non_smoking_rooms",
+      "spa"
+    ],
+    "review_snippets": [
+      "Breakfast was disappointing and lacked variety.",
+      "Overpriced for what you get."
+    ]
+  },
+  {
+    "id": "hotel_47",
+    "name": "El Palacio House",
+    "location": "Amsterdam",
+    "neighborhood": "Museumkwartier",
+    "distance_to_center_km": 5.0,
+    "rating": 3.7,
+    "price": "$$$",
+    "price_numeric": 3,
+    "amenities": [
+      "sauna",
+      "laundry_service",
+      "bike_rental",
+      "parking",
+      "rooftop_terrace"
+    ],
+    "review_snippets": [
+      "Close to public transport and major attractions.",
+      "Noisy street made it hard to sleep.",
+      "Excellent value for money.",
+      "Spacious rooms with comfortable beds.",
+      "The gym equipment was old and poorly maintained."
+    ]
+  },
+  {
+    "id": "hotel_48",
+    "name": "Vintage Hub",
+    "location": "Amsterdam",
+    "neighborhood": "Slotermeer",
+    "distance_to_center_km": 4.2,
+    "rating": 3.9,
+    "price": "$$",
+    "price_numeric": 2,
+    "amenities": [
+      "spa",
+      "laundry_service",
+      "24h_front_desk",
+      "non_smoking_rooms",
+      "bike_rental",
+      "terrace",
+      "airport_shuttle"
+    ],
+    "review_snippets": [
+      "Unfriendly staff who seemed uninterested in helping.",
+      "The pool was closed for maintenance during our stay."
+    ]
+  },
+  {
+    "id": "hotel_49",
+    "name": "Cosy Getaway",
+    "location": "Amsterdam",
+    "neighborhood": "Plantage",
+    "distance_to_center_km": 4.2,
+    "rating": 3.6,
+    "price": "$",
+    "price_numeric": 1,
+    "amenities": [
+      "room_service",
+      "sauna",
+      "gym",
+      "airport_shuttle",
+      "laundry_service",
+      "hot_tub",
+      "non_smoking_rooms"
+    ],
+    "review_snippets": [
+      "The gym equipment was old and poorly maintained.",
+      "The pool was closed for maintenance during our stay."
+    ]
+  },
+  {
+    "id": "hotel_50",
+    "name": "The Charming Villa",
+    "location": "Amsterdam",
+    "neighborhood": "Zuidoost",
+    "distance_to_center_km": 1.5,
+    "rating": 3.9,
+    "price": "$$",
+    "price_numeric": 2,
+    "amenities": [
+      "elevator",
+      "swimming_pool",
+      "non_smoking_rooms",
+      "sauna",
+      "free_wifi",
+      "spa"
+    ],
+    "review_snippets": [
+      "Close to public transport and major attractions.",
+      "The location is far from major attractions.",
+      "Location is fairly convenient.",
+      "Quiet neighborhood, ideal for a restful stay.",
+      "The elevator is slow during peak hours."
+    ]
+  },
+  {
+    "id": "hotel_51",
+    "name": "El Palacio Inn",
+    "location": "Amsterdam",
+    "neighborhood": "Grachtengordel",
+    "distance_to_center_km": 1.8,
+    "rating": 3.6,
+    "price": "$$$",
+    "price_numeric": 3,
+    "amenities": [
+      "breakfast_included",
+      "elevator",
+      "terrace",
+      "airport_shuttle",
+      "air_conditioning"
+    ],
+    "review_snippets": [
+      "Great location, ideal for exploring the city.",
+      "Rooms are clean and well-maintained.",
+      "Breakfast was disappointing and lacked variety."
+    ]
+  },
+  {
+    "id": "hotel_52",
+    "name": "Silver Yard",
+    "location": "Amsterdam",
+    "neighborhood": "Museumkwartier",
+    "distance_to_center_km": 2.9,
+    "rating": 3.6,
+    "price": "$$$",
+    "price_numeric": 3,
+    "amenities": [
+      "garden",
+      "bike_rental",
+      "sauna",
+      "air_conditioning",
+      "restaurant",
+      "terrace"
+    ],
+    "review_snippets": [
+      "Spacious rooms with comfortable beds.",
+      "Staff were polite but not particularly engaging."
+    ]
+  },
+  {
+    "id": "hotel_53",
+    "name": "Velvet Hub",
+    "location": "Amsterdam",
+    "neighborhood": "IJburg",
+    "distance_to_center_km": 2.5,
+    "rating": 4.0,
+    "price": "$$",
+    "price_numeric": 2,
+    "amenities": [
+      "hot_tub",
+      "non_smoking_rooms",
+      "bike_rental",
+      "free_billiards"
+    ],
+    "review_snippets": [
+      "Spacious rooms with comfortable beds.",
+      "Close to public transport and major attractions.",
+      "Quiet neighborhood, ideal for a restful stay."
+    ]
+  },
+  {
+    "id": "hotel_54",
+    "name": "Elegant Manor",
+    "location": "Amsterdam",
+    "neighborhood": "Museumkwartier",
+    "distance_to_center_km": 4.9,
+    "rating": 3.5,
+    "price": "$",
+    "price_numeric": 1,
+    "amenities": [
+      "laundry_service",
+      "elevator",
+      "restaurant",
+      "garden",
+      "air_conditioning"
+    ],
+    "review_snippets": [
+      "Staff were polite but not particularly engaging.",
+      "The staff went above and beyond to help us.",
+      "Unfriendly staff who seemed uninterested in helping.",
+      "Clean bathrooms with good water pressure.",
+      "Wi-Fi worked fine most of the time."
+    ]
+  },
+  {
+    "id": "hotel_55",
+    "name": "Quiet Retreat",
+    "location": "Amsterdam",
+    "neighborhood": "Oost",
+    "distance_to_center_km": 1.5,
+    "rating": 4.2,
+    "price": "$$",
+    "price_numeric": 2,
+    "amenities": [
+      "free_wifi",
+      "terrace",
+      "parking",
+      "rooftop_terrace",
+      "sauna",
+      "airport_shuttle"
+    ],
+    "review_snippets": [
+      "Unfriendly staff who seemed uninterested in helping.",
+      "Location is fairly convenient.",
+      "Rooms are clean and well-maintained."
+    ]
+  },
+  {
+    "id": "hotel_56",
+    "name": "Garden Palace",
+    "location": "Amsterdam",
+    "neighborhood": "Oud-West",
+    "distance_to_center_km": 0.4,
+    "rating": 4.4,
+    "price": "$",
+    "price_numeric": 1,
+    "amenities": [
+      "rooftop_terrace",
+      "air_conditioning",
+      "spa"
+    ],
+    "review_snippets": [
+      "Quiet neighborhood, ideal for a restful stay.",
+      "Overpriced for what you get.",
+      "Friendly staff and smooth check-in process.",
+      "Breakfast was decent with fresh pastries.",
+      "Breakfast options were okay, not too many choices."
+    ]
+  },
+  {
+    "id": "hotel_57",
+    "name": "Garden Oasis",
+    "location": "Amsterdam",
+    "neighborhood": "De Pijp",
+    "distance_to_center_km": 5.5,
+    "rating": 3.4,
+    "price": "$",
+    "price_numeric": 1,
+    "amenities": [
+      "luggage_storage",
+      "elevator",
+      "sauna",
+      "breakfast_included",
+      "24h_front_desk",
+      "non_smoking_rooms",
+      "bar"
+    ],
+    "review_snippets": [
+      "Reasonable stay for the price.",
+      "The location is far from major attractions.",
+      "Staff were polite but not particularly engaging."
+    ]
+  },
+  {
+    "id": "hotel_58",
+    "name": "Central View",
+    "location": "Amsterdam",
+    "neighborhood": "Plantage",
+    "distance_to_center_km": 1.0,
+    "rating": 3.1,
+    "price": "$",
+    "price_numeric": 1,
+    "amenities": [
+      "breakfast_included",
+      "garden",
+      "free_wifi",
+      "spa",
+      "airport_shuttle",
+      "family_rooms"
+    ],
+    "review_snippets": [
+      "Great location, ideal for exploring the city.",
+      "Unfriendly staff who seemed uninterested in helping.",
+      "Friendly staff and smooth check-in process.",
+      "Bathroom cleanliness could be improved.",
+      "The pool was closed for maintenance during our stay."
+    ]
+  },
+  {
+    "id": "hotel_59",
+    "name": "Garden Getaway",
+    "location": "Amsterdam",
+    "neighborhood": "Westerpark",
+    "distance_to_center_km": 3.6,
+    "rating": 4.6,
+    "price": "$",
+    "price_numeric": 1,
+    "amenities": [
+      "non_smoking_rooms",
+      "parking",
+      "breakfast_included",
+      "room_service"
+    ],
+    "review_snippets": [
+      "Good Wi-Fi connection throughout the hotel.",
+      "The breakfast area can get crowded in the mornings.",
+      "Reasonable stay for the price.",
+      "Wi-Fi worked fine most of the time."
+    ]
+  },
+  {
+    "id": "hotel_60",
+    "name": "Charming House",
+    "location": "Amsterdam",
+    "neighborhood": "Zuidoost",
+    "distance_to_center_km": 4.9,
+    "rating": 2.8,
+    "price": "$",
+    "price_numeric": 1,
+    "amenities": [
+      "laundry_service",
+      "room_service",
+      "non_smoking_rooms",
+      "spa",
+      "luggage_storage",
+      "gym",
+      "airport_shuttle"
+    ],
+    "review_snippets": [
+      "Rooms are clean and well-maintained.",
+      "Breakfast options were okay, not too many choices.",
+      "Walls are thin, could hear neighbors at night.",
+      "The room smelled musty and unpleasant.",
+      "Clean bathrooms with good water pressure."
+    ]
+  },
+  {
+    "id": "hotel_61",
+    "name": "Budget Inn",
+    "location": "Amsterdam",
+    "neighborhood": "Grachtengordel",
+    "distance_to_center_km": 2.1,
+    "rating": 4.1,
+    "price": "$",
+    "price_numeric": 1,
+    "amenities": [
+      "airport_shuttle",
+      "free_wifi",
+      "terrace"
+    ],
+    "review_snippets": [
+      "Quiet neighborhood, ideal for a restful stay.",
+      "Noisy street made it hard to sleep.",
+      "Wi-Fi was unreliable during peak hours.",
+      "Staff were polite but not particularly engaging."
+    ]
+  },
+  {
+    "id": "hotel_62",
+    "name": "Das Schloss Hideaway",
+    "location": "Amsterdam",
+    "neighborhood": "Grachtengordel",
+    "distance_to_center_km": 0.9,
+    "rating": 3.8,
+    "price": "$",
+    "price_numeric": 1,
+    "amenities": [
+      "24h_front_desk",
+      "terrace",
+      "non_smoking_rooms"
+    ],
+    "review_snippets": [
+      "The staff went above and beyond to help us.",
+      "The location is far from major attractions.",
+      "Location is fairly convenient.",
+      "Close to public transport and major attractions.",
+      "Great location, ideal for exploring the city."
+    ]
+  },
+  {
+    "id": "hotel_63",
+    "name": "The Cozy Canalhouse",
+    "location": "Amsterdam",
+    "neighborhood": "Westerpark",
+    "distance_to_center_km": 1.4,
+    "rating": 3.3,
+    "price": "$$$",
+    "price_numeric": 3,
+    "amenities": [
+      "free_wifi",
+      "pet_friendly",
+      "luggage_storage",
+      "laundry_service",
+      "24h_front_desk"
+    ],
+    "review_snippets": [
+      "The hotel is in a busy area, expect some street noise.",
+      "The gym equipment was old and poorly maintained.",
+      "Unfriendly staff who seemed uninterested in helping.",
+      "Overpriced for what you get."
+    ]
+  },
+  {
+    "id": "hotel_64",
+    "name": "Amber Palace",
+    "location": "Amsterdam",
+    "neighborhood": "Zuid",
+    "distance_to_center_km": 1.2,
+    "rating": 3.0,
+    "price": "$",
+    "price_numeric": 1,
+    "amenities": [
+      "swimming_pool",
+      "airport_shuttle",
+      "room_service",
+      "sauna"
+    ],
+    "review_snippets": [
+      "The hotel is in a busy area, expect some street noise.",
+      "The staff went above and beyond to help us.",
+      "Good Wi-Fi connection throughout the hotel.",
+      "Breakfast was disappointing and lacked variety.",
+      "Location is fairly convenient.",
+      "Overpriced for what you get."
+    ]
+  },
+  {
+    "id": "hotel_65",
+    "name": "Classic Hotel",
+    "location": "Amsterdam",
+    "neighborhood": "Zuidoost",
+    "distance_to_center_km": 4.2,
+    "rating": 3.7,
+    "price": "$$",
+    "price_numeric": 2,
+    "amenities": [
+      "gym",
+      "elevator",
+      "rooftop_terrace",
+      "bike_rental",
+      "breakfast_included",
+      "laundry_service",
+      "hot_tub"
+    ],
+    "review_snippets": [
+      "Unfriendly staff who seemed uninterested in helping.",
+      "Wi-Fi worked fine most of the time.",
+      "The staff went above and beyond to help us.",
+      "Friendly staff and smooth check-in process.",
+      "Location is fairly convenient.",
+      "Walls are thin, could hear neighbors at night."
+    ]
+  },
+  {
+    "id": "hotel_66",
+    "name": "The Vintage Outpost",
+    "location": "Amsterdam",
+    "neighborhood": "Plantage",
+    "distance_to_center_km": 2.2,
+    "rating": 3.4,
+    "price": "$",
+    "price_numeric": 1,
+    "amenities": [
+      "spa",
+      "elevator",
+      "free_wifi",
+      "free_billiards"
+    ],
+    "review_snippets": [
+      "Noisy street made it hard to sleep.",
+      "Reasonable stay for the price.",
+      "Rooms are clean and well-maintained.",
+      "Close to public transport and major attractions.",
+      "Bathroom cleanliness could be improved.",
+      "The hotel is in a busy area, expect some street noise."
+    ]
+  },
+  {
+    "id": "hotel_67",
+    "name": "Urban Hub",
+    "location": "Amsterdam",
+    "neighborhood": "Noord",
+    "distance_to_center_km": 1.4,
+    "rating": 3.1,
+    "price": "$",
+    "price_numeric": 1,
+    "amenities": [
+      "24h_front_desk",
+      "family_rooms",
+      "garden",
+      "elevator",
+      "free_wifi"
+    ],
+    "review_snippets": [
+      "Location is fairly convenient.",
+      "Walls are thin, could hear neighbors at night.",
+      "Wi-Fi worked fine most of the time.",
+      "Good Wi-Fi connection throughout the hotel.",
+      "The location is far from major attractions."
+    ]
+  },
+  {
+    "id": "hotel_68",
+    "name": "The Classic Hub",
+    "location": "Amsterdam",
+    "neighborhood": "De Pijp",
+    "distance_to_center_km": 0.4,
+    "rating": 3.0,
+    "price": "$$",
+    "price_numeric": 2,
+    "amenities": [
+      "free_billiards",
+      "garden",
+      "hot_tub",
+      "sauna",
+      "free_wifi"
+    ],
+    "review_snippets": [
+      "The staff went above and beyond to help us.",
+      "Great location, ideal for exploring the city."
+    ]
+  },
+  {
+    "id": "hotel_69",
+    "name": "The Cozy Suites",
+    "location": "Amsterdam",
+    "neighborhood": "Zuid",
+    "distance_to_center_km": 4.4,
+    "rating": 3.8,
+    "price": "$$$",
+    "price_numeric": 3,
+    "amenities": [
+      "room_service",
+      "rooftop_terrace",
+      "bike_rental"
+    ],
+    "review_snippets": [
+      "Rooms are clean and well-maintained.",
+      "Friendly staff and smooth check-in process.",
+      "Overpriced for what you get.",
+      "The room smelled musty and unpleasant."
+    ]
+  },
+  {
+    "id": "hotel_70",
+    "name": "Vintage Suites",
+    "location": "Amsterdam",
+    "neighborhood": "De Pijp",
+    "distance_to_center_km": 5.4,
+    "rating": 3.1,
+    "price": "$$$",
+    "price_numeric": 3,
+    "amenities": [
+      "luggage_storage",
+      "free_billiards",
+      "air_conditioning",
+      "bar",
+      "airport_shuttle",
+      "breakfast_included"
+    ],
+    "review_snippets": [
+      "The staff went above and beyond to help us.",
+      "Breakfast was disappointing and lacked variety.",
+      "Unfriendly staff who seemed uninterested in helping.",
+      "The location is far from major attractions.",
+      "Wi-Fi was unreliable during peak hours."
+    ]
+  },
+  {
+    "id": "hotel_71",
+    "name": "Charming Abode",
+    "location": "Amsterdam",
+    "neighborhood": "IJburg",
+    "distance_to_center_km": 0.4,
+    "rating": 3.2,
+    "price": "$$$",
+    "price_numeric": 3,
+    "amenities": [
+      "bar",
+      "terrace",
+      "family_rooms",
+      "rooftop_terrace",
+      "parking",
+      "swimming_pool"
+    ],
+    "review_snippets": [
+      "The hotel is in a busy area, expect some street noise.",
+      "Great location, ideal for exploring the city.",
+      "Friendly staff and smooth check-in process.",
+      "Walls are thin, could hear neighbors at night."
+    ]
+  },
+  {
+    "id": "hotel_72",
+    "name": "The Charming Plaza",
+    "location": "Amsterdam",
+    "neighborhood": "Grachtengordel",
+    "distance_to_center_km": 4.3,
+    "rating": 4.1,
+    "price": "$$$",
+    "price_numeric": 3,
+    "amenities": [
+      "gym",
+      "airport_shuttle",
+      "spa",
+      "elevator",
+      "bar",
+      "terrace"
+    ],
+    "review_snippets": [
+      "The hotel is in a busy area, expect some street noise.",
+      "Good Wi-Fi connection throughout the hotel.",
+      "The staff went above and beyond to help us.",
+      "Friendly staff and smooth check-in process."
+    ]
+  },
+  {
+    "id": "hotel_73",
+    "name": "The Elegant Inn",
+    "location": "Amsterdam",
+    "neighborhood": "Slotermeer",
+    "distance_to_center_km": 4.3,
+    "rating": 3.2,
+    "price": "$$",
+    "price_numeric": 2,
+    "amenities": [
+      "24h_front_desk",
+      "airport_shuttle",
+      "elevator",
+      "family_rooms",
+      "sauna",
+      "room_service"
+    ],
+    "review_snippets": [
+      "Rooms are clean and well-maintained.",
+      "Great location, ideal for exploring the city.",
+      "Excellent value for money.",
+      "Quiet neighborhood, ideal for a restful stay."
+    ]
+  },
+  {
+    "id": "hotel_74",
+    "name": "Copper Villa",
+    "location": "Amsterdam",
+    "neighborhood": "Osdorp",
+    "distance_to_center_km": 5.9,
+    "rating": 4.9,
+    "price": "$",
+    "price_numeric": 1,
+    "amenities": [
+      "gym",
+      "family_rooms",
+      "air_conditioning",
+      "breakfast_included"
+    ],
+    "review_snippets": [
+      "Breakfast options were okay, not too many choices.",
+      "Wi-Fi worked fine most of the time.",
+      "Great location, ideal for exploring the city.",
+      "Breakfast was disappointing and lacked variety.",
+      "The location is far from major attractions.",
+      "Clean bathrooms with good water pressure."
+    ]
+  },
+  {
+    "id": "hotel_75",
+    "name": "The Grand Abode",
+    "location": "Amsterdam",
+    "neighborhood": "Oud-West",
+    "distance_to_center_km": 2.1,
+    "rating": 4.8,
+    "price": "$$$",
+    "price_numeric": 3,
+    "amenities": [
+      "sauna",
+      "bar",
+      "pet_friendly",
+      "gym",
+      "terrace",
+      "24h_front_desk"
+    ],
+    "review_snippets": [
+      "Friendly staff and smooth check-in process.",
+      "Rooms are clean and well-maintained."
+    ]
+  },
+  {
+    "id": "hotel_76",
+    "name": "Harbor Canalhouse",
+    "location": "Amsterdam",
+    "neighborhood": "Osdorp",
+    "distance_to_center_km": 2.8,
+    "rating": 3.7,
+    "price": "$$$",
+    "price_numeric": 3,
+    "amenities": [
+      "airport_shuttle",
+      "pet_friendly",
+      "24h_front_desk",
+      "laundry_service",
+      "hot_tub",
+      "bike_rental"
+    ],
+    "review_snippets": [
+      "Breakfast was disappointing and lacked variety.",
+      "Reasonable stay for the price.",
+      "Friendly staff and smooth check-in process."
+    ]
+  },
+  {
+    "id": "hotel_77",
+    "name": "Nordic Suites",
+    "location": "Amsterdam",
+    "neighborhood": "Amstelveld",
+    "distance_to_center_km": 5.0,
+    "rating": 3.6,
+    "price": "$$$",
+    "price_numeric": 3,
+    "amenities": [
+      "laundry_service",
+      "gym",
+      "air_conditioning",
+      "bar",
+      "breakfast_included"
+    ],
+    "review_snippets": [
+      "Bathroom cleanliness could be improved.",
+      "The gym equipment was old and poorly maintained."
+    ]
+  },
+  {
+    "id": "hotel_78",
+    "name": "Il Castello Bungalow",
+    "location": "Amsterdam",
+    "neighborhood": "Plantage",
+    "distance_to_center_km": 3.1,
+    "rating": 4.4,
+    "price": "$$$",
+    "price_numeric": 3,
+    "amenities": [
+      "terrace",
+      "airport_shuttle",
+      "rooftop_terrace",
+      "hot_tub"
+    ],
+    "review_snippets": [
+      "Good Wi-Fi connection throughout the hotel.",
+      "Friendly staff and smooth check-in process.",
+      "The hotel is in a busy area, expect some street noise.",
+      "The staff went above and beyond to help us."
+    ]
+  },
+  {
+    "id": "hotel_79",
+    "name": "The Cozy Getaway",
+    "location": "Amsterdam",
+    "neighborhood": "Slotermeer",
+    "distance_to_center_km": 1.7,
+    "rating": 3.7,
+    "price": "$",
+    "price_numeric": 1,
+    "amenities": [
+      "spa",
+      "free_billiards",
+      "laundry_service",
+      "sauna",
+      "bar",
+      "elevator",
+      "breakfast_included"
+    ],
+    "review_snippets": [
+      "The gym equipment was old and poorly maintained.",
+      "Overpriced for what you get.",
+      "Noisy street made it hard to sleep.",
+      "Quiet neighborhood, ideal for a restful stay.",
+      "Reasonable stay for the price."
+    ]
+  },
+  {
+    "id": "hotel_80",
+    "name": "Das Schloss Manor",
+    "location": "Amsterdam",
+    "neighborhood": "IJburg",
+    "distance_to_center_km": 2.9,
+    "rating": 4.2,
+    "price": "$",
+    "price_numeric": 1,
+    "amenities": [
+      "luggage_storage",
+      "free_wifi",
+      "hot_tub",
+      "room_service",
+      "breakfast_included",
+      "family_rooms"
+    ],
+    "review_snippets": [
+      "Clean bathrooms with good water pressure.",
+      "Rooms are clean and well-maintained.",
+      "Noisy street made it hard to sleep.",
+      "Wi-Fi was unreliable during peak hours.",
+      "Staff were polite but not particularly engaging.",
+      "The elevator is slow during peak hours."
+    ]
+  },
+  {
+    "id": "hotel_81",
+    "name": "Sunny Yard",
+    "location": "Amsterdam",
+    "neighborhood": "Sloterdijk",
+    "distance_to_center_km": 5.7,
+    "rating": 4.0,
+    "price": "$$$",
+    "price_numeric": 3,
+    "amenities": [
+      "terrace",
+      "elevator",
+      "bar",
+      "garden",
+      "airport_shuttle"
+    ],
+    "review_snippets": [
+      "Wi-Fi worked fine most of the time.",
+      "Good Wi-Fi connection throughout the hotel.",
+      "Excellent value for money.",
+      "The elevator is slow during peak hours."
+    ]
+  },
+  {
+    "id": "hotel_82",
+    "name": "Quiet Haven",
+    "location": "Amsterdam",
+    "neighborhood": "Zuid",
+    "distance_to_center_km": 6.0,
+    "rating": 4.6,
+    "price": "$",
+    "price_numeric": 1,
+    "amenities": [
+      "elevator",
+      "luggage_storage",
+      "family_rooms",
+      "hot_tub",
+      "bike_rental",
+      "gym",
+      "breakfast_included"
+    ],
+    "review_snippets": [
+      "Clean bathrooms with good water pressure.",
+      "Friendly staff and smooth check-in process.",
+      "Staff were polite but not particularly engaging.",
+      "Walls are thin, could hear neighbors at night.",
+      "Unfriendly staff who seemed uninterested in helping.",
+      "Breakfast was disappointing and lacked variety."
+    ]
+  },
+  {
+    "id": "hotel_83",
+    "name": "Le Ch\u00e2teau Palace",
+    "location": "Amsterdam",
+    "neighborhood": "Osdorp",
+    "distance_to_center_km": 5.4,
+    "rating": 3.0,
+    "price": "$",
+    "price_numeric": 1,
+    "amenities": [
+      "spa",
+      "free_wifi",
+      "sauna",
+      "free_billiards"
+    ],
+    "review_snippets": [
+      "Wi-Fi worked fine most of the time.",
+      "Bathroom cleanliness could be improved."
+    ]
+  },
+  {
+    "id": "hotel_84",
+    "name": "The Classic Nook",
+    "location": "Amsterdam",
+    "neighborhood": "Nieuwmarkt",
+    "distance_to_center_km": 3.3,
+    "rating": 4.1,
+    "price": "$$",
+    "price_numeric": 2,
+    "amenities": [
+      "parking",
+      "bike_rental",
+      "air_conditioning",
+      "free_billiards",
+      "hot_tub",
+      "bar"
+    ],
+    "review_snippets": [
+      "The location is far from major attractions.",
+      "Excellent value for money.",
+      "Location is fairly convenient.",
+      "The gym equipment was old and poorly maintained."
+    ]
+  },
+  {
+    "id": "hotel_85",
+    "name": "Cosy Boutique",
+    "location": "Amsterdam",
+    "neighborhood": "Centrum",
+    "distance_to_center_km": 5.4,
+    "rating": 2.8,
+    "price": "$",
+    "price_numeric": 1,
+    "amenities": [
+      "air_conditioning",
+      "luggage_storage",
+      "airport_shuttle"
+    ],
+    "review_snippets": [
+      "Quiet neighborhood, ideal for a restful stay.",
+      "Noisy street made it hard to sleep.",
+      "The room smelled musty and unpleasant.",
+      "Bathroom cleanliness could be improved.",
+      "Location is fairly convenient.",
+      "Good Wi-Fi connection throughout the hotel."
+    ]
+  },
+  {
+    "id": "hotel_86",
+    "name": "Sunny Abode",
+    "location": "Amsterdam",
+    "neighborhood": "Oost",
+    "distance_to_center_km": 5.8,
+    "rating": 4.2,
+    "price": "$",
+    "price_numeric": 1,
+    "amenities": [
+      "luggage_storage",
+      "rooftop_terrace",
+      "swimming_pool"
+    ],
+    "review_snippets": [
+      "The breakfast area can get crowded in the mornings.",
+      "Staff were polite but not particularly engaging.",
+      "Breakfast options were okay, not too many choices."
+    ]
+  },
+  {
+    "id": "hotel_87",
+    "name": "Moonlight Establishment",
+    "location": "Amsterdam",
+    "neighborhood": "Museumkwartier",
+    "distance_to_center_km": 4.7,
+    "rating": 4.9,
+    "price": "$",
+    "price_numeric": 1,
+    "amenities": [
+      "sauna",
+      "parking",
+      "air_conditioning",
+      "airport_shuttle"
+    ],
+    "review_snippets": [
+      "Friendly staff and smooth check-in process.",
+      "Excellent value for money.",
+      "Walls are thin, could hear neighbors at night."
+    ]
+  },
+  {
+    "id": "hotel_88",
+    "name": "Riverside Inn",
+    "location": "Amsterdam",
+    "neighborhood": "Amstelveld",
+    "distance_to_center_km": 1.9,
+    "rating": 3.9,
+    "price": "$$$",
+    "price_numeric": 3,
+    "amenities": [
+      "swimming_pool",
+      "pet_friendly",
+      "parking"
+    ],
+    "review_snippets": [
+      "Overpriced for what you get.",
+      "Breakfast was decent with fresh pastries.",
+      "Wi-Fi worked fine most of the time."
+    ]
+  },
+  {
+    "id": "hotel_89",
+    "name": "Amber Rooms",
+    "location": "Amsterdam",
+    "neighborhood": "Grachtengordel",
+    "distance_to_center_km": 5.2,
+    "rating": 2.9,
+    "price": "$$",
+    "price_numeric": 2,
+    "amenities": [
+      "free_billiards",
+      "terrace",
+      "family_rooms",
+      "laundry_service",
+      "room_service"
+    ],
+    "review_snippets": [
+      "Unfriendly staff who seemed uninterested in helping.",
+      "Location is fairly convenient.",
+      "The staff went above and beyond to help us.",
+      "The pool was closed for maintenance during our stay.",
+      "The room smelled musty and unpleasant.",
+      "Walls are thin, could hear neighbors at night."
+    ]
+  },
+  {
+    "id": "hotel_90",
+    "name": "Canal Canalhouse",
+    "location": "Amsterdam",
+    "neighborhood": "Zuidoost",
+    "distance_to_center_km": 3.3,
+    "rating": 4.2,
+    "price": "$$$",
+    "price_numeric": 3,
+    "amenities": [
+      "pet_friendly",
+      "free_billiards",
+      "swimming_pool",
+      "room_service"
+    ],
+    "review_snippets": [
+      "Clean bathrooms with good water pressure.",
+      "The staff went above and beyond to help us.",
+      "The gym equipment was old and poorly maintained.",
+      "Close to public transport and major attractions."
+    ]
+  },
+  {
+    "id": "hotel_91",
+    "name": "Harbor Hub",
+    "location": "Amsterdam",
+    "neighborhood": "Oud-West",
+    "distance_to_center_km": 2.7,
+    "rating": 3.5,
+    "price": "$$",
+    "price_numeric": 2,
+    "amenities": [
+      "spa",
+      "24h_front_desk",
+      "bike_rental",
+      "bar"
+    ],
+    "review_snippets": [
+      "The pool was closed for maintenance during our stay.",
+      "The room smelled musty and unpleasant.",
+      "Overpriced for what you get."
+    ]
+  },
+  {
+    "id": "hotel_92",
+    "name": "Das Gem\u00fctliche Establishment",
+    "location": "Amsterdam",
+    "neighborhood": "Oud-West",
+    "distance_to_center_km": 4.7,
+    "rating": 3.7,
+    "price": "$",
+    "price_numeric": 1,
+    "amenities": [
+      "sauna",
+      "garden",
+      "gym"
+    ],
+    "review_snippets": [
+      "Wi-Fi worked fine most of the time.",
+      "Rooms are clean and well-maintained.",
+      "Excellent value for money.",
+      "The staff went above and beyond to help us.",
+      "Good Wi-Fi connection throughout the hotel."
+    ]
+  },
+  {
+    "id": "hotel_93",
+    "name": "Urban Inn",
+    "location": "Amsterdam",
+    "neighborhood": "Bos en Lommer",
+    "distance_to_center_km": 4.6,
+    "rating": 4.6,
+    "price": "$$",
+    "price_numeric": 2,
+    "amenities": [
+      "terrace",
+      "rooftop_terrace",
+      "luggage_storage",
+      "bar",
+      "parking",
+      "restaurant",
+      "spa"
+    ],
+    "review_snippets": [
+      "Location is fairly convenient.",
+      "Great location, ideal for exploring the city.",
+      "The location is far from major attractions.",
+      "Close to public transport and major attractions.",
+      "Clean bathrooms with good water pressure.",
+      "Close to public transport and major attractions."
+    ]
+  },
+  {
+    "id": "hotel_94",
+    "name": "Moonlight Yard",
+    "location": "Amsterdam",
+    "neighborhood": "Slotermeer",
+    "distance_to_center_km": 4.7,
+    "rating": 4.2,
+    "price": "$",
+    "price_numeric": 1,
+    "amenities": [
+      "breakfast_included",
+      "laundry_service",
+      "pet_friendly",
+      "non_smoking_rooms",
+      "elevator",
+      "spa"
+    ],
+    "review_snippets": [
+      "The location is far from major attractions.",
+      "Wi-Fi was unreliable during peak hours.",
+      "The gym equipment was old and poorly maintained.",
+      "Great location, ideal for exploring the city.",
+      "The elevator is slow during peak hours."
+    ]
+  },
+  {
+    "id": "hotel_95",
+    "name": "Elegant Chateau",
+    "location": "Amsterdam",
+    "neighborhood": "Oost",
+    "distance_to_center_km": 5.4,
+    "rating": 2.8,
+    "price": "$$",
+    "price_numeric": 2,
+    "amenities": [
+      "sauna",
+      "spa",
+      "breakfast_included"
+    ],
+    "review_snippets": [
+      "Good Wi-Fi connection throughout the hotel.",
+      "The room smelled musty and unpleasant.",
+      "Unfriendly staff who seemed uninterested in helping.",
+      "Reasonable stay for the price.",
+      "Friendly staff and smooth check-in process.",
+      "Clean bathrooms with good water pressure."
+    ]
+  },
+  {
+    "id": "hotel_96",
+    "name": "Elegant Lodge",
+    "location": "Amsterdam",
+    "neighborhood": "Zuidoost",
+    "distance_to_center_km": 4.6,
+    "rating": 5.0,
+    "price": "$",
+    "price_numeric": 1,
+    "amenities": [
+      "pet_friendly",
+      "24h_front_desk",
+      "air_conditioning",
+      "bike_rental",
+      "free_wifi",
+      "gym",
+      "hot_tub"
+    ],
+    "review_snippets": [
+      "Breakfast options were okay, not too many choices.",
+      "Unfriendly staff who seemed uninterested in helping.",
+      "Staff were polite but not particularly engaging.",
+      "Rooms are clean and well-maintained."
+    ]
+  },
+  {
+    "id": "hotel_97",
+    "name": "Classic Oasis",
+    "location": "Amsterdam",
+    "neighborhood": "Zuid",
+    "distance_to_center_km": 3.5,
+    "rating": 3.2,
+    "price": "$$",
+    "price_numeric": 2,
+    "amenities": [
+      "gym",
+      "laundry_service",
+      "airport_shuttle"
+    ],
+    "review_snippets": [
+      "Clean bathrooms with good water pressure.",
+      "The pool was closed for maintenance during our stay."
+    ]
+  },
+  {
+    "id": "hotel_98",
+    "name": "The Cozy Hideaway",
+    "location": "Amsterdam",
+    "neighborhood": "Slotermeer",
+    "distance_to_center_km": 5.7,
+    "rating": 3.1,
+    "price": "$",
+    "price_numeric": 1,
+    "amenities": [
+      "free_wifi",
+      "parking",
+      "family_rooms"
+    ],
+    "review_snippets": [
+      "Location is fairly convenient.",
+      "Clean bathrooms with good water pressure."
+    ]
+  },
+  {
+    "id": "hotel_99",
+    "name": "Classic Yard",
+    "location": "Amsterdam",
+    "neighborhood": "Zuidoost",
+    "distance_to_center_km": 2.1,
+    "rating": 4.3,
+    "price": "$$$",
+    "price_numeric": 3,
+    "amenities": [
+      "bike_rental",
+      "family_rooms",
+      "gym",
+      "non_smoking_rooms",
+      "24h_front_desk"
+    ],
+    "review_snippets": [
+      "The pool was closed for maintenance during our stay.",
+      "The gym equipment was old and poorly maintained.",
+      "Reasonable stay for the price.",
+      "Overpriced for what you get.",
+      "Excellent value for money."
+    ]
+  },
+  {
+    "id": "hotel_100",
+    "name": "El Palacio Chateau",
+    "location": "Amsterdam",
+    "neighborhood": "Museumkwartier",
+    "distance_to_center_km": 0.7,
+    "rating": 4.5,
+    "price": "$",
+    "price_numeric": 1,
+    "amenities": [
+      "pet_friendly",
+      "gym",
+      "breakfast_included",
+      "airport_shuttle",
+      "non_smoking_rooms",
+      "elevator",
+      "restaurant"
+    ],
+    "review_snippets": [
+      "Bathroom cleanliness could be improved.",
+      "Staff were polite but not particularly engaging.",
+      "The staff went above and beyond to help us.",
+      "Great location, ideal for exploring the city.",
+      "Clean bathrooms with good water pressure.",
+      "The gym equipment was old and poorly maintained."
+    ]
+  }
+]

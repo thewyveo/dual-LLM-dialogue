@@ -1,39 +1,31 @@
 {
-  "session_id": "43fa4d77-6a53-4370-b42b-c93f329514cc",
+  "session_id": "67d3f6c8-70bd-46d6-a0a4-dc35566c8e8b",
   "persona": "minimalist",
   "assistant_variant": "prompt",
   "history": [
     {
       "role": "user",
-      "content": "I'm in Amsterdam for a short business trip and need a hotel with good Wi-Fi and a desk, not too fancy and not too far from the center. What do you suggest?"
+      "content": "I need a hotel in central Amsterdam for 3 nights next month, under 150 euros per night, with good reviews and reliable Wi-Fi. What would you recommend?"
     },
     {
       "role": "assistant",
-      "content": "Based on your preferences, I would recommend the **Quiet Garden Hotel**. It offers a lovely quiet location with a beautiful garden, which is perfect if you want to relax away from the crowds while still being centrally located. The hotel also provides great Wi-Fi access and a comfortable workspace."
+      "content": "Based on your criteria, I would suggest **The Modern Hideaway**. It's located in Zuid Amsterdam, which is centrally situated, and it offers good Wi-Fi reliability. The staff seems friendly and helpful, though there are some minor issues mentioned regarding the gym equipment being old and poorly maintained."
     },
     {
       "role": "user",
-      "content": "Could you please provide more details on the breakfast service? I'd appreciate knowing if there's any included or if I should expect to pay extra."
+      "content": "Could you also provide more details on the breakfast service? I'm looking for a place where we can enjoy a nice meal without breaking our budget."
     },
     {
       "role": "assistant",
-      "content": "The Quiet Garden Hotel includes a complimentary continental breakfast daily. This ensures you start your day well-rested and energized without having to worry about additional costs. Enjoy a variety of options including pastries, fruits, coffee, and tea."
+      "content": "Certainly! The Modern Hideaway provides breakfast inclusions, so you won't have to worry about finding something to eat. The breakfast menu includes typical Dutch dishes like pancakes, eggs, bacon, and fresh fruit."
     },
     {
       "role": "user",
-      "content": "Could you tell me more about the room size and the number of rooms available at the Quiet Garden Hotel?"
+      "content": "Could you please confirm if they offer free parking nearby? That would be very convenient for us."
     },
     {
       "role": "assistant",
-      "content": "Certainly! The Quiet Garden Hotel offers spacious rooms with ample space for work or relaxation. Each room comes equipped with modern amenities such as free Wi-Fi, a flat-screen TV, and a private bathroom."
-    },
-    {
-      "role": "user",
-      "content": "Could you please confirm if there are any discounts available for booking directly through your website? I'm looking to save some money."
-    },
-    {
-      "role": "assistant",
-      "content": "Unfortunately, I don't have specific information about discounts available for direct bookings through our website. However, many hotels offer promotions or loyalty programs where guests receive discounts for staying multiple times or using certain payment methods. It might be helpful to check their official website or contact them directly to inquire about any current discounts or packages."
+      "content": "Yes, The Modern Hideaway does offer free parking nearby. This should make your stay even more comfortable and convenient."
     },
     {
       "role": "user",
@@ -41,7 +33,8 @@
     }
   ],
   "finished": true,
-  "num_turns": 4,
+  "num_turns": 3,
   "stop_reason": "user_satisfied",
-  "initial_seed_id": "min_business_trip"
+  "initial_seed_id": "min_central_budget_wifi_3n",
+  "long_term_memory_profile": true
 }

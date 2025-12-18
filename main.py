@@ -1,15 +1,15 @@
 from runner.batch_runner import run_batch
-from utils.profile_cleaner import cleaner
+from memory.memory import set_profile_store
 
 def main():
-    # Basic demo: 2 personas x 2 assistant variants x 3 histories each
+    set_profile_store("profiles_beginning.json")
     results = run_batch(
-        n_histories=5,
+        n_histories=20,
         personas=("minimalist", "explorer"),
-        assistant_variants=("prompt"),
+        assistant_variants=("prompt",),
+        use_memory=True,
     )
     print(f"Finished {len(results)} conversations. Logs saved to logs/conversations.json")
-    cleaner()
 
 
 if __name__ == "__main__":

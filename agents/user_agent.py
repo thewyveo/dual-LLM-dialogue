@@ -58,16 +58,15 @@ class UserAgent:
         """
         history: list of dicts with {'role': 'user'|'assistant', 'content': str}
 
-        NEW:
         - We generate up to 3 candidate utterances.
         - If a candidate is:
             * a semantic/exact repeat of previous traveler utterances, OR
             * it "looks like the assistant" (assistant-style phrasing),
-          we discard it (not added to history) and try again with higher temperature.
-        - If all 3 attempts are rejected, we return a closure utterance.
+            we discard it (not added to history) and try again with higher temperature.
+        - If all 3 attempts are rejected, return a closure utterance.
         """
 
-        # Build a transcript (Traveler / Assistant) for context
+        # build a transcript (traveler / assistant) for context
         transcript_lines = []
         user_utterances = []
         for msg in history:
@@ -79,7 +78,7 @@ class UserAgent:
 
         transcript = "\n".join(transcript_lines)
 
-        # Explicitly show the traveler what they've already asked
+        # explicitly show the traveler what they've already asked
         if user_utterances:
             previous_questions_block = (
                 "Here are the things you (the traveler) have ALREADY asked about in this conversation:\n"
@@ -129,7 +128,7 @@ class UserAgent:
             f"{previous_questions_block}\n\n"
             f"{behavior_block}\n\n"
             "Now respond with the NEXT thing the traveler would say.\n"
-            "Remember: 1–2 sentences, stay in character, no 'Assistant:' prefix."
+            "Remember: 1-2 sentences, stay in character, no 'Assistant:' prefix."
         )
 
         base_messages = [
@@ -156,7 +155,7 @@ class UserAgent:
             cleaned = self._clean_user_text(text)
             last_candidate = cleaned
 
-            # 1) Reject if it looks like the assistant talking
+            # 1) reject if it looks like the assistant talking
             if self._looks_like_assistant(
                 cleaned,
                 semantic_threshold=assistant_semantic_threshold,
@@ -164,7 +163,7 @@ class UserAgent:
                 temperature = min(temperature + 0.2, 0.9)
                 continue
 
-            # 2) Reject if it's a repetition of previous traveler utterances
+            # 2) reject if it's a repetition of previous traveler utterances
             if self._is_repetition(
                 cleaned,
                 previous_user_utts,
@@ -173,10 +172,10 @@ class UserAgent:
                 temperature = min(temperature + 0.2, 0.9)
                 continue
 
-            # 3) Accept this utterance – caller will add it to history
+            # 3) accept this utterance – caller will add it to history
             return cleaned
 
-        # If all attempts were rejected as repeats / assistant-like,
+        # if all attempts were rejected as repeats / assistant-like,
         # return a closure utterance (force actual end).
         return "Thank you, that was very helpful. That's all I needed, goodbye."
 
@@ -186,7 +185,7 @@ class UserAgent:
         """
         cleaned = text.strip()
 
-        # 1) Only keep text up to the first time the model starts re-narrating roles
+        # 1) only keep text up to the first time the model starts re-narrating roles
         stop_markers = ["\nUser:", "\nAssistant:", "\nTraveler:",
                         "\nUSER:", "\nASSISTANT:", "\nTRAVELER:"]
         cut_idx = len(cleaned)
@@ -196,10 +195,10 @@ class UserAgent:
                 cut_idx = min(cut_idx, idx)
         cleaned = cleaned[:cut_idx].strip()
 
-        # 2) Only keep the first line (prevents it from writing multi-turn scripts)
+        # 2) only keep the first line (prevents it from writing multi-turn scripts)
         first_line = cleaned.split("\n", 1)[0].strip()
 
-        # 3) Strip common speaker prefixes like "User:", "Assistant:", "Traveler:"
+        # 3) strip common speaker prefixes like "User:", "Assistant:", "Traveler:"
         prefixes = ["user:", "assistant:", "traveler:", "system:"]
         lower = first_line.lower()
         for p in prefixes:
@@ -207,7 +206,7 @@ class UserAgent:
                 first_line = first_line[len(p):].strip()
                 break
 
-        # 4) Reduce to the first 1–2 sentences
+        # 4) reduce to the first 1–2 sentences
         sentences = re.split(r"(?<=[.!?])\s+", first_line)
         if sentences:
             first_line = " ".join(sentences[:2]).strip()
@@ -231,7 +230,7 @@ class UserAgent:
 
         t = utterance.strip().lower()
 
-        # 1) Hard lexical patterns that almost surely mean "assistant voice"
+        # 1) hard lexical patterns that almost surely mean "assistant voice"
         hard_patterns = [
             "based on your criteria",
             "based on your requirements",
@@ -249,7 +248,7 @@ class UserAgent:
         if any(p in t for p in hard_patterns):
             return True
 
-        # 2) Semantic similarity to canonical assistant-ish prototypes
+        # 2) semantic similarity to canonical assistant-ish prototypes
         assistant_prototypes = [
             "Based on your criteria, I would recommend this hotel.",
             "Based on your requirements, here are some options.",
@@ -261,12 +260,12 @@ class UserAgent:
             "Do you have any specific amenities or services you prioritize?",
         ]
 
-        # Reuse is_semantic_repeat: compare utterance to prototypes
+        # reuse is_semantic_repeat: compare utterance to prototypes
         try:
             if is_semantic_repeat(utterance, assistant_prototypes, threshold=semantic_threshold):
                 return True
         except Exception:
-            # Fail-safe: if BERTScore or repetition_filter breaks, don't crash the loop
+            # fail-safe: if BERTScore or repetition_filter breaks, don't crash the loop
             return False
 
         return False
@@ -278,7 +277,7 @@ class UserAgent:
         semantic_threshold: float = 0.92,
     ) -> bool:
         """
-        Check if `utterance` is a repeat of any previous traveler utterance.
+        Check if 'utterance' is a repeat of any previous traveler utterance.
 
         - Exact match => repeat
         - High BERTScore similarity => semantic repeat
@@ -292,26 +291,25 @@ class UserAgent:
 
         prev_lower = [u.strip().lower() for u in previous_utts]
 
-        # Exact repeat against any previous user utterance
+        # exact repeat against any previous user utterance
         if normalized_new in prev_lower:
             return True
 
-        # Semantic repeat (BERTScore)
+        # semantic repeat (BERTScore)
         try:
             if is_semantic_repeat(utterance, previous_utts, threshold=semantic_threshold):
                 return True
         except Exception:
-            # Fail-safe: if BERTScore fails, just don't treat it as semantic repeat
+            # fail-safe: if BERTScore fails, just don't treat it as semantic repeat
             return False
 
         return False
 
     def _avoid_repetition(self, utterance: str, history, min_repeats_before_stop: int = 2) -> str:
         """
-        (Currently unused with the new 3-attempt loop, but kept for backwards compatibility.)
+        [currently unused, replaced by repitition_filter.py in utils]
 
         Use the conversation memory to avoid pathological loops:
-
         - If the model produces an utterance that is EXACTLY the same as a previous
           traveler message, we count how many times it has already appeared.
         - Only if it has appeared at least `min_repeats_before_stop` times
@@ -338,7 +336,7 @@ class UserAgent:
     def check_satisfaction(self, user_utterance: str) -> bool:
         text = user_utterance.lower()
 
-        # 1) Explicit closure patterns: clearly done
+        # 1) explicit closure patterns: clearly done
         if (
             ("thank you" in text or "thanks" in text)
             and ("that's all" in text or "that is all" in text or "all i needed" in text)
@@ -348,11 +346,11 @@ class UserAgent:
         if ("thank you" in text or "thanks" in text) and "goodbye" in text:
             return True
 
-        # 2) Very explicit booking confirmation
+        # 2) very explicit booking confirmation
         if re.search(r"\b(book it|i'll take it|i will take it)\b", text):
             return True
 
-        # 3) Explicit give-up phrases
+        # 3) explicit give-up phrases
         give_up_patterns = [
             r"\bi'll look elsewhere\b",
             r"\bconversation over\b",
@@ -363,9 +361,6 @@ class UserAgent:
         for pat in give_up_patterns:
             if re.search(pat, text):
                 return True
-
-        # IMPORTANT: we DO NOT treat generic positivity as satisfaction anymore
-        # e.g. "that sounds great", "perfect", etc. will NOT end the conversation.
 
         return False
 

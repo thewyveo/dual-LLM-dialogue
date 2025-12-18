@@ -40,7 +40,7 @@ def cleaner(path: str = "profiles.json") -> None:
             profile["free_form_notes"] = None
             modified_count += 1
 
-    # Write back
+    # write back
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
 

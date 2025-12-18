@@ -20,38 +20,62 @@ def _resolve_model_path(model_name: str) -> str:
     """
     base_dir = os.path.dirname(os.path.abspath(__file__))
 
-    # Special case: fine-tuned assistant
+    # special cases: fine-tuned assistants
     if model_name == "assistant-ft-qwen":
         return os.path.join(base_dir, "models", "assistant_ft_qwen")
+    elif model_name == "assistant-peft-qwen":
+        return os.path.join(base_dir, "models", "assistant_peft_qwen")
 
-    # If there's a local directory under ./models/<model_name>, use that
+    # if there's a local directory under ./models/<model_name>, use that
     local_dir = os.path.join(base_dir, "models", model_name)
     if os.path.isdir(local_dir):
         return local_dir
 
-    # Otherwise, treat the string as a HF model id, e.g. "mistralai/Mistral-7B-v0.1"
+    # otherwise, treat the string as a HF model id
     return model_name
 
 
+from peft import PeftModel
+
+
 def _get_local_model_and_tokenizer(model_name: str):
-    """
-    Return (model, tokenizer) for a given model name.
-    We cache them so they're loaded only once.
-    """
     if model_name in LOCAL_MODEL_CACHE:
         return LOCAL_MODEL_CACHE[model_name]
 
     model_path = _resolve_model_path(model_name)
     print(f"[llm_client] Loading model '{model_name}' from '{model_path}' on device {_DEVICE}...")
 
-    tokenizer = AutoTokenizer.from_pretrained(model_path, use_fast=True)
+    # --- TOKENIZER ---
+    tokenizer = AutoTokenizer.from_pretrained(
+        model_path if model_name != "assistant-peft-qwen" else "Qwen/Qwen2.5-0.5B-Instruct",
+        use_fast=True,
+    )
     if tokenizer.pad_token is None:
         tokenizer.pad_token = tokenizer.eos_token
 
-    model = AutoModelForCausalLM.from_pretrained(
-        model_path,
-        torch_dtype=torch.float16 if torch.cuda.is_available() else torch.float32,
-    ).to(_DEVICE)
+    # --- MODEL ---
+    if model_name == "assistant-peft-qwen":
+        # 1. load BASE model
+        base_model = AutoModelForCausalLM.from_pretrained(
+            "Qwen/Qwen2.5-0.5B-Instruct",
+            torch_dtype=torch.float16 if torch.cuda.is_available() else torch.float32,
+        )
+
+        # 2. attach LoRA adapters
+        model = PeftModel.from_pretrained(
+            base_model,
+            model_path,
+        )
+
+    else:
+        # prompt or full-FT
+        model = AutoModelForCausalLM.from_pretrained(
+            model_path,
+            torch_dtype=torch.float16 if torch.cuda.is_available() else torch.float32,
+        )
+
+    model = model.to(_DEVICE)
+    model.eval()
 
     LOCAL_MODEL_CACHE[model_name] = (model, tokenizer)
     return model, tokenizer
@@ -71,7 +95,7 @@ def call_llm(
     """
     hf_model, tokenizer = _get_local_model_and_tokenizer(model)
 
-    # 1) Build prompt using chat template if it actually exists
+    # 1) build prompt using chat template if it actually exists
     use_chat_template = (
         hasattr(tokenizer, "apply_chat_template")
         and getattr(tokenizer, "chat_template", None) is not None
@@ -84,7 +108,7 @@ def call_llm(
             add_generation_prompt=True,  # tells the model "now it's your turn"
         )
     else:
-        # Fallback: simple role-tagged prompt
+        # fallback: simple role-tagged prompt
         prompt = ""
         for m in messages:
             role = m["role"]
@@ -108,7 +132,7 @@ def call_llm(
             pad_token_id=tokenizer.eos_token_id,
         )
 
-    # 2) Slice off the prompt part
+    # 2) slice off the prompt part
     gen_ids = output_ids[0, inputs["input_ids"].shape[1]:]
     text = tokenizer.decode(gen_ids, skip_special_tokens=True)
     return text.strip()

@@ -9,10 +9,6 @@ from typing import Any, Dict, List, Optional
 from llm_client import call_llm
 
 
-# ========================
-# 1. User profile schema
-# ========================
-
 @dataclass
 class UserProfile:
     """
@@ -22,24 +18,24 @@ class UserProfile:
     Lists are de-duplicated when merging.
     """
 
-    # Trip context
+    # trip context
     trip_type: Optional[str] = None
     persona_name: Optional[str] = None
 
-    # Budget
+    # budget
     budget_min: Optional[float] = None
     budget_max: Optional[float] = None
     currency: Optional[str] = "EUR"
 
-    # Location preferences
+    # location preferences
     wants_central_location: Optional[bool] = None
     wants_local_neighborhood: Optional[bool] = None
 
-    # Atmosphere
+    # atmosphere
     prefers_quiet: Optional[bool] = None
     prefers_social: Optional[bool] = None
 
-    # Amenities
+    # amenities
     cares_about_wifi: Optional[bool] = None
     cares_about_desk: Optional[bool] = None
     cares_about_breakfast: Optional[bool] = None
@@ -48,21 +44,21 @@ class UserProfile:
     cares_about_rooftop: Optional[bool] = None
     cares_about_spa: Optional[bool] = None
 
-    # Thematic preferences
+    # thematic preferences
     foodie: Optional[bool] = None
     romantic: Optional[bool] = None
 
-    # Hotel-specific signals
+    # hotel-specific signals
     preferred_hotels: List[str] = field(default_factory=list)
     rejected_hotels: List[str] = field(default_factory=list)
 
-    # Free-form notes the assistant can see
+    # free-form notes the assistant can see
     free_form_notes: Optional[str] = None
 
-    # Internal: how many sessions contributed to this profile
+    # internal: how many sessions contributed to this profile
     sessions_count: int = 0
 
-    # --------- Conversion helpers ---------
+    # --- helpers ---
 
     @classmethod
     def from_llm_dict(cls, data: Dict[str, Any]) -> "UserProfile":
@@ -121,7 +117,7 @@ class UserProfile:
         """
         Merge another profile into this one.
 
-        - For scalar fields: if `other` has a non-None value, it overwrites this profile.
+        - For scalar fields: if 'other' has a non-None value, it overwrites this profile.
         - For lists: union.
         - sessions_count: incremented.
         """
@@ -142,7 +138,7 @@ class UserProfile:
     def to_prompt_summary(self) -> str:
         """
         Short text summary for including in the assistant system prompt.
-        Keep it compact; 2–5 bullet points max.
+        Keeps it compact; 2-5 bullet points max.
         """
         bullets: List[str] = []
 
@@ -210,15 +206,10 @@ class UserProfile:
         return "\n".join(f"- {b}" for b in bullets)
 
 
-# ========================
-# 2. Profile store (JSON)
-# ========================
 
 class ProfileStore:
     """
     Very simple JSON-backed profile store.
-
-    You can swap this out later for a DB if you want.
     """
 
     def __init__(self, path: str = "profiles.json") -> None:
@@ -259,10 +250,6 @@ class ProfileStore:
         self._save()
         return self._profiles[user_id]
 
-
-# ==================================
-# 3. LLM-based session profiling
-# ==================================
 
 PROFILE_SYSTEM_PROMPT = """
 You are a dedicated profiling model for hotel travelers.
@@ -365,7 +352,6 @@ def infer_profile_from_session(
 ) -> UserProfile:
     """
     Use an LLM (the fourth model) to infer a UserProfile from a single finished session.
-    This function does NOT touch disk or any global memory.
     """
     user_msg = _build_session_summary_for_profiler(
         history=history,

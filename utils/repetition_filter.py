@@ -3,8 +3,6 @@ import torch
 from bert_score import score as bertscore_score
 
 _DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
-
-# You can change this to another BERTScore model if you like.
 _BERT_MODEL_TYPE = "microsoft/deberta-base-mnli"
 
 

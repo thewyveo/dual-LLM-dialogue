@@ -69,17 +69,18 @@
     "cares_about_desk": true,
     "cares_about_breakfast": true,
     "cares_about_parking": true,
-    "cares_about_gym": false,
+    "cares_about_gym": true,
     "cares_about_rooftop": false,
     "cares_about_spa": false,
     "foodie": false,
     "romantic": false,
     "preferred_hotels": [
-      "Quiet Garden Hotel"
+      "Quiet Garden Hotel",
+      "The Modern Hideaway"
     ],
     "rejected_hotels": [],
-    "free_form_notes": "The Quiet Garden Hotel meets most of my criteria but doesn't allow pets.",
-    "sessions_count": 5
+    "free_form_notes": null,
+    "sessions_count": 7
   },
   "minimalist__min_central_budget_wifi_3n": {
     "trip_type": "leisure",
@@ -89,23 +90,27 @@
     "currency": "EUR",
     "wants_central_location": true,
     "wants_local_neighborhood": false,
-    "prefers_quiet": false,
+    "prefers_quiet": true,
     "prefers_social": false,
     "cares_about_wifi": true,
     "cares_about_desk": false,
     "cares_about_breakfast": true,
-    "cares_about_parking": false,
+    "cares_about_parking": true,
     "cares_about_gym": false,
     "cares_about_rooftop": false,
     "cares_about_spa": false,
     "foodie": false,
     "romantic": false,
     "preferred_hotels": [
-      "Luxury Canal Palace"
+      "Luxury Canal Palace",
+      "Quiet Garden Hotel",
+      "Hostel City Hub",
+      "Canal View Inn",
+      "The Modern Hideaway"
     ],
     "rejected_hotels": [],
     "free_form_notes": null,
-    "sessions_count": 2
+    "sessions_count": 11
   },
   "minimalist__min_business_trip": {
     "trip_type": "business",
@@ -115,7 +120,36 @@
     "currency": "EUR",
     "wants_central_location": true,
     "wants_local_neighborhood": false,
-    "prefers_quiet": true,
+    "prefers_quiet": false,
+    "prefers_social": false,
+    "cares_about_wifi": true,
+    "cares_about_desk": true,
+    "cares_about_breakfast": false,
+    "cares_about_parking": true,
+    "cares_about_gym": false,
+    "cares_about_rooftop": false,
+    "cares_about_spa": false,
+    "foodie": false,
+    "romantic": false,
+    "preferred_hotels": [
+      "Quiet Garden Hotel",
+      "Luxury Canal Palace",
+      "Hotel Royal Amsterdam",
+      "The Modern Hideaway"
+    ],
+    "rejected_hotels": [],
+    "free_form_notes": null,
+    "sessions_count": 11
+  },
+  "minimalist__min_one_night_late_arrival": {
+    "trip_type": "leisure",
+    "persona_name": "minimalist",
+    "budget_min": null,
+    "budget_max": null,
+    "currency": "EUR",
+    "wants_central_location": true,
+    "wants_local_neighborhood": false,
+    "prefers_quiet": false,
     "prefers_social": false,
     "cares_about_wifi": true,
     "cares_about_desk": true,
@@ -127,37 +161,14 @@
     "foodie": false,
     "romantic": false,
     "preferred_hotels": [
-      "Quiet Garden Hotel"
+      "Quiet Garden Hotel",
+      "Budget Stay Central",
+      "The Modern Hideaway",
+      "Copper Villa"
     ],
     "rejected_hotels": [],
     "free_form_notes": null,
-    "sessions_count": 3
-  },
-  "minimalist__min_one_night_late_arrival": {
-    "trip_type": "leisure",
-    "persona_name": "minimalist",
-    "budget_min": null,
-    "budget_max": null,
-    "currency": "USD",
-    "wants_central_location": true,
-    "wants_local_neighborhood": false,
-    "prefers_quiet": true,
-    "prefers_social": false,
-    "cares_about_wifi": true,
-    "cares_about_desk": false,
-    "cares_about_breakfast": true,
-    "cares_about_parking": false,
-    "cares_about_gym": false,
-    "cares_about_rooftop": false,
-    "cares_about_spa": false,
-    "foodie": null,
-    "romantic": null,
-    "preferred_hotels": [
-      "Quiet Garden Hotel"
-    ],
-    "rejected_hotels": [],
-    "free_form_notes": null,
-    "sessions_count": 1
+    "sessions_count": 6
   },
   "explorer__exp_spa_relax_trip": {
     "trip_type": "leisure",
@@ -170,20 +181,21 @@
     "prefers_quiet": true,
     "prefers_social": false,
     "cares_about_wifi": true,
-    "cares_about_desk": false,
+    "cares_about_desk": true,
     "cares_about_breakfast": true,
     "cares_about_parking": true,
     "cares_about_gym": false,
     "cares_about_rooftop": false,
     "cares_about_spa": true,
-    "foodie": null,
-    "romantic": null,
+    "foodie": true,
+    "romantic": false,
     "preferred_hotels": [
-      "Quiet Garden Hotel"
+      "Quiet Garden Hotel",
+      "The Vintage Hotel"
     ],
     "rejected_hotels": [],
-    "free_form_notes": null,
-    "sessions_count": 1
+    "free_form_notes": "Great suggestions for a relaxing stay!",
+    "sessions_count": 4
   },
   "explorer__exp_foodie_hotel_plus_restaurants": {
     "trip_type": "leisure",
@@ -210,8 +222,8 @@
       "Hotel Royal Amsterdam"
     ],
     "rejected_hotels": [],
-    "free_form_notes": null,
-    "sessions_count": 3
+    "free_form_notes": "The Quiet Garden Hotel seems like a good fit for someone who values both central location and unique atmosphere.",
+    "sessions_count": 7
   },
   "explorer__exp_social_budget_hostel_vibe": {
     "trip_type": "leisure",
@@ -221,36 +233,38 @@
     "currency": "EUR",
     "wants_central_location": true,
     "wants_local_neighborhood": true,
-    "prefers_quiet": null,
+    "prefers_quiet": false,
     "prefers_social": true,
     "cares_about_wifi": true,
     "cares_about_desk": true,
     "cares_about_breakfast": true,
     "cares_about_parking": true,
-    "cares_about_gym": true,
-    "cares_about_rooftop": null,
-    "cares_about_spa": null,
+    "cares_about_gym": false,
+    "cares_about_rooftop": false,
+    "cares_about_spa": false,
     "foodie": true,
-    "romantic": null,
+    "romantic": false,
     "preferred_hotels": [
-      "Hostel City Hub"
+      "Hostel City Hub",
+      "Canal View Inn",
+      "The Modern Hideaway"
     ],
     "rejected_hotels": [],
     "free_form_notes": null,
-    "sessions_count": 2
+    "sessions_count": 7
   },
   "explorer__exp_romantic_weekend": {
-    "trip_type": null,
+    "trip_type": "romantic",
     "persona_name": "explorer",
-    "budget_min": null,
-    "budget_max": null,
+    "budget_min": 150,
+    "budget_max": 300,
     "currency": "EUR",
     "wants_central_location": true,
     "wants_local_neighborhood": true,
-    "prefers_quiet": false,
+    "prefers_quiet": true,
     "prefers_social": false,
     "cares_about_wifi": true,
-    "cares_about_desk": true,
+    "cares_about_desk": false,
     "cares_about_breakfast": true,
     "cares_about_parking": true,
     "cares_about_gym": false,
@@ -261,11 +275,12 @@
     "preferred_hotels": [
       "Luxury Canal Palace",
       "Hotel de Loo",
-      "Canal View Inn"
+      "Canal View Inn",
+      "Quiet Garden Hotel"
     ],
     "rejected_hotels": [],
-    "free_form_notes": "",
-    "sessions_count": 2
+    "free_form_notes": null,
+    "sessions_count": 4
   },
   "explorer__exp_canal_view_atmosphere": {
     "trip_type": null,
@@ -273,10 +288,10 @@
     "budget_min": null,
     "budget_max": null,
     "currency": "EUR",
-    "wants_central_location": null,
-    "wants_local_neighborhood": null,
-    "prefers_quiet": null,
-    "prefers_social": null,
+    "wants_central_location": true,
+    "wants_local_neighborhood": true,
+    "prefers_quiet": false,
+    "prefers_social": false,
     "cares_about_wifi": null,
     "cares_about_desk": null,
     "cares_about_breakfast": true,
@@ -290,8 +305,8 @@
       "Quiet Garden Hotel"
     ],
     "rejected_hotels": [],
-    "free_form_notes": "The Quiet Garden Hotel offers bike rentals, which is convenient for exploring Amsterdam.",
-    "sessions_count": 1
+    "free_form_notes": "The Quiet Garden Hotel offers a great balance of atmosphere and convenience.",
+    "sessions_count": 2
   },
   "explorer__exp_long_stay_explore_city": {
     "trip_type": null,
@@ -316,8 +331,8 @@
       "Luxury Canal Palace"
     ],
     "rejected_hotels": [],
-    "free_form_notes": "The Quiet Garden Hotel offers a tranquil stay with a focus on local experiences.",
-    "sessions_count": 1
+    "free_form_notes": null,
+    "sessions_count": 2
   },
   "explorer__exp_local_neighborhood_feel": {
     "trip_type": null,
@@ -328,21 +343,182 @@
     "wants_central_location": true,
     "wants_local_neighborhood": true,
     "prefers_quiet": true,
-    "prefers_social": true,
+    "prefers_social": false,
     "cares_about_wifi": true,
     "cares_about_desk": true,
     "cares_about_breakfast": true,
     "cares_about_parking": true,
-    "cares_about_gym": true,
-    "cares_about_rooftop": true,
-    "cares_about_spa": true,
-    "foodie": null,
-    "romantic": null,
+    "cares_about_gym": false,
+    "cares_about_rooftop": false,
+    "cares_about_spa": false,
+    "foodie": false,
+    "romantic": false,
     "preferred_hotels": [
-      "Quiet Garden Hotel"
+      "Quiet Garden Hotel",
+      "The Vintage Hotel"
     ],
     "rejected_hotels": [],
     "free_form_notes": null,
-    "sessions_count": 1
+    "sessions_count": 5
+  },
+  "minimalist__min_just_the_cheapest_ok": {
+    "trip_type": "leisure",
+    "persona_name": "minimalist",
+    "budget_min": null,
+    "budget_max": null,
+    "currency": "EUR",
+    "wants_central_location": true,
+    "wants_local_neighborhood": true,
+    "prefers_quiet": false,
+    "prefers_social": false,
+    "cares_about_wifi": true,
+    "cares_about_desk": true,
+    "cares_about_breakfast": true,
+    "cares_about_parking": true,
+    "cares_about_gym": false,
+    "cares_about_rooftop": false,
+    "cares_about_spa": false,
+    "foodie": null,
+    "romantic": null,
+    "preferred_hotels": [
+      "Budget Stay Central",
+      "Hotel Amsterdam City Center",
+      "The Modern Hideaway"
+    ],
+    "rejected_hotels": [],
+    "free_form_notes": null,
+    "sessions_count": 8
+  },
+  "minimalist__min_short_stay_no_frills": {
+    "trip_type": "leisure",
+    "persona_name": "minimalist",
+    "budget_min": null,
+    "budget_max": null,
+    "currency": "EUR",
+    "wants_central_location": null,
+    "wants_local_neighborhood": null,
+    "prefers_quiet": null,
+    "prefers_social": null,
+    "cares_about_wifi": true,
+    "cares_about_desk": null,
+    "cares_about_breakfast": true,
+    "cares_about_parking": null,
+    "cares_about_gym": null,
+    "cares_about_rooftop": null,
+    "cares_about_spa": null,
+    "foodie": null,
+    "romantic": null,
+    "preferred_hotels": [
+      "The Modern Hideaway"
+    ],
+    "rejected_hotels": [],
+    "free_form_notes": null,
+    "sessions_count": 2
+  },
+  "minimalist__min_simple_business_stopover": {
+    "trip_type": "business",
+    "persona_name": "minimalist",
+    "budget_min": null,
+    "budget_max": null,
+    "currency": "EUR",
+    "wants_central_location": true,
+    "wants_local_neighborhood": false,
+    "prefers_quiet": true,
+    "prefers_social": false,
+    "cares_about_wifi": true,
+    "cares_about_desk": true,
+    "cares_about_breakfast": true,
+    "cares_about_parking": false,
+    "cares_about_gym": false,
+    "cares_about_rooftop": false,
+    "cares_about_spa": false,
+    "foodie": false,
+    "romantic": false,
+    "preferred_hotels": [
+      "The Modern Hideaway",
+      "Le Grand Canalhouse"
+    ],
+    "rejected_hotels": [],
+    "free_form_notes": null,
+    "sessions_count": 3
+  },
+  "minimalist__min_good_reviews_under_budget": {
+    "trip_type": "leisure",
+    "persona_name": "minimalist",
+    "budget_min": 100,
+    "budget_max": 250,
+    "currency": "EUR",
+    "wants_central_location": true,
+    "wants_local_neighborhood": true,
+    "prefers_quiet": true,
+    "prefers_social": false,
+    "cares_about_wifi": true,
+    "cares_about_desk": true,
+    "cares_about_breakfast": true,
+    "cares_about_parking": true,
+    "cares_about_gym": false,
+    "cares_about_rooftop": false,
+    "cares_about_spa": false,
+    "foodie": false,
+    "romantic": false,
+    "preferred_hotels": [
+      "The Modern Hideaway"
+    ],
+    "rejected_hotels": [],
+    "free_form_notes": null,
+    "sessions_count": 3
+  },
+  "minimalist__min_walkable_transport_hub": {
+    "trip_type": "leisure",
+    "persona_name": "minimalist",
+    "budget_min": 100,
+    "budget_max": 200,
+    "currency": "EUR",
+    "wants_central_location": true,
+    "wants_local_neighborhood": true,
+    "prefers_quiet": true,
+    "prefers_social": false,
+    "cares_about_wifi": true,
+    "cares_about_desk": true,
+    "cares_about_breakfast": true,
+    "cares_about_parking": true,
+    "cares_about_gym": false,
+    "cares_about_rooftop": false,
+    "cares_about_spa": false,
+    "foodie": false,
+    "romantic": false,
+    "preferred_hotels": [
+      "The Modern Hideaway",
+      "Elegant Lodge"
+    ],
+    "rejected_hotels": [],
+    "free_form_notes": null,
+    "sessions_count": 3
+  },
+  "minimalist__min_sleep_only_priority": {
+    "trip_type": "leisure",
+    "persona_name": "minimalist",
+    "budget_min": null,
+    "budget_max": null,
+    "currency": "EUR",
+    "wants_central_location": true,
+    "wants_local_neighborhood": true,
+    "prefers_quiet": true,
+    "prefers_social": false,
+    "cares_about_wifi": true,
+    "cares_about_desk": false,
+    "cares_about_breakfast": true,
+    "cares_about_parking": true,
+    "cares_about_gym": false,
+    "cares_about_rooftop": false,
+    "cares_about_spa": false,
+    "foodie": false,
+    "romantic": false,
+    "preferred_hotels": [
+      "The Modern Hideaway"
+    ],
+    "rejected_hotels": [],
+    "free_form_notes": null,
+    "sessions_count": 2
   }
 }

@@ -74,20 +74,61 @@ class AssistantPromptAgent:
         return base
 
     def format_hotels_for_prompt(self, hotels: List[Dict]) -> str:
+        """
+        Format hotel candidates for the LLM in a controlled, safe way.
+        Gracefully supports optional fields such as:
+        - neighborhood
+        - distance_to_center_km
+        - amenities
+        - review_snippets (INTERNAL ONLY)
+        """
+
         if not hotels:
             return "No hotel candidates were found for this query.\n"
 
         lines = []
         for h in hotels:
+            name = h.get("name", "Unknown Hotel")
+            rating = h.get("rating", "N/A")
+            price = h.get("price", "?")
+            location = h.get("location", "Unknown")
+
+            # optional fields (shows only if they exist)
+            neighborhood = h.get("neighborhood")
+            distance_km = h.get("distance_to_center_km")
+            amenities = h.get("amenities", [])
+
+            # compact description
+            desc_parts = [
+                f"rating: {rating}",
+                f"price: {price}",
+                f"location: {location}",
+            ]
+
+            if neighborhood:
+                desc_parts.append(f"neighborhood: {neighborhood}")
+
+            if distance_km is not None:
+                desc_parts.append(f"distance_to_center_km: {distance_km:.1f}")
+
+            if amenities:
+                am_str = ", ".join(amenities)
+                desc_parts.append(f"amenities: {am_str}")
+
+            desc = ", ".join(desc_parts)
+
+            # review snippets remain INTERNAL ONLY
             snippet_texts = h.get("review_snippets", [])
-            # We still pass snippets in, but mark them clearly as INTERNAL so the model
-            # knows they are not to be exposed verbatim to the user.
-            snippet = " | ".join(snippet_texts[:2]) if snippet_texts else "No review snippets."
+            if snippet_texts:
+                internal_snippet = " | ".join(snippet_texts[:3])
+            else:
+                internal_snippet = "No review snippets."
+
             lines.append(
-                f"- {h['name']} (rating: {h['rating']}, "
-                f"price: {h['price']}, location: {h['location']})\n"
-                f"  INTERNAL_REVIEWS (for assistant only, DO NOT expose to user): {snippet}"
+                f"- {name} ({desc})\n"
+                f"  INTERNAL_REVIEWS (assistant only): {internal_snippet}"
             )
+
         return "\n".join(lines)
 
     def _clean_assistant_output(self, text: str) -> str:
@@ -97,7 +138,7 @@ class AssistantPromptAgent:
         """
         cleaned = text.strip()
 
-        # 1) Cut at any point where the model starts writing user lines / transcripts
+        # 1) cut at any point where the model starts writing user lines / transcripts
         stop_markers = [
             "\nUser:", "\nUSER:", "\nuser:",
             "\nTraveler:", "\nTRAVELER:",
@@ -111,17 +152,17 @@ class AssistantPromptAgent:
                 cut_idx = min(cut_idx, idx)
         cleaned = cleaned[:cut_idx].strip()
 
-        # 2) Strip leading "Assistant:" if present
+        # 2) strip "Assistant:" if present
         lower = cleaned.lower()
         if lower.startswith("assistant:"):
             cleaned = cleaned.split(":", 1)[1].strip()
 
-        # 3) Optionally trim to first 3 sentences to keep it concise
+        # 3) optionally trim to first 3 sentences to keep it concise
         sentences = re.split(r"(?<=[.!?])\s+", cleaned)
         if sentences:
             cleaned = " ".join(sentences[:3]).strip()
 
-        # 4) Just in case the model ever prints the literal INTERNAL_REVIEWS tag
+        # 4) just in case the model ever prints the literal INTERNAL_REVIEWS tag
         cleaned = cleaned.replace("INTERNAL_REVIEWS", "").strip()
 
         return cleaned
@@ -131,7 +172,7 @@ class AssistantPromptAgent:
         dialogue_history: List[Dict[str, str]],
         candidate_hotels: List[Dict],
     ) -> str:
-        # Fetch long-term profile snippet if we have a user_id
+        # fetch long-term profile snippet if there is a user_id
         if self.user_id:
             profile_snippet = get_profile_prompt_for_user(
                 self.user_id,
@@ -152,7 +193,7 @@ class AssistantPromptAgent:
             {"role": "system", "content": assistant_context},
         ] + dialogue_history
 
-        # Collect previous assistant utterances to avoid repeating ourselves
+        # collect previous assistant utterances to avoid repeating
         previous_assistant_utts = [
             m["content"]
             for m in dialogue_history
@@ -176,13 +217,13 @@ class AssistantPromptAgent:
             if not previous_assistant_utts:
                 return cleaned
 
-            # If not too similar, accept
+            # if not too similar, accept
             if not is_semantic_repeat(cleaned, previous_assistant_utts, threshold=0.92):
                 return cleaned
 
-            # Otherwise, try again with a slightly higher temperature
+            # otherwise, try again with a slightly higher temperature
             temperature = min(temperature + 0.2, 0.9)
 
-        # If all attempts look similar, just return the last one
+        # if all attempts look similar, just return the last one
         # (we don't force closure for the assistant)
         return last_cleaned

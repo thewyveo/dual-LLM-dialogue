@@ -1,7 +1,6 @@
 from typing import List, Dict
 from llm_client import call_llm
 
-# Simple lexical patterns for “I’m done / goodbye”
 _SATISFACTION_PATTERNS = [
     "that's all i needed",
     "that's all i need",
@@ -40,7 +39,7 @@ def llm_check_satisfaction(
     if not history:
         return False
 
-    # --- 1) Deterministic lexical check on the last USER message ---
+    # --- 1) deterministic lexical check on the last USER message ---
     last_msg = history[-1]
     if last_msg["role"] == "user":
         text = last_msg["content"].lower()
@@ -48,9 +47,7 @@ def llm_check_satisfaction(
             if pat in text:
                 return True
 
-    # --- 2) LLM judge (original logic, unchanged in spirit) ---
-
-    # Build a simple transcript
+    # --- 2) LLM judge  ---
     transcript_lines = []
     for msg in history:
         speaker = "User" if msg["role"] == "user" else "Assistant"
