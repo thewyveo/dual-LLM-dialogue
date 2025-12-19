@@ -144,17 +144,29 @@ def plot_tradeoff(df):
         data=df,
         x="avg_turns",
         y="assistant_lexical_diversity",
-        hue="variant",
-        style="memory",
-        s=100,
+        hue="variant",          # prompt vs peft
+        style="persona",        # minimalist vs explorer
+        markers={"minimalist": "o", "explorer": "s"},
+        size="memory",          # False / True
+        sizes={False: 80, True: 250},
+        edgecolor="black",
+        linewidth=0.8,
         ax=ax,
     )
 
     ax.set_title("Efficiency vs Language Richness")
-    ax.set_xlabel("Average number of turns (↓ better)")
-    ax.set_ylabel("Assistant lexical diversity (↑ better)")
+    ax.set_xlabel("Average number of turns")
+    ax.set_ylabel("Assistant lexical diversity")
+
+    ax.legend(
+        title="Variant / Persona / Memory",
+        frameon=True,
+        fontsize=9,
+        title_fontsize=9,
+    )
 
     save_plot(fig, "tradeoff_efficiency_vs_diversity.png")
+
 
 
 # -------------------------

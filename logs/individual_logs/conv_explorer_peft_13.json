@@ -1,31 +1,31 @@
 {
-  "session_id": "6226157b-0a0e-45cf-91c1-9e8d75aaf1d6",
+  "session_id": "b2eb8ef2-47a7-46aa-a3f6-9c858e02429a",
   "persona": "explorer",
   "assistant_variant": "peft",
   "history": [
     {
       "role": "user",
-      "content": "I'm a foodie visiting Amsterdam and I want a hotel in an area with great restaurants and caf\u00e9s within walking distance. The hotel should be well-reviewed and not the absolute cheapest. Any recommendations?"
+      "content": "I'm looking for a small, atmospheric hotel in Amsterdam with a nice canal view and a cozy vibe. I care more about character than price as long as it's not extreme. What would you recommend?"
     },
     {
       "role": "assistant",
-      "content": "Based on your preferences, I would recommend staying at The Modern Hideaway. It's located in Zuid and is well-reviewed, offering excellent amenities including a terrace, garden, free billiards, and a hot tub. While it might be slightly more expensive than other options, it provides a comfortable stay with all the necessary facilities for a relaxing experience."
+      "content": "Based on your preferences, I would suggest checking out The Modern Hideaway. It offers a cozy atmosphere with a terrace and garden, which should fit your criteria. Additionally, it includes a hot tub, making it a relaxing experience."
     },
     {
       "role": "user",
-      "content": "Could you also tell me if there are any rooftop bars nearby? I'd love to try some drinks from up high!"
+      "content": "Do you think The Modern Hideaway also offers bike rentals? That would be great because I want to explore the city by bicycle."
     },
     {
       "role": "assistant",
-      "content": "The Modern Hideaway does offer a rooftop terrace, which means you'll have access to a rooftop bar where you can enjoy drinks from up high. This adds a nice touch to your stay in Amsterdam."
+      "content": "The Modern Hideaway does offer bike rental facilities, so you can definitely check them out! Enjoy your stay there."
     },
     {
       "role": "user",
-      "content": "Could you also provide details on the restaurant options near The Modern Hideaway? I want to make sure we don't miss out on trying authentic Dutch cuisine!"
+      "content": "Could you tell me more about the restaurant options available at The Modern Hideaway? I'd love to try some authentic Dutch cuisine while I'm there."
     },
     {
       "role": "assistant",
-      "content": "Certainly! The Modern Hideaway is conveniently situated in Zuid, making it easy to explore the vibrant culinary scene around the hotel. Nearby, you'll find several highly-rated restaurants that serve traditional Dutch dishes."
+      "content": "The Modern Hideaway provides free access to a local caf\u00e9 where you can enjoy traditional Dutch dishes. This is a convenient way to sample some authentic flavors during your visit."
     },
     {
       "role": "user",
@@ -35,6 +35,6 @@
   "finished": true,
   "num_turns": 3,
   "stop_reason": "user_satisfied",
-  "initial_seed_id": "exp_foodie_hotel_plus_restaurants",
-  "long_term_memory_profile": true
+  "initial_seed_id": "exp_canal_view_atmosphere",
+  "long_term_memory_profile": false
 }

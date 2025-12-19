@@ -1,31 +1,31 @@
 {
-  "session_id": "1f3b561f-f0a6-44c3-896f-024db679532e",
+  "session_id": "3a63b97d-85aa-42f0-9db3-e4ba573a386e",
   "persona": "explorer",
   "assistant_variant": "peft",
   "history": [
     {
       "role": "user",
-      "content": "I'm a foodie visiting Amsterdam and I want a hotel in an area with great restaurants and caf\u00e9s within walking distance. The hotel should be well-reviewed and not the absolute cheapest. Any recommendations?"
+      "content": "I'm looking for a small, atmospheric hotel in Amsterdam with a nice canal view and a cozy vibe. I care more about character than price as long as it's not extreme. What would you recommend?"
     },
     {
       "role": "assistant",
-      "content": "Based on your preferences, I would recommend staying at The Modern Hideaway. It's located in Zuid, which is close to some great restaurants and cafes. The hotel has a terrace, garden, and free billiards, making it comfortable and inviting."
+      "content": "The Grand Canalhouse is an excellent choice for you. It offers a charming atmosphere with a nice canal view and a cozy vibe. The bathroom cleanliness could be improved, but overall, the rooms are clean and well-maintained."
     },
     {
       "role": "user",
-      "content": "Do you think The Modern Hideaway also offers bike rentals for exploring the city? That would be really convenient!"
+      "content": "Could you tell me more about the breakfast service at The Grand Canalhouse? I'd love to experience a traditional Dutch breakfast while staying there."
     },
     {
       "role": "assistant",
-      "content": "Yes, The Modern Hideaway does offer bike rentals for exploring the city. This will make it easy to explore Amsterdam while still being centrally located."
+      "content": "The Grand Canalhouse provides a traditional Dutch breakfast, which includes items like koffie, theeepje, and vochtig brood. This will give you a taste of authentic Dutch cuisine while you stay at the hotel."
     },
     {
       "role": "user",
-      "content": "Could you tell me more about the restaurant options near The Modern Hideaway? I'd love to try some authentic Dutch cuisine!"
+      "content": "Could you also provide details on the hotel's proximity to the city center and any nearby attractions? That would help me decide if it fits my travel plans perfectly."
     },
     {
       "role": "assistant",
-      "content": "The Modern Hideaway is conveniently located near several popular restaurants in Zuid. Some highly-rated options include \"De Kamer van de Vier\" for traditional Dutch dishes and \"Het Grote Nieuwste\" for modern European cuisine. Both places offer excellent dining experiences."
+      "content": "The Grand Canalhouse is located approximately 6 kilometers away from the city center. While it might take some time to reach the city center, it is still relatively close. There are several nearby attractions, including the Anne Frank House, Van Gogh Museum, and the Rijksmuseum."
     },
     {
       "role": "user",
@@ -35,6 +35,6 @@
   "finished": true,
   "num_turns": 3,
   "stop_reason": "user_satisfied",
-  "initial_seed_id": "exp_foodie_hotel_plus_restaurants",
-  "long_term_memory_profile": true
+  "initial_seed_id": "exp_canal_view_atmosphere",
+  "long_term_memory_profile": false
 }

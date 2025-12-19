@@ -1,18 +1,106 @@
 {
+  "peft__explorer__memory_True": {
+    "num_conversations": 20,
+    "success_rate": 1.0,
+    "avg_turns": 4.1,
+    "avg_user_turns": 5.1,
+    "avg_assistant_turns": 4.1,
+    "avg_tokens_user": 140.25,
+    "avg_tokens_assistant": 240.25,
+    "avg_tokens_total": 380.5,
+    "assistant_tokens_per_turn": 58.75630952380952,
+    "assistant_user_token_ratio": 1.6919590473114094,
+    "assistant_lexical_diversity": 0.6500810349282228
+  },
+  "peft__explorer__memory_False": {
+    "num_conversations": 20,
+    "success_rate": 1.0,
+    "avg_turns": 4.75,
+    "avg_user_turns": 5.75,
+    "avg_assistant_turns": 4.75,
+    "avg_tokens_user": 161.35,
+    "avg_tokens_assistant": 256.6,
+    "avg_tokens_total": 417.95,
+    "assistant_tokens_per_turn": 53.897619047619045,
+    "assistant_user_token_ratio": 1.5897035770326922,
+    "assistant_lexical_diversity": 0.6330497826119407
+  },
+  "peft__minimalist__memory_True": {
+    "num_conversations": 20,
+    "success_rate": 1.0,
+    "avg_turns": 5.05,
+    "avg_user_turns": 6.05,
+    "avg_assistant_turns": 5.05,
+    "avg_tokens_user": 151.2,
+    "avg_tokens_assistant": 244.95,
+    "avg_tokens_total": 396.15,
+    "assistant_tokens_per_turn": 50.62714285714286,
+    "assistant_user_token_ratio": 1.6657195632781918,
+    "assistant_lexical_diversity": 0.6377666769939415
+  },
+  "peft__minimalist__memory_False": {
+    "num_conversations": 20,
+    "success_rate": 1.0,
+    "avg_turns": 5.6,
+    "avg_user_turns": 6.6,
+    "avg_assistant_turns": 5.6,
+    "avg_tokens_user": 170.0,
+    "avg_tokens_assistant": 266.8,
+    "avg_tokens_total": 436.8,
+    "assistant_tokens_per_turn": 47.67589285714286,
+    "assistant_user_token_ratio": 1.5613191415554588,
+    "assistant_lexical_diversity": 0.623953204467165
+  },
   "prompt__explorer__memory_True": {
     "num_conversations": 20,
     "success_rate": 1.0,
     "avg_turns": 3.95,
+    "avg_user_turns": 4.95,
+    "avg_assistant_turns": 3.95,
     "avg_tokens_user": 130.25,
     "avg_tokens_assistant": 221.0,
-    "avg_tokens_total": 351.25
+    "avg_tokens_total": 351.25,
+    "assistant_tokens_per_turn": 57.24892857142858,
+    "assistant_user_token_ratio": 1.7332410912081717,
+    "assistant_lexical_diversity": 0.6796342754314736
+  },
+  "prompt__explorer__memory_False": {
+    "num_conversations": 20,
+    "success_rate": 1.0,
+    "avg_turns": 3.7,
+    "avg_user_turns": 4.7,
+    "avg_assistant_turns": 3.7,
+    "avg_tokens_user": 122.95,
+    "avg_tokens_assistant": 211.7,
+    "avg_tokens_total": 334.65,
+    "assistant_tokens_per_turn": 58.31023809523809,
+    "assistant_user_token_ratio": 1.7366299178475473,
+    "assistant_lexical_diversity": 0.6881263027443019
   },
   "prompt__minimalist__memory_True": {
     "num_conversations": 20,
     "success_rate": 1.0,
     "avg_turns": 5.35,
+    "avg_user_turns": 6.35,
+    "avg_assistant_turns": 5.35,
     "avg_tokens_user": 167.3,
     "avg_tokens_assistant": 296.6,
-    "avg_tokens_total": 463.9
+    "avg_tokens_total": 463.9,
+    "assistant_tokens_per_turn": 56.0055357142857,
+    "assistant_user_token_ratio": 1.8029391238832613,
+    "assistant_lexical_diversity": 0.6235100530818116
+  },
+  "prompt__minimalist__memory_False": {
+    "num_conversations": 20,
+    "success_rate": 1.0,
+    "avg_turns": 5.0,
+    "avg_user_turns": 6.0,
+    "avg_assistant_turns": 5.0,
+    "avg_tokens_user": 150.25,
+    "avg_tokens_assistant": 285.85,
+    "avg_tokens_total": 436.1,
+    "assistant_tokens_per_turn": 58.900952380952376,
+    "assistant_user_token_ratio": 1.9445429548243847,
+    "assistant_lexical_diversity": 0.6290085220312805
   }
 }

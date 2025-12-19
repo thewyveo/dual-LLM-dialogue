@@ -1,12 +1,1202 @@
 [
   {
+    "session_id": "b2538276-b52e-4fda-8a83-0ce588feb356",
+    "assistant_variant": "peft",
+    "persona": "explorer",
+    "initial_seed_id": "exp_artsy_creative_vibe",
+    "long_term_memory_profile": true,
+    "scores": {
+      "task_fulfillment": 4,
+      "groundedness": 3,
+      "clarity": 4,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant provided relevant information about The Modern Hideaway and its location, and offered suggestions for exploring dining options. However, the response lacks specific details about restaurant options and could have been more direct in addressing the user's request for restaurant information."
+    }
+  },
+  {
+    "session_id": "b4e5ead6-df23-44c0-99eb-196803cabafc",
+    "assistant_variant": "peft",
+    "persona": "explorer",
+    "initial_seed_id": "exp_green_relaxed_area",
+    "long_term_memory_profile": true,
+    "scores": {
+      "task_fulfillment": 4,
+      "groundedness": 3,
+      "clarity": 4,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant provided detailed information about the hotel's location, amenities, and nearby attractions as requested by the user. However, some details were not fully confirmed or provided, such as specific restaurant options, cafe/bar recommendations, and nightlife venues. The assistant maintained a clear and informative tone throughout the conversation."
+    }
+  },
+  {
+    "session_id": "30c91a39-fe0c-4be4-bd71-5d900dd1b04a",
+    "assistant_variant": "peft",
+    "persona": "explorer",
+    "initial_seed_id": "exp_foodie_hotel_plus_restaurants",
+    "long_term_memory_profile": true,
+    "scores": {
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant provided detailed recommendations and relevant information about the hotel and nearby restaurants, including their proximity and typical price ranges. The conversation was clear and helpful, but the lack of specific discount information for peak tourist seasons is noted."
+    }
+  },
+  {
+    "session_id": "f8196efd-c14f-4e96-9da6-839ee03b6853",
+    "assistant_variant": "peft",
+    "persona": "explorer",
+    "initial_seed_id": "exp_romantic_weekend",
+    "long_term_memory_profile": true,
+    "scores": {
+      "raw_output": "{\n  \"task_fulfillment\": 4,\n  \"groundedness\": 3,\n  \"clarity\": 4,\n  \"pleasantness\": 3,\n  \"overall_quality\": 4,\n  \"binary_success\": \"yes\",\n  \"justification\": \"The assistant provided a suitable hotel recommendation and addressed the user's query about restaurant options. However, the response lacks specific information about the restaurant options and could have been clearer about the availability of complimentary breakfast. The assistant also did not address the user's request for a romantic atmosphere beyond mentioning the hotel's features.\",\n}"
+    }
+  },
+  {
+    "session_id": "fb82939e-22bf-4ea5-994d-381a82535e9c",
+    "assistant_variant": "peft",
+    "persona": "explorer",
+    "initial_seed_id": "exp_neighborhood_exploration_base",
+    "long_term_memory_profile": true,
+    "scores": {
+      "raw_output": "{\n  \"task_fulfillment\": 5,\n  \"groundedness\": 4,\n  \"clarity\": 5,\n  \"pleasantness\": 4,\n  \"overall_quality\": 4,\n  \"binary_success\": \"yes\",\n  \"justification\": \"The assistant fulfilled the user's request by providing a hotel recommendation and information about nearby restaurants. The response was clear and concise, and the information provided was grounded in reality. However, the assistant did not provide specific restaurant names or menus, which could have been requested, slightly reducing the groundedness score.\",\n}"
+    }
+  },
+  {
+    "session_id": "d5b52f41-d90a-4951-84f7-6e049c3308dd",
+    "assistant_variant": "peft",
+    "persona": "explorer",
+    "initial_seed_id": "exp_long_stay_explore_city",
+    "long_term_memory_profile": true,
+    "scores": {
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant fulfilled the user's request by providing hotel recommendations that match their criteria. However, there were no additional recommendations provided after the second query, which could slightly reduce clarity. The responses were clear and helpful, and the assistant maintained a pleasant tone throughout the conversation."
+    }
+  },
+  {
+    "session_id": "b3cd46c2-8ffe-4495-bf5a-d48340efb734",
+    "assistant_variant": "peft",
+    "persona": "explorer",
+    "initial_seed_id": "exp_artsy_creative_vibe",
+    "long_term_memory_profile": true,
+    "scores": {
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant provided comprehensive information about The Modern Hideaway, including its location, amenities, and nearby attractions. However, some details were not confirmed, such as the exact location of the rooftop bar and the presence of bike rentals or guided tours. The assistant maintained a clear and helpful tone throughout the conversation."
+    }
+  },
+  {
+    "session_id": "1f3b561f-f0a6-44c3-896f-024db679532e",
+    "assistant_variant": "peft",
+    "persona": "explorer",
+    "initial_seed_id": "exp_foodie_hotel_plus_restaurants",
+    "long_term_memory_profile": true,
+    "scores": {
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant provided clear and relevant recommendations based on the user's preferences, including a hotel with good restaurant options and bike rentals. However, the assistant did not provide information about the cost of the hotel, which the user might have been interested in knowing."
+    }
+  },
+  {
+    "session_id": "58a17e02-7dce-49be-ac20-ac5a52ee7a3d",
+    "assistant_variant": "peft",
+    "persona": "explorer",
+    "initial_seed_id": "exp_long_stay_explore_city",
+    "long_term_memory_profile": true,
+    "scores": {
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 5,
+      "overall_quality": 5,
+      "binary_success": "yes",
+      "justification": "The assistant provided comprehensive information about the hotel's location, amenities, and nearby attractions, fulfilling the user's request. The responses were clear and detailed, and the assistant maintained a friendly tone throughout the conversation."
+    }
+  },
+  {
+    "session_id": "608cb11b-fe67-4e2a-adf0-27d8f4a97a7a",
+    "assistant_variant": "peft",
+    "persona": "explorer",
+    "initial_seed_id": "exp_romantic_weekend",
+    "long_term_memory_profile": true,
+    "scores": {
+      "raw_output": "{\n  \"task_fulfillment\": 5,\n  \"groundedness\": 4,\n  \"clarity\": 5,\n  \"pleasantness\": 4,\n  \"overall_quality\": 4,\n  \"binary_success\": \"yes\",\n  \"justification\": \"The assistant provided detailed recommendations and answered all questions related to the user's needs regarding the hotel's amenities, location, and transportation. However, the response could have been slightly more concise and clear by avoiding repetition of the hotel name in every answer.\",\n}"
+    }
+  },
+  {
+    "session_id": "8cd32faa-6e1d-46f8-afa5-bf79f5bf47af",
+    "assistant_variant": "peft",
+    "persona": "explorer",
+    "initial_seed_id": "exp_unique_small_hotel",
+    "long_term_memory_profile": true,
+    "scores": {
+      "task_fulfillment": 4,
+      "groundedness": 3,
+      "clarity": 4,
+      "pleasantness": 3,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant fulfilled the user's request by providing information about the Modern Hideaway and its amenities. However, the assistant did not have complete information about the restaurant options and rooftop bar, which slightly reduced the groundedness score. The assistant maintained clarity throughout the conversation and was generally pleasant, though the lack of complete information about the restaurant options could be seen as a slight inconvenience."
+    }
+  },
+  {
+    "session_id": "74150ba2-08b2-4b94-8487-a44536287f2a",
+    "assistant_variant": "peft",
+    "persona": "explorer",
+    "initial_seed_id": "exp_spa_relax_trip",
+    "long_term_memory_profile": true,
+    "scores": {
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant provided comprehensive recommendations and information based on the user's preferences, fulfilling the task effectively. However, there were no invented details or speculations, and the responses were clear and helpful, though not overly verbose. The user seemed satisfied with the information provided."
+    }
+  },
+  {
+    "session_id": "2a0045a2-e553-49c6-b115-ef1120f24823",
+    "assistant_variant": "peft",
+    "persona": "explorer",
+    "initial_seed_id": "exp_green_relaxed_area",
+    "long_term_memory_profile": true,
+    "scores": {
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant provided relevant information about hotels fitting the user's criteria and suggested potential rooftop bar options. The task was fully fulfilled, and the responses were clear and concise. However, the assistant did not invent new locations or amenities, maintaining groundedness. The assistant's explanations were helpful and clear, contributing to a pleasant interaction."
+    }
+  },
+  {
+    "session_id": "6226157b-0a0e-45cf-91c1-9e8d75aaf1d6",
+    "assistant_variant": "peft",
+    "persona": "explorer",
+    "initial_seed_id": "exp_foodie_hotel_plus_restaurants",
+    "long_term_memory_profile": true,
+    "scores": {
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant provided detailed recommendations and information about the hotel and its surroundings, fulfilling the user's request. However, the assistant did not provide specific restaurant names or addresses, which could have been considered more grounded. The response was clear and helpful, and the assistant maintained a friendly tone, contributing to pleasantness."
+    }
+  },
+  {
+    "session_id": "d377bfb2-152e-4688-aae6-784e6ccecc9b",
+    "assistant_variant": "peft",
+    "persona": "explorer",
+    "initial_seed_id": "exp_comfort_plus_atmosphere",
+    "long_term_memory_profile": true,
+    "scores": {
+      "task_fulfillment": 4,
+      "groundedness": 3,
+      "clarity": 4,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant fulfilled the user's request by providing recommendations and addressing their specific questions about amenities and nearby attractions. However, there were some limitations due to the lack of specific information about rooftop bars and parking facilities. The assistant maintained a clear and helpful tone throughout the conversation."
+    }
+  },
+  {
+    "session_id": "b8819c3b-2184-4f36-8f02-dd9fa7a07e62",
+    "assistant_variant": "peft",
+    "persona": "explorer",
+    "initial_seed_id": "exp_spa_relax_trip",
+    "long_term_memory_profile": true,
+    "scores": {
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant provided comprehensive recommendations and information based on the user's preferences, including details about amenities, restaurant options, and nearby attractions. However, there were no new questions asked by the assistant, which could have improved the interaction further."
+    }
+  },
+  {
+    "session_id": "9188b7c2-11e3-4d2b-a795-6aea4285d329",
+    "assistant_variant": "peft",
+    "persona": "explorer",
+    "initial_seed_id": "exp_spa_relax_trip",
+    "long_term_memory_profile": true,
+    "scores": {
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant provided detailed recommendations and relevant information about The Modern Hideaway, including its location, amenities, and nearby attractions. The responses were clear and helpful, addressing all user inquiries. However, the score for groundedness is slightly lower because the assistant did not invent new amenities or locations but rather focused on existing features of the hotel."
+    }
+  },
+  {
+    "session_id": "cf4cd36a-9839-4c68-b21c-5e5356f8aed7",
+    "assistant_variant": "peft",
+    "persona": "explorer",
+    "initial_seed_id": "exp_neighborhood_exploration_base",
+    "long_term_memory_profile": true,
+    "scores": {
+      "task_fulfillment": 4,
+      "groundedness": 3,
+      "clarity": 4,
+      "pleasantness": 3,
+      "overall_quality": 3,
+      "binary_success": "yes",
+      "justification": "The assistant provided useful information about the Modern Hideaway, including amenities and dining options. However, there were some inconsistencies and lack of specificity regarding the gym and fitness facilities, which slightly reduced the groundedness score. The conversation was generally clear and helpful, but the assistant's responses sometimes veered into speculation rather than providing definitive information."
+    }
+  },
+  {
+    "session_id": "95f28aee-7f7e-4d6e-ade5-fb8ea6fa8688",
+    "assistant_variant": "peft",
+    "persona": "explorer",
+    "initial_seed_id": "exp_unique_small_hotel",
+    "long_term_memory_profile": true,
+    "scores": {
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant fulfilled the user's requests by providing information about The Modern Hideaway, suggesting nearby restaurants, offering tips on getting around Amsterdam, and confirming the lack of airport shuttle service. The responses were clear and relevant, though some details were not confirmed (e.g., rooftop bar specifics). The assistant maintained a polite and helpful tone, contributing to a pleasant interaction."
+    }
+  },
+  {
+    "session_id": "427faea4-f1ec-4959-b47d-6a8b71895931",
+    "assistant_variant": "peft",
+    "persona": "explorer",
+    "initial_seed_id": "exp_spa_relax_trip",
+    "long_term_memory_profile": true,
+    "scores": {
+      "raw_output": "{\n  \"task_fulfillment\": 5,\n  \"groundedness\": 4,\n  \"clarity\": 5,\n  \"pleasantness\": 4,\n  \"overall_quality\": 4,\n  \"binary_success\": \"yes\",\n  \"justification\": \"The assistant fulfilled the user's request by recommending a suitable hotel and providing information about dining options. The recommendations are grounded in the user's preferences and are clear and concise. However, the score for groundedness is slightly lower because the assistant did not provide specific details about the dining options other than mentioning variety and proximity to the center.\",\n}"
+    }
+  },
+  {
+    "session_id": "f8d2cbbe-1612-4293-9a15-407e0df41464",
+    "assistant_variant": "peft",
+    "persona": "explorer",
+    "initial_seed_id": "exp_foodie_hotel_plus_restaurants",
+    "long_term_memory_profile": false,
+    "scores": {
+      "task_fulfillment": 4,
+      "groundedness": 3,
+      "clarity": 4,
+      "pleasantness": 3,
+      "overall_quality": 3,
+      "binary_success": "yes",
+      "justification": "The assistant provided relevant recommendations and additional information about The Modern Hideaway. However, the response could have been more detailed regarding unique features and amenities, and the score for groundedness is slightly lower due to the assumption that the hotel has a gym without being explicitly stated in the original dialogue."
+    }
+  },
+  {
+    "session_id": "dca2be2a-3506-4017-901e-7ffee915a7cb",
+    "assistant_variant": "peft",
+    "persona": "explorer",
+    "initial_seed_id": "exp_canal_view_atmosphere",
+    "long_term_memory_profile": false,
+    "scores": {
+      "raw_output": "{\n  \"task_fulfillment\": 5,\n  \"groundedness\": 4,\n  \"clarity\": 5,\n  \"pleasantness\": 4,\n  \"overall_quality\": 4,\n  \"binary_success\": \"yes\",\n  \"justification\": \"The assistant provided comprehensive information about the hotel and its amenities, including bike rentals, traditional Dutch cuisine restaurants, free Wi-Fi, spa services, and a gym. The responses were clear and relevant to the user's needs, and the information was grounded in the hotel's offerings. However, the assistant did not provide additional details beyond what was asked, which could have been seen as slightly less helpful.\",\n}"
+    }
+  },
+  {
+    "session_id": "032a3d54-b87e-4b9b-b6f7-97a01640945b",
+    "assistant_variant": "peft",
+    "persona": "explorer",
+    "initial_seed_id": "exp_canal_view_atmosphere",
+    "long_term_memory_profile": false,
+    "scores": {
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 5,
+      "overall_quality": 5,
+      "binary_success": "yes",
+      "justification": "The assistant provided detailed and accurate information about the hotel and dining options, fulfilling the user's request comprehensively. There were no invented details or speculations, and the responses were clear and helpful."
+    }
+  },
+  {
+    "session_id": "fad30d4b-5743-497f-9b0d-895552cc24ad",
+    "assistant_variant": "peft",
+    "persona": "explorer",
+    "initial_seed_id": "exp_foodie_hotel_plus_restaurants",
+    "long_term_memory_profile": false,
+    "scores": {
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant provided comprehensive and accurate information based on the user's criteria, including location, amenities, and price range. However, some details were speculative or required further research, such as specific restaurant offerings and unique features of the hotel."
+    }
+  },
+  {
+    "session_id": "d4a1482f-152c-4b0b-9251-2e58936bad39",
+    "assistant_variant": "peft",
+    "persona": "explorer",
+    "initial_seed_id": "exp_unique_small_hotel",
+    "long_term_memory_profile": false,
+    "scores": {
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 5,
+      "overall_quality": 5,
+      "binary_success": "yes",
+      "justification": "The assistant provided comprehensive and accurate information about The Modern Hideaway, including its location, amenities, accessibility, and events. The responses were clear and helpful, and the assistant maintained a friendly tone throughout the conversation."
+    }
+  },
+  {
+    "session_id": "7e45d543-66fd-4b10-b5e7-ffcf4463f1bb",
+    "assistant_variant": "peft",
+    "persona": "explorer",
+    "initial_seed_id": "exp_unique_small_hotel",
+    "long_term_memory_profile": false,
+    "scores": {
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant provided relevant information about hotels that meet the user's preferences regarding size, uniqueness, amenities, and proximity to attractions. The responses were clear and concise, and the user seemed satisfied with the information provided. However, there was no direct booking attempt, which is why the binary success score is 'yes' rather than 'no'."
+    }
+  },
+  {
+    "session_id": "400ff221-5213-45d1-aa3c-77d8978fbe67",
+    "assistant_variant": "peft",
+    "persona": "explorer",
+    "initial_seed_id": "exp_romantic_weekend",
+    "long_term_memory_profile": false,
+    "scores": {
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant provided detailed recommendations and answered all questions regarding the hotel's features, location, and accessibility. The responses were clear and relevant, though some information (like parking availability) could have been more detailed."
+    }
+  },
+  {
+    "session_id": "3a63b97d-85aa-42f0-9db3-e4ba573a386e",
+    "assistant_variant": "peft",
+    "persona": "explorer",
+    "initial_seed_id": "exp_canal_view_atmosphere",
+    "long_term_memory_profile": false,
+    "scores": {
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant provided detailed information about the Grand Canalhouse, including its location relative to the city center and nearby attractions. The response was clear and relevant to the user's needs. However, the score for groundedness is slightly lower because the assistant did not provide specific details about the hotel's proximity to the city center or nearby attractions, which were requested by the user."
+    }
+  },
+  {
+    "session_id": "436bf287-c1b2-4c11-9eba-ef5e83f01fe2",
+    "assistant_variant": "peft",
+    "persona": "explorer",
+    "initial_seed_id": "exp_social_budget_hostel_vibe",
+    "long_term_memory_profile": false,
+    "scores": {
+      "task_fulfillment": 4,
+      "groundedness": 3,
+      "clarity": 4,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant fulfilled the user's requests regarding amenities, restaurant recommendations, and transportation options. However, there were some gaps in providing specific details such as the presence of a library or bicycle rentals. The assistant maintained a clear and helpful tone throughout the conversation."
+    }
+  },
+  {
+    "session_id": "d5db7828-bec7-4ef3-ac0d-705821acab1a",
+    "assistant_variant": "peft",
+    "persona": "explorer",
+    "initial_seed_id": "exp_unique_small_hotel",
+    "long_term_memory_profile": false,
+    "scores": {
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 4,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant provided detailed information about The Modern Hideaway, including its location, amenities, and proximity to tourist attractions. They addressed the user's specific questions regarding room service, local cuisine, check-in time, pet-friendliness, and room rates. The responses were clear and informative, and the assistant maintained a polite and helpful tone throughout the conversation."
+    }
+  },
+  {
+    "session_id": "9a011a1d-c3ad-49e8-8e79-ed90a4fe0d36",
+    "assistant_variant": "peft",
+    "persona": "explorer",
+    "initial_seed_id": "exp_artsy_creative_vibe",
+    "long_term_memory_profile": false,
+    "scores": {
+      "raw_output": "{\n  \"task_fulfillment\": 4,\n  \"groundedness\": 3,\n  \"clarity\": 4,\n  \"pleasantness\": 3,\n  \"overall_quality\": 3,\n  \"binary_success\": \"yes\",\n  \"justification\": \"The assistant provided relevant recommendations and information based on the user's criteria, but made clear when they did not have specific information (e.g., outdoor pool, restaurant options). The conversation was generally clear and helpful, but the lack of specific details about certain aspects (like the rooftop terrace and restaurant options) led to a lower score in groundedness.\",\n}"
+    }
+  },
+  {
+    "session_id": "934de841-8c13-4592-bea1-95f692627320",
+    "assistant_variant": "peft",
+    "persona": "explorer",
+    "initial_seed_id": "exp_artsy_creative_vibe",
+    "long_term_memory_profile": false,
+    "scores": {
+      "task_fulfillment": 4,
+      "groundedness": 3,
+      "clarity": 4,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant fulfilled the user's request by providing a hotel recommendation with a creative atmosphere and good reviews. However, the assistant did not provide specific restaurant options or detailed information about nearby attractions, which could have been more helpful. The response was clear and pleasant, but lacked specific details."
+    }
+  },
+  {
+    "session_id": "0f3a7198-21fb-4cc4-b687-a943962623f7",
+    "assistant_variant": "peft",
+    "persona": "explorer",
+    "initial_seed_id": "exp_foodie_hotel_plus_restaurants",
+    "long_term_memory_profile": false,
+    "scores": {
+      "raw_output": "{\n  \"task_fulfillment\": 5,\n  \"groundedness\": 4,\n  \"clarity\": 5,\n  \"pleasantness\": 4,\n  \"overall_quality\": 4,\n  \"binary_success\": \"yes\",\n  \"justification\": \"The assistant provided clear and relevant information about the Modern Hideaway hotel, its location, and nearby restaurants. The task was fully fulfilled as the user did not request any additional information. However, the assistant could have been more specific about the exact walking distances to the restaurants and cafes, which would have added more groundedness.\",\n}"
+    }
+  },
+  {
+    "session_id": "b2eb8ef2-47a7-46aa-a3f6-9c858e02429a",
+    "assistant_variant": "peft",
+    "persona": "explorer",
+    "initial_seed_id": "exp_canal_view_atmosphere",
+    "long_term_memory_profile": false,
+    "scores": {
+      "task_fulfillment": 4,
+      "groundedness": 3,
+      "clarity": 4,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant fulfilled the user's request by recommending a hotel and providing information about bike rentals and a caf\u00e9. However, the assistant did not provide specific restaurant details, which could have been more helpful. The conversation was clear and pleasant."
+    }
+  },
+  {
+    "session_id": "02b36f9c-2f7e-45ac-8b92-aec13be7a1a7",
+    "assistant_variant": "peft",
+    "persona": "explorer",
+    "initial_seed_id": "exp_foodie_hotel_plus_restaurants",
+    "long_term_memory_profile": false,
+    "scores": {
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant provided detailed and accurate information about the restaurants and cafes near the recommended hotels, as well as the amenities offered. However, there were no specific mentions of coffee shops or caf\u00e9s within the hotels' premises, which slightly reduces the groundedness score."
+    }
+  },
+  {
+    "session_id": "d0cbb0ec-f819-4d4b-b23a-bc028674b9fa",
+    "assistant_variant": "peft",
+    "persona": "explorer",
+    "initial_seed_id": "exp_unique_small_hotel",
+    "long_term_memory_profile": false,
+    "scores": {
+      "raw_output": "{\n  \"task_fulfillment\": 5,\n  \"groundedness\": 4,\n  \"clarity\": 5,\n  \"pleasantness\": 4,\n  \"overall_quality\": 4,\n  \"binary_success\": \"yes\",\n  \"justification\": \"The assistant provided detailed and accurate information about the Modern Hideaway, including its amenities, location, and proximity to tourist attractions. The responses were clear and helpful, addressing all the user's questions. However, some information was speculative or not directly confirmed, such as the presence of a library or rooftop bar, which slightly reduced the groundedness score.\",\n}"
+    }
+  },
+  {
+    "session_id": "a07d91df-f30a-48e1-b13b-0bc0dca4b448",
+    "assistant_variant": "peft",
+    "persona": "explorer",
+    "initial_seed_id": "exp_comfort_plus_atmosphere",
+    "long_term_memory_profile": false,
+    "scores": {
+      "task_fulfillment": 4,
+      "groundedness": 3,
+      "clarity": 4,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant fulfilled the user's needs by providing recommendations and answering questions about the hotels. However, there were some gaps in information, such as specific details about amenities and activities at The Vintage Hotel. The assistant maintained a clear and helpful tone throughout the conversation."
+    }
+  },
+  {
+    "session_id": "e7ecd799-1ac9-42c0-accc-bdef57d97d92",
+    "assistant_variant": "peft",
+    "persona": "explorer",
+    "initial_seed_id": "exp_comfort_plus_atmosphere",
+    "long_term_memory_profile": false,
+    "scores": {
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 5,
+      "overall_quality": 5,
+      "binary_success": "yes",
+      "justification": "The assistant provided a detailed recommendation for The Modern Hideaway, addressing the user's specific needs regarding comfort, atmosphere, and accessibility. The information about amenities, location, and nearby dining options was accurate and relevant. The conversation was clear and helpful, and the assistant maintained a friendly tone throughout."
+    }
+  },
+  {
+    "session_id": "3fdcf76a-53b3-46f7-8fe5-322203dd6cac",
+    "assistant_variant": "peft",
+    "persona": "explorer",
+    "initial_seed_id": "exp_spa_relax_trip",
+    "long_term_memory_profile": false,
+    "scores": {
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 5,
+      "overall_quality": 5,
+      "binary_success": "yes",
+      "justification": "The assistant fulfilled the user's request by providing detailed information about The Modern Hideaway and The Grand Canalhouse, addressing the user's specific questions about dining options, pool areas, and star ratings. The responses were clear and relevant, and the assistant maintained a friendly tone throughout the conversation."
+    }
+  },
+  {
+    "session_id": "b2f3addf-77c0-4fd9-a503-3ac9124c0d48",
+    "assistant_variant": "peft",
+    "persona": "explorer",
+    "initial_seed_id": "exp_artsy_creative_vibe",
+    "long_term_memory_profile": false,
+    "scores": {
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant fulfilled the user's request comprehensively, providing detailed information about the hotels' amenities, location, and potential discounts. The responses were clear and relevant, though some details were speculative (e.g., future discount availability). The assistant maintained a friendly tone throughout the conversation."
+    }
+  },
+  {
+    "session_id": "22a28df8-b2f3-40a3-9ba2-ddf50b9bc940",
+    "assistant_variant": "peft",
+    "persona": "minimalist",
+    "initial_seed_id": "min_sleep_only_priority",
+    "long_term_memory_profile": true,
+    "scores": {
+      "task_fulfillment": 4,
+      "groundedness": 3,
+      "clarity": 4,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant fulfilled the user's request by providing detailed recommendations and answering questions about amenities, location, and potential discounts. However, there were some minor factual errors and the assistant did not provide the requested discount information, which slightly reduces the overall quality score."
+    }
+  },
+  {
+    "session_id": "451d546c-a26a-4b7e-be4c-15a3f81d856d",
+    "assistant_variant": "peft",
+    "persona": "minimalist",
+    "initial_seed_id": "min_short_stay_no_frills",
+    "long_term_memory_profile": true,
+    "scores": {
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant provided relevant and accurate recommendations based on the user's preferences, including the Modern Hideaway and the Grand Canalhouse. The assistant also offered to help with availability checks, though noted that this information is not available through the system. The conversation was clear and helpful, but the lack of real-time availability information slightly reduces the overall quality score."
+    }
+  },
+  {
+    "session_id": "a222efd8-f634-49db-add5-a6780cfe17da",
+    "assistant_variant": "peft",
+    "persona": "minimalist",
+    "initial_seed_id": "min_walkable_transport_hub",
+    "long_term_memory_profile": true,
+    "scores": {
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant provided detailed and accurate information about the hotel's amenities, check-in/check-out times, and potential for extending the stay. The responses were clear and helpful, addressing all the user's questions. However, the lack of specific information about early check-ins and discounts led to some uncertainty, slightly lowering the groundedness score."
+    }
+  },
+  {
+    "session_id": "420dd9a4-69e6-4689-b8b3-e7583b57b761",
+    "assistant_variant": "peft",
+    "persona": "minimalist",
+    "initial_seed_id": "min_short_stay_no_frills",
+    "long_term_memory_profile": true,
+    "scores": {
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant provided clear and relevant recommendations for hotels that align with the user's criteria. The information is grounded in the available options and does not introduce any new facts or amenities. The assistant's responses were concise and helpful, fulfilling the user's request without unnecessary detail."
+    }
+  },
+  {
+    "session_id": "8163daf0-0063-4807-a977-2aa378f7295b",
+    "assistant_variant": "peft",
+    "persona": "minimalist",
+    "initial_seed_id": "min_quiet_near_center",
+    "long_term_memory_profile": true,
+    "scores": {
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant provided detailed information about the Modern Hideaway, including its location, amenities, and accessibility. While some questions were not fully answered (e.g., specific restaurant names), the responses were clear and relevant. The assistant maintained a friendly tone and fulfilled the user's needs effectively."
+    }
+  },
+  {
+    "session_id": "189deb26-c772-44ce-907a-722ab28e6382",
+    "assistant_variant": "peft",
+    "persona": "minimalist",
+    "initial_seed_id": "min_sleep_only_priority",
+    "long_term_memory_profile": true,
+    "scores": {
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant fulfilled the user's request by providing recommendations for a suitable accommodation in Amsterdam, addressing their concerns about safety, cleanliness, affordability, internet access, nearby dining options, and location. The information provided is grounded and clear, though there is a slight gap in real-time availability information. The assistant maintained a friendly and helpful tone, contributing to a pleasant interaction."
+    }
+  },
+  {
+    "session_id": "1c203517-36e3-4217-bbdc-87f1c0cf72ae",
+    "assistant_variant": "peft",
+    "persona": "minimalist",
+    "initial_seed_id": "min_simple_business_stopover",
+    "long_term_memory_profile": true,
+    "scores": {
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant provided detailed recommendations and answered all the user's questions regarding the hotel's amenities, location, and accessibility. The responses were clear and informative, though there was no direct confirmation of specific discounts or parking availability."
+    }
+  },
+  {
+    "session_id": "f3021562-bcc4-41b0-b0d9-0bfa72e6496c",
+    "assistant_variant": "peft",
+    "persona": "minimalist",
+    "initial_seed_id": "min_sleep_only_priority",
+    "long_term_memory_profile": true,
+    "scores": {
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 5,
+      "overall_quality": 5,
+      "binary_success": "yes",
+      "justification": "The assistant provided comprehensive recommendations based on the user's criteria, including amenities, location, and dining options. The responses were clear and helpful, and the assistant maintained a friendly tone throughout the conversation."
+    }
+  },
+  {
+    "session_id": "505dcd7a-2708-4c7c-9e6d-d71c79e40417",
+    "assistant_variant": "peft",
+    "persona": "minimalist",
+    "initial_seed_id": "min_good_reviews_under_budget",
+    "long_term_memory_profile": true,
+    "scores": {
+      "task_fulfillment": 4,
+      "groundedness": 3,
+      "clarity": 4,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant fulfilled the user's request by recommending a hotel and providing some restaurant suggestions. However, the groundedness score is slightly lower due to the lack of specific restaurant reviews and the reliance on general knowledge rather than verified data. The assistant was clear and helpful, maintaining a friendly tone, which contributes to the high pleasantness score."
+    }
+  },
+  {
+    "session_id": "b5edfefa-129a-402d-ab1f-65a2b577e415",
+    "assistant_variant": "peft",
+    "persona": "minimalist",
+    "initial_seed_id": "min_central_budget_wifi_3n",
+    "long_term_memory_profile": true,
+    "scores": {
+      "task_fulfillment": 4,
+      "groundedness": 3,
+      "clarity": 4,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant fulfilled the user's request by providing information about The Modern Hideaway, including its location, amenities, and nearby budget-friendly options. However, the assistant did not provide specific information about the availability of rooms within walking distance, discounts, or future plans, which were requested by the user."
+    }
+  },
+  {
+    "session_id": "4ca8ffc4-5720-4bbb-a96e-1bd8a9799083",
+    "assistant_variant": "peft",
+    "persona": "minimalist",
+    "initial_seed_id": "min_central_budget_wifi_3n",
+    "long_term_memory_profile": true,
+    "scores": {
+      "task_fulfillment": 4,
+      "groundedness": 3,
+      "clarity": 4,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant fulfilled the user's request by recommending hotels that meet the criteria and provided additional information about the suggested options. However, the assistant did not provide information about the existence of an outdoor pool at The Modern Hideaway, which could be considered a minor oversight. The conversation was clear and helpful, and the assistant maintained a friendly tone."
+    }
+  },
+  {
+    "session_id": "3943c103-24e0-488a-af80-56587b97970c",
+    "assistant_variant": "peft",
+    "persona": "minimalist",
+    "initial_seed_id": "min_good_reviews_under_budget",
+    "long_term_memory_profile": true,
+    "scores": {
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant fulfilled the user's request by providing a hotel recommendation and suggesting to contact the hotel for current discount information. The response is clear and concise, though it does not provide specific discount details, which could be seen as a slight gap in grounding. The assistant maintained a polite and helpful tone throughout."
+    }
+  },
+  {
+    "session_id": "9b2649f6-4518-4b99-b7d7-f1e27269a0e9",
+    "assistant_variant": "peft",
+    "persona": "minimalist",
+    "initial_seed_id": "min_simple_business_stopover",
+    "long_term_memory_profile": true,
+    "scores": {
+      "task_fulfillment": 4,
+      "groundedness": 3,
+      "clarity": 4,
+      "pleasantness": 3,
+      "overall_quality": 3,
+      "binary_success": "yes",
+      "justification": "The assistant provided detailed information about The Modern Hideaway's amenities and services, including room features, location, and facilities. However, the response lacks specific details about the breakfast menu and the lack of an early check-in option. The assistant's responses were clear and concise, but the information provided was somewhat limited regarding the availability of amenities and services."
+    }
+  },
+  {
+    "session_id": "2656151a-c597-4a31-81e0-423ba2fa7760",
+    "assistant_variant": "peft",
+    "persona": "minimalist",
+    "initial_seed_id": "min_quiet_near_center",
+    "long_term_memory_profile": true,
+    "scores": {
+      "raw_output": "{\n  \"task_fulfillment\": 5,\n  \"groundedness\": 4,\n  \"clarity\": 5,\n  \"pleasantness\": 4,\n  \"overall_quality\": 4,\n  \"binary_success\": \"yes\",\n  \"justification\": \"The assistant fulfilled the user's requests by providing detailed information about the Modern Hideaway, including restaurant options, free breakfast, and room service. However, the assistant did not provide information about other hotels mentioned, which could have been requested. The responses were clear and helpful, but some details were not fully grounded in the original dialogue.\",\n}"
+    }
+  },
+  {
+    "session_id": "05c11029-f0c3-4e0c-b842-a455089119f4",
+    "assistant_variant": "peft",
+    "persona": "minimalist",
+    "initial_seed_id": "min_one_night_late_arrival",
+    "long_term_memory_profile": true,
+    "scores": {
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant provided comprehensive information about the Grand Canalhouse, including location, amenities, and nearby dining options. While some questions were not fully answered due to lack of real-time data, the assistant maintained clarity and provided useful recommendations. The user seemed satisfied with the information provided."
+    }
+  },
+  {
+    "session_id": "5596afbf-c6a7-40d2-9d62-dca2c8880fa8",
+    "assistant_variant": "peft",
+    "persona": "minimalist",
+    "initial_seed_id": "min_central_budget_wifi_3n",
+    "long_term_memory_profile": true,
+    "scores": {
+      "raw_output": "{\n  \"task_fulfillment\": 5,\n  \"groundedness\": 4,\n  \"clarity\": 5,\n  \"pleasantness\": 4,\n  \"overall_quality\": 4,\n  \"binary_success\": \"yes\",\n  \"justification\": \"The assistant fulfilled the user's request by providing recommendations that met their criteria, including location, price range, amenities, and reviews. The responses were clear and concise, and the assistant did not introduce any new or invented information. However, there was a slight repetition in the second response about the Hotel Renaissance Amsterdam Central, which could have been avoided for better flow.\",\n}"
+    }
+  },
+  {
+    "session_id": "6c31e366-b398-4a49-914e-e779dbed93d5",
+    "assistant_variant": "peft",
+    "persona": "minimalist",
+    "initial_seed_id": "min_simple_business_stopover",
+    "long_term_memory_profile": true,
+    "scores": {
+      "task_fulfillment": 4,
+      "groundedness": 3,
+      "clarity": 4,
+      "pleasantness": 3,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant provided detailed recommendations and checked availability, including potential discounts. However, the response lacks specific details such as exact room prices and breakfast options, which could be considered less grounded. The conversation was clear and helpful, but the assistant did not provide the requested specific information."
+    }
+  },
+  {
+    "session_id": "4597bb44-79dc-4f9f-95d6-e34c17e5f053",
+    "assistant_variant": "peft",
+    "persona": "minimalist",
+    "initial_seed_id": "min_walkable_transport_hub",
+    "long_term_memory_profile": true,
+    "scores": {
+      "task_fulfillment": 4,
+      "groundedness": 3,
+      "clarity": 4,
+      "pleasantness": 4,
+      "overall_quality": 3,
+      "binary_success": "yes",
+      "justification": "The assistant fulfilled the user's request regarding the hotel's amenities, location, and pricing. However, there were some issues with groundedness as the assistant did not provide accurate price ranges and made assumptions about the user's preferences. Clarity was generally good, but the assistant could have been more specific about the proximity to dining options and the types of coffee available. Pleasantness was high due to the helpful nature of the interaction."
+    }
+  },
+  {
+    "session_id": "2c078e1d-50f7-40c1-9297-6973a20adcaa",
+    "assistant_variant": "peft",
+    "persona": "minimalist",
+    "initial_seed_id": "min_walkable_transport_hub",
+    "long_term_memory_profile": true,
+    "scores": {
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant provided detailed recommendations and answered all questions regarding the hotel's amenities, location, and availability. The responses were clear and relevant, but there was one instance where the assistant could not provide specific information (breakfast times), leading to a slight deduction in groundedness."
+    }
+  },
+  {
+    "session_id": "db7239b9-f9e4-4082-9480-0a663cbd57d9",
+    "assistant_variant": "peft",
+    "persona": "minimalist",
+    "initial_seed_id": "min_short_stay_no_frills",
+    "long_term_memory_profile": true,
+    "scores": {
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant fulfilled the user's requests by providing detailed information about the hotels, including amenities, location, and potential discounts. The responses were clear and relevant, though there was a lack of specific current pricing information due to the limitations of the AI system."
+    }
+  },
+  {
+    "session_id": "241be51a-a53a-424f-97b8-5d1cee26c7bc",
+    "assistant_variant": "peft",
+    "persona": "minimalist",
+    "initial_seed_id": "min_one_night_late_arrival",
+    "long_term_memory_profile": false,
+    "scores": {
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant provided comprehensive and accurate information about the hotel, including location, amenities, Wi-Fi, nearby restaurants, shuttle services, and breakfast options. The responses were clear and helpful, addressing all user queries. However, there was a slight gap in providing current pricing information and discount details."
+    }
+  },
+  {
+    "session_id": "c83b5ac4-681a-441e-b1f9-63d836af8e2c",
+    "assistant_variant": "peft",
+    "persona": "minimalist",
+    "initial_seed_id": "min_sleep_only_priority",
+    "long_term_memory_profile": false,
+    "scores": {
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant fulfilled the user's request by providing a hotel recommendation, answering questions about amenities, and suggesting nearby dining options. The information provided is grounded and clear, though the user's question about ATMs was not fully answered due to lack of specific data. The assistant maintained a friendly tone throughout the conversation."
+    }
+  },
+  {
+    "session_id": "d4697044-5788-44a7-a5f5-40a3aff2f827",
+    "assistant_variant": "peft",
+    "persona": "minimalist",
+    "initial_seed_id": "min_simple_business_stopover",
+    "long_term_memory_profile": false,
+    "scores": {
+      "raw_output": "{\n  \"task_fulfillment\": 5,\n  \"groundedness\": 4,\n  \"clarity\": 5,\n  \"pleasantness\": 4,\n  \"overall_quality\": 4,\n  \"binary_success\": \"yes\",\n  \"justification\": \"The assistant provided detailed and accurate recommendations based on the user's needs, including specific hotels and amenities. The responses were clear and helpful, addressing the user's questions thoroughly. However, some details like exact locations and specific restaurant names were not verified against real-world facts, leading to a slight deduction in groundedness.\",\n}"
+    }
+  },
+  {
+    "session_id": "2edf457d-5d89-4fce-8ca8-3087a6af9fcc",
+    "assistant_variant": "peft",
+    "persona": "minimalist",
+    "initial_seed_id": "min_good_reviews_under_budget",
+    "long_term_memory_profile": false,
+    "scores": {
+      "task_fulfillment": 4,
+      "groundedness": 3,
+      "clarity": 4,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant provided detailed information about The Modern Hideaway, including its location relative to attractions, breakfast options, and nearby cafes. However, the assistant did not address the user's request for specific cafe names and their addresses, which could have been more helpful. The assistant maintained a clear and helpful tone throughout the conversation."
+    }
+  },
+  {
+    "session_id": "f635f50c-f851-4315-80ee-fd72fcfbcb44",
+    "assistant_variant": "peft",
+    "persona": "minimalist",
+    "initial_seed_id": "min_quiet_near_center",
+    "long_term_memory_profile": false,
+    "scores": {
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant fulfilled the user's request by recommending a hotel, providing information about its location, amenities, and rating, and estimating the nightly rate. The response was clear and concise, and the user seemed satisfied with the information provided."
+    }
+  },
+  {
+    "session_id": "80137c94-3c6a-4f8a-ae05-2269eec5d50f",
+    "assistant_variant": "peft",
+    "persona": "minimalist",
+    "initial_seed_id": "min_central_budget_wifi_3n",
+    "long_term_memory_profile": false,
+    "scores": {
+      "task_fulfillment": 4,
+      "groundedness": 3,
+      "clarity": 4,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant provided relevant and useful information about The Modern Hideaway, including location, amenities, and nearby dining options. However, there were some gaps in information such as the presence of a pool, Wi-Fi cost, and a specific nearby caf\u00e9 serving light meals, which slightly impacted the overall quality."
+    }
+  },
+  {
+    "session_id": "3963f4ef-35de-4cea-bfa7-f88fe5ca08f9",
+    "assistant_variant": "peft",
+    "persona": "minimalist",
+    "initial_seed_id": "min_quiet_near_center",
+    "long_term_memory_profile": false,
+    "scores": {
+      "raw_output": "{\n  \"task_fulfillment\": 5,\n  \"groundedness\": 4,\n  \"clarity\": 5,\n  \"pleasantness\": 4,\n  \"overall_quality\": 4,\n  \"binary_success\": \"yes\",\n  \"justification\": \"The assistant fulfilled the user's requests by providing detailed information about the Modern Hideaway and the Copper Villa, including their amenities and location. The responses are clear and concise, and the assistant did not introduce any new, invented details. However, the assistant could have provided more specific information about the Copper Villa's restaurant options and the cost of the airport shuttle.\",\n}"
+    }
+  },
+  {
+    "session_id": "71ddebf1-d3df-4a0a-b020-68d7598c19fc",
+    "assistant_variant": "peft",
+    "persona": "minimalist",
+    "initial_seed_id": "min_business_trip",
+    "long_term_memory_profile": false,
+    "scores": {
+      "raw_output": "{\n  \"task_fulfillment\": 4,\n  \"groundedness\": 3,\n  \"clarity\": 4,\n  \"pleasantness\": 4,\n  \"overall_quality\": 4,\n  \"binary_success\": \"yes\",\n  \"justification\": \"The assistant provided detailed information about the hotel's amenities and services as requested by the user. However, some questions were not fully answered, such as the specific type of breakfast offered and the availability of early check-in. The assistant's responses were clear and helpful, but there were some gaps in information.\",\n}"
+    }
+  },
+  {
+    "session_id": "f17d4a43-948b-47dc-93d9-71c183767dda",
+    "assistant_variant": "peft",
+    "persona": "minimalist",
+    "initial_seed_id": "min_quiet_near_center",
+    "long_term_memory_profile": false,
+    "scores": {
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant fulfilled the user's request by recommending a hotel and providing information about nearby casual dining options. The details provided are clear and relevant, though the assistant did not invent any new facts or amenities. The response was helpful and concise, maintaining a positive tone."
+    }
+  },
+  {
+    "session_id": "865eee96-cdd2-41f8-aeb0-9007fa34bca5",
+    "assistant_variant": "peft",
+    "persona": "minimalist",
+    "initial_seed_id": "min_good_reviews_under_budget",
+    "long_term_memory_profile": false,
+    "scores": {
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant fulfilled the user's request by providing detailed information about The Modern Hideaway, including its amenities, location, and potential availability. The responses were clear and concise, though some information required the user to look elsewhere (e.g., real-time event schedules and promotions). The assistant maintained a friendly tone throughout the conversation."
+    }
+  },
+  {
+    "session_id": "89fe6e31-816f-4b8a-92ae-6e6760163af1",
+    "assistant_variant": "peft",
+    "persona": "minimalist",
+    "initial_seed_id": "min_just_the_cheapest_ok",
+    "long_term_memory_profile": false,
+    "scores": {
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant fulfilled the user's request by providing information about the Grand Canalhouse, including its location, amenities, and accessibility to attractions. The responses were clear and concise, though there was a slight gap in providing real-time booking availability, which the user acknowledged. The assistant maintained a polite and helpful tone throughout the conversation."
+    }
+  },
+  {
+    "session_id": "f24f7069-ed94-40b1-a432-7a4811fc1db7",
+    "assistant_variant": "peft",
+    "persona": "minimalist",
+    "initial_seed_id": "min_walkable_transport_hub",
+    "long_term_memory_profile": false,
+    "scores": {
+      "raw_output": "{\n  \"task_fulfillment\": 5,\n  \"groundedness\": 4,\n  \"clarity\": 5,\n  \"pleasantness\": 4,\n  \"overall_quality\": 4,\n  \"binary_success\": \"yes\",\n  \"justification\": \"The assistant provided comprehensive information about the Grand Canalhouse, including location, amenities, and nearby dining options. The responses were clear and relevant to the user's questions without introducing any new, invented details. However, the information about the breakfast quality was somewhat vague and not entirely positive, which slightly impacts the overall quality score.\",\n}"
+    }
+  },
+  {
+    "session_id": "333342c6-c774-4bbf-ab16-e9e0d05d85cb",
+    "assistant_variant": "peft",
+    "persona": "minimalist",
+    "initial_seed_id": "min_walkable_transport_hub",
+    "long_term_memory_profile": false,
+    "scores": {
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant fulfilled the user's request by providing detailed information about The Modern Hideaway, including amenities, pricing, and transportation options. The responses were clear and relevant, but there was one instance where the assistant had to speculate about the availability of shuttle services, which slightly reduced the groundedness score."
+    }
+  },
+  {
+    "session_id": "a064b71f-d551-4ec0-be08-9039ee0aa990",
+    "assistant_variant": "peft",
+    "persona": "minimalist",
+    "initial_seed_id": "min_good_reviews_under_budget",
+    "long_term_memory_profile": false,
+    "scores": {
+      "task_fulfillment": 4,
+      "groundedness": 3,
+      "clarity": 4,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant provided clear and relevant information about The Modern Hideaway, including its location, amenities, and nearby vegetarian/vegan restaurant options. However, there were some gaps in information, such as the presence of an indoor pool, which the assistant acknowledged. The conversation was generally pleasant and informative."
+    }
+  },
+  {
+    "session_id": "9a61af22-184e-43e8-84f0-00797377960d",
+    "assistant_variant": "peft",
+    "persona": "minimalist",
+    "initial_seed_id": "min_business_trip",
+    "long_term_memory_profile": false,
+    "scores": {
+      "raw_output": "{\n  \"task_fulfillment\": 5,\n  \"groundedness\": 4,\n  \"clarity\": 5,\n  \"pleasantness\": 4,\n  \"overall_quality\": 4,\n  \"binary_success\": \"yes\",\n  \"justification\": \"The assistant fulfilled the user's requests regarding hotel recommendations, provided detailed information about the amenities offered, and clarified any questions. The conversation was clear and informative, though some details were not fully grounded due to lack of real-time data.\",\n}"
+    }
+  },
+  {
+    "session_id": "1ce421f0-47d9-4650-bd45-2552a0b1e0ac",
+    "assistant_variant": "peft",
+    "persona": "minimalist",
+    "initial_seed_id": "min_simple_business_stopover",
+    "long_term_memory_profile": false,
+    "scores": {
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant fulfilled the user's request by providing detailed recommendations and addressing specific questions about amenities, cleanliness, and pricing. The information provided is grounded in the available reviews and is clear and concise. However, there were some gaps in the information provided, such as the exact prices for each hotel, which slightly reduced the overall quality score."
+    }
+  },
+  {
+    "session_id": "3446cd9d-198e-45aa-96de-3506d1ca0747",
+    "assistant_variant": "peft",
+    "persona": "minimalist",
+    "initial_seed_id": "min_quiet_near_center",
+    "long_term_memory_profile": false,
+    "scores": {
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 5,
+      "overall_quality": 5,
+      "binary_success": "yes",
+      "justification": "The assistant provided detailed and accurate information about the Grand Canalhouse, including its location, amenities, and accessibility. The conversation was clear and helpful, meeting all the user's criteria and providing additional useful information. There were no hallucinations or contradictions."
+    }
+  },
+  {
+    "session_id": "95b4d41b-6d11-4b82-af36-24777331f783",
+    "assistant_variant": "peft",
+    "persona": "minimalist",
+    "initial_seed_id": "min_simple_business_stopover",
+    "long_term_memory_profile": false,
+    "scores": {
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant provided detailed and accurate information about The Modern Hideaway, including its location, amenities, and nearby options. The responses were clear and helpful, addressing the user's questions thoroughly. However, the assistant did not provide specific details about parking or bike rental services, which could have been beneficial. The conversation was pleasant and informative."
+    }
+  },
+  {
+    "session_id": "23106701-01b6-4a04-8cf1-a9884442bcaf",
+    "assistant_variant": "peft",
+    "persona": "minimalist",
+    "initial_seed_id": "min_business_trip",
+    "long_term_memory_profile": false,
+    "scores": {
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 5,
+      "overall_quality": 5,
+      "binary_success": "yes",
+      "justification": "The assistant provided accurate and relevant recommendations based on the user's criteria, including details like Wi-Fi, desk, proximity to the center, and amenities such as a hot tub. The assistant also addressed the user's additional questions about services like breakfast, late checkouts, and parking, providing clear and helpful responses without inventing new facts or amenities."
+    }
+  },
+  {
+    "session_id": "1a7237e3-6298-43ab-8dc2-c302e6724519",
+    "assistant_variant": "peft",
+    "persona": "minimalist",
+    "initial_seed_id": "min_simple_business_stopover",
+    "long_term_memory_profile": false,
+    "scores": {
+      "task_fulfillment": 4,
+      "groundedness": 3,
+      "clarity": 4,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant provided relevant recommendations and answered the user's questions to a satisfactory extent. However, the response about breakfast options was vague and did not specify vegan or vegetarian choices, which slightly reduces clarity and groundedness. The assistant was clear and helpful throughout the conversation."
+    }
+  },
+  {
     "session_id": "86e1ef64-817b-4160-9fb4-07e6c880ae26",
     "assistant_variant": "prompt",
     "persona": "explorer",
     "initial_seed_id": "exp_green_relaxed_area",
     "long_term_memory_profile": true,
     "scores": {
-      "raw_output": "{\n    \"task_fulfillment\": 4,\n    \"groundedness\": 3,\n    \"clarity\": 4,\n    \"pleasantness\": 3,\n    \"overall_quality\": 4,\n    \"binary_success\": \"yes\",\n    \"justification\": \"The assistant provided a suitable hotel suggestion that met the user's criteria of being calm, green, and connected to the city. They also offered relevant information about bike rentals and restaurant options without overcomplicating the response. The answer was clear and useful.\"\n}"
+      "raw_output": "{\n  \"task_fulfillment\": 5,\n  \"groundedness\": 4,\n  \"clarity\": 5,\n  \"pleasantness\": 4,\n  \"overall_quality\": 4,\n  \"binary_success\": \"yes\",\n  \"justification\": \"The assistant fulfilled the user's request by recommending a hotel and providing additional details such as the availability of bike rentals and general information about restaurant options. However, the assistant did not provide specific restaurant names or details, which slightly reduces groundedness.\",\n}"
     }
   },
   {
@@ -16,7 +1206,7 @@
     "initial_seed_id": "exp_social_budget_hostel_vibe",
     "long_term_memory_profile": true,
     "scores": {
-      "raw_output": "{\n    \"task_fulfillment\": 4,\n    \"groundedness\": 3,\n    \"clarity\": 4,\n    \"pleasantness\": 4,\n    \"overall_quality\": 4,\n    \"binary_success\": \"yes\",\n    \"justification\": \"The assistant provided relevant and accurate information about accommodations and nearby attractions, fulfilling the user's request effectively. The response was clear and concise without unnecessary elaboration.\"\n}"
+      "raw_output": "{\n  \"task_fulfillment\": 5,\n  \"groundedness\": 4,\n  \"clarity\": 5,\n  \"pleasantness\": 5,\n  \"overall_quality\": 5,\n  \"binary_success\": \"yes\",\n  \"justification\": \"The assistant fulfilled the user's request by providing a recommended hotel with a social atmosphere and good reviews. The information provided is grounded in reality and relevant to the user's needs. The assistant's responses are clear and concise, and the user expresses satisfaction. There are no hallucinations or invented details, and the assistant maintains a positive tone.\",\n}"
     }
   },
   {
@@ -26,7 +1216,13 @@
     "initial_seed_id": "exp_canal_view_atmosphere",
     "long_term_memory_profile": true,
     "scores": {
-      "raw_output": "{\n    \"task_fulfillment\": 4,\n    \"groundedness\": 3,\n    \"clarity\": 4,\n    \"pleasantness\": 3,\n    \"overall_quality\": 4,\n    \"binary_success\": \"yes\",\n    \"justification\": \"The assistant provided recommendations that aligned well with the user's criteria, offered accurate information about amenities and nearby attractions, and maintained a polite tone throughout the interaction.\"\n}"
+      "task_fulfillment": 4,
+      "groundedness": 3,
+      "clarity": 4,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant fulfilled the user's request by recommending a hotel and providing information about Wi-Fi and nearby restaurants. However, the hotel's amenities were not verified, and the user's question about the restaurant's authenticity was not fully addressed."
     }
   },
   {
@@ -36,7 +1232,13 @@
     "initial_seed_id": "exp_social_budget_hostel_vibe",
     "long_term_memory_profile": true,
     "scores": {
-      "raw_output": "{\n    \"task_fulfillment\": 5,\n    \"groundedness\": 5,\n    \"clarity\": 5,\n    \"pleasantness\": 5,\n    \"overall_quality\": 5,\n    \"binary_success\": \"yes\",\n    \"justification\": \"The assistant provided detailed and accurate information about The Modern Hideaway, addressing all the user's questions and meeting their requirements without adding any unrealistic elements.\"\n}"
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 5,
+      "overall_quality": 5,
+      "binary_success": "yes",
+      "justification": "The assistant provided detailed and accurate information about The Modern Hideaway, addressing all user queries regarding amenities, services, and features. The responses were clear and helpful, fulfilling the user's request without introducing any fabricated details or speculation."
     }
   },
   {
@@ -46,7 +1248,13 @@
     "initial_seed_id": "exp_social_budget_hostel_vibe",
     "long_term_memory_profile": true,
     "scores": {
-      "raw_output": "{\n    \"task_fulfillment\": 4,\n    \"groundedness\": 3,\n    \"clarity\": 4,\n    \"pleasantness\": 4,\n    \"overall_quality\": 4,\n    \"binary_success\": \"yes\",\n    \"justification\": \"The assistant provided relevant information about accommodations and suggested activities within the user's budget and preferences. The response was clear and helpful without being overly verbose.\"\n}"
+      "task_fulfillment": 4,
+      "groundedness": 3,
+      "clarity": 4,
+      "pleasantness": 3,
+      "overall_quality": 3,
+      "binary_success": "yes",
+      "justification": "The assistant provided relevant recommendations and information about the hotel and nearby options. However, there were some issues such as providing amenities that are not typically found in hotels (e.g., billiards, hot tub), and the assistant did not address the user's request for specific restaurant names or addresses."
     }
   },
   {
@@ -56,7 +1264,13 @@
     "initial_seed_id": "exp_comfort_plus_atmosphere",
     "long_term_memory_profile": true,
     "scores": {
-      "raw_output": "{\n  \"task_fulfillment\": 3,\n  \"groundedness\": 4,\n  \"clarity\": 4,\n  \"pleasantness\": 3,\n  \"overall_quality\": 4,\n  \"binary_success\": \"yes\",\n  \"justification\": \"The assistant provided relevant recommendations and additional information without introducing unrealistic elements like unique dining options or specific amenities not mentioned in the original query. The response was clear and focused on meeting the user's needs.\"\n}"
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 5,
+      "overall_quality": 5,
+      "binary_success": "yes",
+      "justification": "The assistant provided comprehensive recommendations and detailed information about the hotel and nearby dining options, fulfilling the user's request. The responses are clear and relevant, and the assistant maintains a friendly tone throughout the conversation."
     }
   },
   {
@@ -66,7 +1280,13 @@
     "initial_seed_id": "exp_green_relaxed_area",
     "long_term_memory_profile": true,
     "scores": {
-      "raw_output": "{\n    \"task_fulfillment\": 4,\n    \"groundedness\": 3,\n    \"clarity\": 4,\n    \"pleasantness\": 3,\n    \"overall_quality\": 4,\n    \"binary_success\": \"yes\",\n    \"justification\": \"The assistant provided detailed information about hotels and nearby restaurants without introducing any unrealistic elements. The response was clear and relevant to the user's query.\"\n}"
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant fulfilled the user's request by recommending a hotel and listing nearby restaurants. The information provided is grounded and clear, though there were no invented details or speculation. The assistant was also polite and concise, maintaining a high level of pleasantness."
     }
   },
   {
@@ -76,7 +1296,7 @@
     "initial_seed_id": "exp_foodie_hotel_plus_restaurants",
     "long_term_memory_profile": true,
     "scores": {
-      "raw_output": "{\n    \"task_fulfillment\": 4,\n    \"groundedness\": 3,\n    \"clarity\": 4,\n    \"pleasantness\": 3,\n    \"overall_quality\": 4,\n    \"binary_success\": \"yes\",\n    \"justification\": \"The assistant provided detailed information about the recommended hotels and restaurants without adding fictional elements. The response was clear and relevant to the user's query.\"\n}"
+      "raw_output": "{\n  \"task_fulfillment\": 5,\n  \"groundedness\": 4,\n  \"clarity\": 5,\n  \"pleasantness\": 4,\n  \"overall_quality\": 4,\n  \"binary_success\": \"yes\",\n  \"justification\": \"The assistant provided detailed recommendations and additional information as requested by the user, fulfilling the task requirements. The responses are clear and concise, and the user seems satisfied. However, the assistant did not provide specific price ranges for the other recommended restaurants, which could have been beneficial for the user's budgeting.\",\n}"
     }
   },
   {
@@ -86,7 +1306,7 @@
     "initial_seed_id": "exp_canal_view_atmosphere",
     "long_term_memory_profile": true,
     "scores": {
-      "raw_output": "{\n    \"task_fulfillment\": 4,\n    \"groundedness\": 3,\n    \"clarity\": 4,\n    \"pleasantness\": 4,\n    \"overall_quality\": 4,\n    \"binary_success\": \"yes\",\n    \"justification\": \"The assistant provided a suitable recommendation based on the user's criteria, offered relevant information about the hotel's amenities, and concluded politely without any contradictions.\"\n}"
+      "raw_output": "{\n  \"task_fulfillment\": 5,\n  \"groundedness\": 4,\n  \"clarity\": 5,\n  \"pleasantness\": 4,\n  \"overall_quality\": 4,\n  \"binary_success\": \"yes\",\n  \"justification\": \"The assistant fulfilled the user's request by recommending a hotel that matches their criteria and provided additional useful information about bicycle rentals. However, there was no direct confirmation about the availability of bicycles, which could have been more explicit.\",\n}"
     }
   },
   {
@@ -96,7 +1316,7 @@
     "initial_seed_id": "exp_unique_small_hotel",
     "long_term_memory_profile": true,
     "scores": {
-      "raw_output": "{\n    \"task_fulfillment\": 5,\n    \"groundedness\": 4,\n    \"clarity\": 4,\n    \"pleasantness\": 3,\n    \"overall_quality\": 4,\n    \"binary_success\": \"yes\",\n    \"justification\": \"The assistant provided a highly relevant recommendation and additional information about activities at the hotel without introducing any unrealistic elements.\"\n}"
+      "raw_output": "{\n  \"task_fulfillment\": 5,\n  \"groundedness\": 4,\n  \"clarity\": 5,\n  \"pleasantness\": 4,\n  \"overall_quality\": 4,\n  \"binary_success\": \"yes\",\n  \"justification\": \"The assistant fulfilled the user's request by recommending a specific hotel and providing additional information about its offerings. The response was clear and concise, and the information provided was grounded in reality. However, the assistant could have been more specific about the types of tours offered without inventing new details.\",\n}"
     }
   },
   {
@@ -106,7 +1326,7 @@
     "initial_seed_id": "exp_canal_view_atmosphere",
     "long_term_memory_profile": true,
     "scores": {
-      "raw_output": "{\n    \"task_fulfillment\": 4,\n    \"groundedness\": 3,\n    \"clarity\": 4,\n    \"pleasantness\": 4,\n    \"overall_quality\": 4,\n    \"binary_success\": \"yes\",\n    \"justification\": \"The assistant provided relevant recommendations that aligned with the user's preferences. The responses were clear and focused on the key points without unnecessary elaboration.\"\n}"
+      "raw_output": "{\n  \"task_fulfillment\": 5,\n  \"groundedness\": 4,\n  \"clarity\": 5,\n  \"pleasantness\": 4,\n  \"overall_quality\": 4,\n  \"binary_success\": \"yes\",\n  \"justification\": \"The assistant provided clear and relevant recommendations for a small, atmospheric hotel in Amsterdam with a canal view and a cozy vibe. They offered suggestions for bike rentals, authentic Dutch cuisine, and additional dining options, fulfilling the user's needs effectively. However, the assistant did not provide specific details about the authenticity of the Dutch cuisine or the exact locations of the recommended restaurants, which slightly reduces groundedness.\",\n}"
     }
   },
   {
@@ -116,7 +1336,13 @@
     "initial_seed_id": "exp_unique_small_hotel",
     "long_term_memory_profile": true,
     "scores": {
-      "raw_output": "{\n    \"task_fulfillment\": 5,\n    \"groundedness\": 4,\n    \"clarity\": 3,\n    \"pleasantness\": 4,\n    \"overall_quality\": 4,\n    \"binary_success\": \"yes\",\n    \"justification\": \"The assistant provided accurate information about The Modern Hideaway, including its amenities, location, and availability. They confirmed the presence of bike rentals without inventing details or speculating. The response was clear and relevant to the user's query.\"\n}"
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant provided a detailed recommendation for a hotel that meets the user's preferences, including specific amenities and location details. However, the assistant did not confirm the availability of bike rentals, which the user specifically asked about, leading to a slight deduction in clarity and groundedness."
     }
   },
   {
@@ -126,7 +1352,13 @@
     "initial_seed_id": "exp_green_relaxed_area",
     "long_term_memory_profile": true,
     "scores": {
-      "raw_output": "{\n    \"task_fulfillment\": 4,\n    \"groundedness\": 3,\n    \"clarity\": 4,\n    \"pleasantness\": 3,\n    \"overall_quality\": 4,\n    \"binary_success\": \"yes\",\n    \"justification\": \"The assistant provided multiple options that fit the user's criteria, including specific recommendations like 'The Modern Hideaway' and 'Copper Villa'. While some suggestions were not directly related to the initial query about biking and tours, they were relevant to other parts of the conversation. The response was clear and helpful, though slightly verbose.\"\n}"
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant fulfilled the user's request by providing multiple hotel options that meet the specified criteria. However, some details like specific amenities were not fully grounded due to lack of real-world information, leading to a slight deduction in groundedness. The assistant provided clear and helpful responses throughout the conversation."
     }
   },
   {
@@ -136,7 +1368,13 @@
     "initial_seed_id": "exp_unique_small_hotel",
     "long_term_memory_profile": true,
     "scores": {
-      "raw_output": "{\n    \"task_fulfillment\": 4,\n    \"groundedness\": 3,\n    \"clarity\": 4,\n    \"pleasantness\": 4,\n    \"overall_quality\": 4,\n    \"binary_success\": \"yes\",\n    \"justification\": \"The assistant provided detailed recommendations and answered questions accurately, fulfilling the user's request effectively. The response was clear and relevant, offering specific details about the hotel's amenities, location, and nearby attractions.\"\n}"
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant provided detailed and accurate information about The Modern Hideaway, including its location, amenities, and nearby attractions. However, there were no new questions asked by the user, indicating that the conversation ended as intended."
     }
   },
   {
@@ -146,7 +1384,7 @@
     "initial_seed_id": "exp_local_neighborhood_feel",
     "long_term_memory_profile": true,
     "scores": {
-      "raw_output": "{\n  \"task_fulfillment\": 4,\n  \"groundedness\": 3,\n  \"clarity\": 4,\n  \"pleasantness\": 4,\n  \"overall_quality\": 4,\n  \"binary_success\": \"yes\",\n  \"justification\": \"The assistant provided detailed recommendations and clarified questions without adding unnecessary details or inventing new information.\"\n}"
+      "raw_output": "{\n  \"task_fulfillment\": 5,\n  \"groundedness\": 4,\n  \"clarity\": 5,\n  \"pleasantness\": 4,\n  \"overall_quality\": 4,\n  \"binary_success\": \"yes\",\n  \"justification\": \"The assistant provided detailed recommendations and information as requested by the user, maintaining a clear and concise dialogue. However, the assistant did not provide specific details about the rooftop bar's atmosphere or menu, which slightly reduces the groundedness score.\",\n}"
     }
   },
   {
@@ -156,7 +1394,7 @@
     "initial_seed_id": "exp_comfort_plus_atmosphere",
     "long_term_memory_profile": true,
     "scores": {
-      "raw_output": "{\n  \"task_fulfillment\": 4,\n  \"groundedness\": 3,\n  \"clarity\": 4,\n  \"pleasantness\": 4,\n  \"overall_quality\": 4,\n  \"binary_success\": \"yes\",\n  \"justification\": \"The assistant provided accurate and relevant information about The Modern Hideaway, addressing the user's specific requirements such as comfort, atmosphere, amenities, and transportation options. The response was clear and concise without unnecessary elaboration.\"\n}"
+      "raw_output": "{\n  \"task_fulfillment\": 5,\n  \"groundedness\": 4,\n  \"clarity\": 5,\n  \"pleasantness\": 5,\n  \"overall_quality\": 5,\n  \"binary_success\": \"yes\",\n  \"justification\": \"The assistant fulfilled the user's request comprehensively, providing accurate information about the hotel's location, amenities, and services. The responses were clear and concise, and the assistant maintained a friendly tone throughout the conversation. No hallucinations or invented details were present, and the information was grounded in reality as per the user's query.\",\n}"
     }
   },
   {
@@ -166,7 +1404,13 @@
     "initial_seed_id": "exp_artsy_creative_vibe",
     "long_term_memory_profile": true,
     "scores": {
-      "raw_output": "{\n    \"task_fulfillment\": 4,\n    \"groundedness\": 3,\n    \"clarity\": 4,\n    \"pleasantness\": 3,\n    \"overall_quality\": 4,\n    \"binary_success\": \"yes\",\n    \"justification\": \"The response effectively fulfills the user's request by recommending a hotel with creative ambiance and providing information about nearby restaurants without introducing unrealistic elements.\"\n}"
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant provided a well-researched and detailed recommendation for a hotel in Amsterdam that meets the user's criteria. They offered specific information about the hotel's location, amenities, and nearby dining options. However, the assistant did not provide information about the restaurant's menu or specific dishes, which could have been more helpful. The assistant maintained a clear and friendly tone throughout the conversation."
     }
   },
   {
@@ -176,7 +1420,13 @@
     "initial_seed_id": "exp_unique_small_hotel",
     "long_term_memory_profile": true,
     "scores": {
-      "raw_output": "{\n    \"task_fulfillment\": 5,\n    \"groundedness\": 5,\n    \"clarity\": 5,\n    \"pleasantness\": 5,\n    \"overall_quality\": 5,\n    \"binary_success\": \"yes\",\n    \"justification\": \"The assistant provided highly relevant and accurate information about the hotel, its amenities, and local attractions without adding any fictional elements. The responses were clear, helpful, and aligned perfectly with the user's preferences.\"\n}"
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 5,
+      "overall_quality": 5,
+      "binary_success": "yes",
+      "justification": "The assistant provided clear and accurate recommendations for a hotel in Amsterdam that aligns with the user's preferences. They offered specific details such as the hotel's location, amenities, and nearby dining options, fulfilling the user's requests effectively without introducing any fabricated information."
     }
   },
   {
@@ -186,7 +1436,13 @@
     "initial_seed_id": "exp_unique_small_hotel",
     "long_term_memory_profile": true,
     "scores": {
-      "raw_output": "{\n    \"task_fulfillment\": 5,\n    \"groundedness\": 4,\n    \"clarity\": 3,\n    \"pleasantness\": 4,\n    \"overall_quality\": 4,\n    \"binary_success\": \"yes\",\n    \"justification\": \"The assistant provided accurate and relevant information about The Vintage Hotel, including its amenities such as bike rentals and cooking classes. The response was clear and helpful without unnecessary elaboration.\"\n}"
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant fulfilled the user's requests regarding hotel amenities and provided clear, concise information. However, some details were not fully confirmed (e.g., cooking classes), which slightly reduces the groundedness score."
     }
   },
   {
@@ -196,7 +1452,303 @@
     "initial_seed_id": "exp_canal_view_atmosphere",
     "long_term_memory_profile": true,
     "scores": {
-      "raw_output": "{\n    \"task_fulfillment\": 4,\n    \"groundedness\": 3,\n    \"clarity\": 4,\n    \"pleasantness\": 3,\n    \"overall_quality\": 4,\n    \"binary_success\": \"yes\",\n    \"justification\": \"The assistant provided relevant recommendations based on the user's criteria, including specific hotels and their features. The response was clear and informative without unnecessary elaboration.\"\n}"
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant provided detailed recommendations and relevant information based on the user's preferences, including specific hotel names and their features. The responses were clear and concise, and the user seemed satisfied with the information provided."
+    }
+  },
+  {
+    "session_id": "a9fb3fdc-f311-4e35-a2e8-9f33f78f8931",
+    "assistant_variant": "prompt",
+    "persona": "explorer",
+    "initial_seed_id": "exp_long_stay_explore_city",
+    "long_term_memory_profile": false,
+    "scores": {
+      "raw_output": "{\n  \"task_fulfillment\": 4,\n  \"groundedness\": 3,\n  \"clarity\": 4,\n  \"pleasantness\": 4,\n  \"overall_quality\": 4,\n  \"binary_success\": \"yes\",\n  \"justification\": \"The assistant provided relevant recommendations and information based on the user's needs, including a hotel, nearby cafes, and restaurants. However, the score for groundedness is slightly lower because the assistant did not specify the exact location of the cafes and shops mentioned, which could have been more precise. The conversation was clear and helpful, and the assistant maintained a friendly tone.\",\n}"
+    }
+  },
+  {
+    "session_id": "c3de47b6-ebdb-4f93-85f3-e558d256871d",
+    "assistant_variant": "prompt",
+    "persona": "explorer",
+    "initial_seed_id": "exp_romantic_weekend",
+    "long_term_memory_profile": false,
+    "scores": {
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant provided a well-researched and detailed recommendation for a hotel in Amsterdam that meets the user's criteria. The response was clear and concise, addressing the user's specific questions about amenities and nearby dining options. However, the assistant could have been more specific about the exact location of Bistro de la Mar and La Cucina di Giorgio if possible."
+    }
+  },
+  {
+    "session_id": "1b8183c8-d931-4403-a3cf-6ff651a83aec",
+    "assistant_variant": "prompt",
+    "persona": "explorer",
+    "initial_seed_id": "exp_local_neighborhood_feel",
+    "long_term_memory_profile": false,
+    "scores": {
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant fulfilled all the user's requests regarding hotel recommendations, including room types, nearby restaurants, amenities, pet-friendliness, and breakfast inclusion. The responses were clear and detailed, though there was one factual error about the absence of a rooftop terrace. The assistant maintained a friendly tone throughout the conversation."
+    }
+  },
+  {
+    "session_id": "bfddce9e-1de7-4b74-9658-4247e3797601",
+    "assistant_variant": "prompt",
+    "persona": "explorer",
+    "initial_seed_id": "exp_artsy_creative_vibe",
+    "long_term_memory_profile": false,
+    "scores": {
+      "task_fulfillment": 4,
+      "groundedness": 3,
+      "clarity": 4,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant fulfilled the user's request by providing a recommended hotel and addressing specific questions about amenities. However, there were some limitations due to the lack of direct information about the rooftop bar. The response was clear and helpful, maintaining a friendly tone, and the user seemed satisfied with the information provided."
+    }
+  },
+  {
+    "session_id": "59b2e2a4-9254-4121-a220-bfd8b2c2dc9b",
+    "assistant_variant": "prompt",
+    "persona": "explorer",
+    "initial_seed_id": "exp_local_neighborhood_feel",
+    "long_term_memory_profile": false,
+    "scores": {
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant fulfilled the user's request by providing recommendations for hotels in Amsterdam that meet the specified criteria. The information provided is grounded and clear, though the assistant did not confirm vegetarian options for breakfast at Le Grand Canalhouse, which slightly reduces groundedness. The assistant maintained a friendly tone and provided useful information throughout the conversation."
+    }
+  },
+  {
+    "session_id": "4fbeb861-2f0b-4a44-ade9-1383abe49feb",
+    "assistant_variant": "prompt",
+    "persona": "explorer",
+    "initial_seed_id": "exp_unique_small_hotel",
+    "long_term_memory_profile": false,
+    "scores": {
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 5,
+      "overall_quality": 5,
+      "binary_success": "yes",
+      "justification": "The assistant fulfilled the user's request by recommending a specific hotel and providing information about its location and an additional service. The response is clear, relevant, and helpful without introducing any invented details or speculation."
+    }
+  },
+  {
+    "session_id": "71572ef8-a7ff-4647-9796-3f1037eadaee",
+    "assistant_variant": "prompt",
+    "persona": "explorer",
+    "initial_seed_id": "exp_unique_small_hotel",
+    "long_term_memory_profile": false,
+    "scores": {
+      "task_fulfillment": 4,
+      "groundedness": 3,
+      "clarity": 4,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant provided relevant information about the hotel and its location, as well as recommendations for nearby restaurants and cafes. However, the assistant did not find any organized tours or walking routes for the user's request, which led to a slight deduction in task fulfillment. The response was clear and helpful, maintaining a positive tone throughout."
+    }
+  },
+  {
+    "session_id": "b36a467a-186f-465b-8cf3-19d436f51331",
+    "assistant_variant": "prompt",
+    "persona": "explorer",
+    "initial_seed_id": "exp_long_stay_explore_city",
+    "long_term_memory_profile": false,
+    "scores": {
+      "task_fulfillment": 4,
+      "groundedness": 3,
+      "clarity": 4,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant provided detailed information about The Modern Hideaway, including its location, amenities, restaurant options, and bike rental services. However, the assistant did not address the user's specific request for restaurant availability and did not confirm the availability of bike rental services. The responses were clear and helpful, but some details were not fully addressed."
+    }
+  },
+  {
+    "session_id": "7e9b0865-2cac-497a-9b29-36b4ff81577c",
+    "assistant_variant": "prompt",
+    "persona": "explorer",
+    "initial_seed_id": "exp_local_neighborhood_feel",
+    "long_term_memory_profile": false,
+    "scores": {
+      "raw_output": "{\n  \"task_fulfillment\": 5,\n  \"groundedness\": 4,\n  \"clarity\": 5,\n  \"pleasantness\": 4,\n  \"overall_quality\": 4,\n  \"binary_success\": \"yes\",\n  \"justification\": \"The assistant fulfilled the user's request by recommending a hotel and providing information about nearby cafes and bars. The recommendations are grounded in the user's criteria and provided clearly without inventing new details or amenities. However, the assistant could have been more specific about the types of local specialties available at the recommended cafes and bars.\",\n}"
+    }
+  },
+  {
+    "session_id": "93bd9634-0d15-480b-93d6-38e50e2f9635",
+    "assistant_variant": "prompt",
+    "persona": "explorer",
+    "initial_seed_id": "exp_unique_small_hotel",
+    "long_term_memory_profile": false,
+    "scores": {
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 5,
+      "overall_quality": 5,
+      "binary_success": "yes",
+      "justification": "The assistant provided accurate information about The Modern Hideaway, including its location, amenities, and services such as guided tours and bike rentals. The responses were clear and helpful, and the assistant did not introduce any invented details or speculations."
+    }
+  },
+  {
+    "session_id": "9802e9c5-1aa8-43a9-bccc-a9b96f579fce",
+    "assistant_variant": "prompt",
+    "persona": "explorer",
+    "initial_seed_id": "exp_romantic_weekend",
+    "long_term_memory_profile": false,
+    "scores": {
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 5,
+      "overall_quality": 5,
+      "binary_success": "yes",
+      "justification": "The assistant provided comprehensive recommendations and accurate information throughout the conversation, fulfilling the user's needs regarding hotel suggestions, restaurant options, and pricing. The responses were clear and helpful, maintaining a positive tone."
+    }
+  },
+  {
+    "session_id": "caafd781-9055-4464-80f3-d1a4203f6cae",
+    "assistant_variant": "prompt",
+    "persona": "explorer",
+    "initial_seed_id": "exp_romantic_weekend",
+    "long_term_memory_profile": false,
+    "scores": {
+      "task_fulfillment": 4,
+      "groundedness": 3,
+      "clarity": 4,
+      "pleasantness": 3,
+      "overall_quality": 3,
+      "binary_success": "yes",
+      "justification": "The assistant provided a suitable hotel recommendation and answered the user's questions regarding the hotel's proximity to the canals and nearby dining options. However, the score is slightly lower due to the lack of detailed information about the restaurant options and the fact that the assistant did not provide a direct answer to the user's question about the authenticity of the Dutch cuisine."
+    }
+  },
+  {
+    "session_id": "19d232dc-998e-43e9-8fa3-27866b7bf828",
+    "assistant_variant": "prompt",
+    "persona": "explorer",
+    "initial_seed_id": "exp_local_neighborhood_feel",
+    "long_term_memory_profile": false,
+    "scores": {
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant provided comprehensive recommendations and relevant information based on the user's criteria. However, there were no new invented details or speculations, and the response was clear and helpful."
+    }
+  },
+  {
+    "session_id": "8b9d85c8-aace-4ca7-8e71-c4f70498bfde",
+    "assistant_variant": "prompt",
+    "persona": "explorer",
+    "initial_seed_id": "exp_neighborhood_exploration_base",
+    "long_term_memory_profile": false,
+    "scores": {
+      "raw_output": "{\n  \"task_fulfillment\": 5,\n  \"groundedness\": 4,\n  \"clarity\": 5,\n  \"pleasantness\": 4,\n  \"overall_quality\": 4,\n  \"binary_success\": \"yes\",\n  \"justification\": \"The assistant provided a clear and detailed recommendation for The Modern Hideaway, including its location and amenities. The response was also helpful and answered the user's question about nearby attractions. However, the assistant could have been more concise in the follow-up question without repeating the user's request for more information.\",\n}"
+    }
+  },
+  {
+    "session_id": "393b1d56-6651-45ca-9ef5-0b82599ea4f8",
+    "assistant_variant": "prompt",
+    "persona": "explorer",
+    "initial_seed_id": "exp_long_stay_explore_city",
+    "long_term_memory_profile": false,
+    "scores": {
+      "raw_output": "{\n  \"task_fulfillment\": 4,\n  \"groundedness\": 3,\n  \"clarity\": 4,\n  \"pleasantness\": 4,\n  \"overall_quality\": 4,\n  \"binary_success\": \"yes\",\n  \"justification\": \"The assistant provided relevant and useful information about the hotel and its amenities, as well as transportation options. However, there were some minor issues such as not specifying the exact location of Caf\u00e9 de Kerkstraat and De Nieuwe Kerk, and the lack of specific event information. The conversation was clear and helpful, and the assistant maintained a friendly tone.\",\n}"
+    }
+  },
+  {
+    "session_id": "8a210741-56a3-4089-85de-b841ef419c7a",
+    "assistant_variant": "prompt",
+    "persona": "explorer",
+    "initial_seed_id": "exp_neighborhood_exploration_base",
+    "long_term_memory_profile": false,
+    "scores": {
+      "task_fulfillment": 4,
+      "groundedness": 3,
+      "clarity": 4,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant provided a clear and helpful response regarding the hotel and nearby dining options. However, the description of amenities and restaurant options could be considered less grounded due to the assumption of specific features not necessarily present in all hotels. The assistant's responses were clear and concise, and the interaction was pleasant."
+    }
+  },
+  {
+    "session_id": "d87a3f43-e39c-4934-bca7-2b8562cb7f5a",
+    "assistant_variant": "prompt",
+    "persona": "explorer",
+    "initial_seed_id": "exp_green_relaxed_area",
+    "long_term_memory_profile": false,
+    "scores": {
+      "raw_output": "{\n  \"task_fulfillment\": 5,\n  \"groundedness\": 4,\n  \"clarity\": 5,\n  \"pleasantness\": 4,\n  \"overall_quality\": 4,\n  \"binary_success\": \"yes\",\n  \"justification\": \"The assistant fulfilled the user's request by recommending a suitable hotel and providing information about nearby dining options. However, the recommendation could have been more specific regarding the exact location of the cafes and eateries. The assistant maintained clarity throughout the conversation and provided helpful information, though the lack of detailed restaurant information slightly reduces groundedness.\",\n}"
+    }
+  },
+  {
+    "session_id": "a68cdaf1-2c3c-409b-a1fe-61cfa406db3d",
+    "assistant_variant": "prompt",
+    "persona": "explorer",
+    "initial_seed_id": "exp_green_relaxed_area",
+    "long_term_memory_profile": false,
+    "scores": {
+      "task_fulfillment": 4,
+      "groundedness": 3,
+      "clarity": 4,
+      "pleasantness": 3,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant fulfilled the user's request by providing a hotel recommendation and suggesting nearby dining options. However, the response lacks specific availability details and does not provide a clear answer to the availability question, leading to a slight deduction in clarity and groundedness scores."
+    }
+  },
+  {
+    "session_id": "540e9288-97b1-4077-9e32-db6816681fa7",
+    "assistant_variant": "prompt",
+    "persona": "explorer",
+    "initial_seed_id": "exp_canal_view_atmosphere",
+    "long_term_memory_profile": false,
+    "scores": {
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant provided accurate and relevant information throughout the conversation, fulfilling the user's needs regarding a hotel recommendation, restaurant suggestions, and local amenities. However, there were no new questions or requests from the user, so the conversation ended without any further need for clarification or elaboration."
+    }
+  },
+  {
+    "session_id": "9d68750f-3689-400d-8e3b-ef406a993493",
+    "assistant_variant": "prompt",
+    "persona": "explorer",
+    "initial_seed_id": "exp_local_neighborhood_feel",
+    "long_term_memory_profile": false,
+    "scores": {
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 5,
+      "overall_quality": 5,
+      "binary_success": "yes",
+      "justification": "The assistant fulfilled the user's request by recommending a hotel and providing additional details such as room types. The information is grounded and clear, and the assistant's responses were polite and helpful without any hallucinations or speculation."
     }
   },
   {
@@ -206,7 +1758,13 @@
     "initial_seed_id": "min_central_budget_wifi_3n",
     "long_term_memory_profile": true,
     "scores": {
-      "raw_output": "{\n  \"task_fulfillment\": 5,\n  \"groundedness\": 5,\n  \"clarity\": 5,\n  \"pleasantness\": 5,\n  \"overall_quality\": 5,\n  \"binary_success\": \"yes\",\n  \"justification\": \"The assistant provided detailed, accurate, and relevant information about multiple hotels meeting the user's criteria. The responses were clear, concise, and well-grounded without introducing any fictional elements.\"\n}"
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant provided clear and accurate recommendations based on the user's criteria, including details about amenities, proximity, and shuttle services. However, there were no new factual claims beyond what was asked, and the assistant did not address the user's last question about the pool season opening date."
     }
   },
   {
@@ -216,7 +1774,13 @@
     "initial_seed_id": "min_good_reviews_under_budget",
     "long_term_memory_profile": true,
     "scores": {
-      "raw_output": "{\n  \"task_fulfillment\": 4,\n  \"groundedness\": 3,\n  \"clarity\": 4,\n  \"pleasantness\": 4,\n  \"overall_quality\": 4,\n  \"binary_success\": \"yes\",\n  \"justification\": \"The assistant provides detailed recommendations based on the user's criteria, offering both positive aspects and potential drawbacks. The response is clear and relevant, addressing the user's specific needs regarding location, amenities, and dining options.\"\n}"
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 5,
+      "overall_quality": 5,
+      "binary_success": "yes",
+      "justification": "The assistant fulfilled the user's request by providing detailed recommendations for a hotel in Amsterdam, including its location, amenities, and nearby dining options. The information was clear and relevant, and the assistant maintained a friendly tone throughout the conversation."
     }
   },
   {
@@ -226,7 +1790,7 @@
     "initial_seed_id": "min_short_stay_no_frills",
     "long_term_memory_profile": true,
     "scores": {
-      "raw_output": "{\n  \"task_fulfillment\": 4,\n  \"groundedness\": 3,\n  \"clarity\": 4,\n  \"pleasantness\": 3,\n  \"overall_quality\": 4,\n  \"binary_success\": \"yes\",\n  \"justification\": \"The assistant provided relevant recommendations based on the user's criteria, including a reliable hotel, good parking facilities, and nearby dining options. The response was clear and useful, though slightly less detailed than requested.\"\n}"
+      "raw_output": "{\n  \"task_fulfillment\": 5,\n  \"groundedness\": 4,\n  \"clarity\": 5,\n  \"pleasantness\": 4,\n  \"overall_quality\": 4,\n  \"binary_success\": \"yes\",\n  \"justification\": \"The assistant fulfilled the user's request by providing recommendations for a hotel, parking, shuttle service, nearby restaurant, and location details. The information is grounded and clear, though there were some minor inaccuracies regarding the hotel's amenities and the restaurant's offerings. The assistant maintained a friendly tone and provided useful information.\",\n}"
     }
   },
   {
@@ -236,7 +1800,7 @@
     "initial_seed_id": "min_good_reviews_under_budget",
     "long_term_memory_profile": true,
     "scores": {
-      "raw_output": "{\n  \"task_fulfillment\": 4,\n  \"groundedness\": 3,\n  \"clarity\": 4,\n  \"pleasantness\": 4,\n  \"overall_quality\": 4,\n  \"binary_success\": \"yes\",\n  \"justification\": \"The assistant provided accurate recommendations, detailed information, and helpful suggestions while maintaining a professional tone. The responses were clear and relevant to the user's needs.\"\n}"
+      "raw_output": "{\n  \"task_fulfillment\": 5,\n  \"groundedness\": 4,\n  \"clarity\": 5,\n  \"pleasantness\": 4,\n  \"overall_quality\": 4,\n  \"binary_success\": \"yes\",\n  \"justification\": \"The assistant fulfilled all the user's requests regarding hotel recommendations, provided clear and relevant information about amenities, transportation, and nearby attractions. However, there was one instance where the assistant could not provide specific walking distances due to lack of real-world data, which slightly impacted clarity.\",\n}"
     }
   },
   {
@@ -246,7 +1810,13 @@
     "initial_seed_id": "min_good_reviews_under_budget",
     "long_term_memory_profile": true,
     "scores": {
-      "raw_output": "{\n    \"task_fulfillment\": 4,\n    \"groundedness\": 3,\n    \"clarity\": 4,\n    \"pleasantness\": 3,\n    \"overall_quality\": 4,\n    \"binary_success\": \"yes\",\n    \"justification\": \"The assistant provided relevant recommendations, answered questions accurately, and offered additional useful information such as parking availability and breakfast details. While some aspects were not fully verified (like discounts), the response was clear and helpful.\"\n}"
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant provided a well-researched and detailed recommendation for a hotel that meets the user's criteria. The information given is grounded in reality and clear, though some details were not verified (e.g., parking availability). The assistant maintained a friendly tone and provided useful information, ensuring the user's needs were adequately addressed."
     }
   },
   {
@@ -256,7 +1826,7 @@
     "initial_seed_id": "min_business_trip",
     "long_term_memory_profile": true,
     "scores": {
-      "raw_output": "{\n  \"task_fulfillment\": 4,\n  \"groundedness\": 3,\n  \"clarity\": 4,\n  \"pleasantness\": 4,\n  \"overall_quality\": 4,\n  \"binary_success\": \"yes\",\n  \"justification\": \"The assistant provided detailed information about the hotel's amenities and location without introducing new elements not mentioned in the original query. The response was clear, relevant, and met the user's expectations.\"\n}"
+      "raw_output": "{\n  \"task_fulfillment\": 5,\n  \"groundedness\": 4,\n  \"clarity\": 5,\n  \"pleasantness\": 4,\n  \"overall_quality\": 4,\n  \"binary_success\": \"yes\",\n  \"justification\": \"The assistant provided clear and relevant recommendations throughout the conversation, including details about Wi-Fi, desk space, free parking, breakfast, and nearby coffee options. The task was fully fulfilled as the user did not request further information. However, there was a slight gap in the response regarding specific room amenities, which slightly reduced the clarity score.\",\n}"
     }
   },
   {
@@ -266,7 +1836,13 @@
     "initial_seed_id": "min_one_night_late_arrival",
     "long_term_memory_profile": true,
     "scores": {
-      "raw_output": "{\n    \"task_fulfillment\": 3,\n    \"groundedness\": 4,\n    \"clarity\": 4,\n    \"pleasantness\": 3,\n    \"overall_quality\": 4,\n    \"binary_success\": \"yes\",\n    \"justification\": \"The assistant provided relevant information about both hotels, including amenities, location, and payment options. The response was clear and focused on meeting the user's needs without adding unnecessary details.\"\n}"
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant fulfilled the user's request by providing a hotel recommendation, addressing specific questions about amenities, payment methods, and airport transportation. The information provided is grounded and clear, though some details were not found (e.g., discounts). The assistant maintained a friendly tone throughout the conversation."
     }
   },
   {
@@ -276,7 +1852,13 @@
     "initial_seed_id": "min_simple_business_stopover",
     "long_term_memory_profile": true,
     "scores": {
-      "raw_output": "{\n  \"task_fulfillment\": 4,\n  \"groundedness\": 3,\n  \"clarity\": 4,\n  \"pleasantness\": 4,\n  \"overall_quality\": 4,\n  \"binary_success\": \"yes\",\n  \"justification\": \"The assistant provided accurate information about the hotel's amenities, including the availability of free Wi-Fi and breakfast options. It also recommended a nearby restaurant that was open late, fulfilling the user's request. The response was clear, relevant, and helpful.\"\n}"
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant fulfilled the user's requests by providing a recommended hotel, confirming breakfast availability, checking for free Wi-Fi, suggesting a nearby restaurant, and addressing concerns about the restaurant's hours. The information provided is grounded and clear, though there is room for improvement in the restaurant's hours being confirmed directly rather than inferred from reviews."
     }
   },
   {
@@ -286,7 +1868,7 @@
     "initial_seed_id": "min_short_stay_no_frills",
     "long_term_memory_profile": true,
     "scores": {
-      "raw_output": "{\n    \"task_fulfillment\": 4,\n    \"groundedness\": 3,\n    \"clarity\": 4,\n    \"pleasantness\": 3,\n    \"overall_quality\": 4,\n    \"binary_success\": \"yes\",\n    \"justification\": \"The assistant provided a suitable hotel suggestion that met the user's criteria for being no-frills, reliable, and affordable. The response was clear and relevant to the user's query without adding unnecessary information or speculation.\"\n}"
+      "raw_output": "{\n  \"task_fulfillment\": 5,\n  \"groundedness\": 4,\n  \"clarity\": 5,\n  \"pleasantness\": 4,\n  \"overall_quality\": 4,\n  \"binary_success\": \"yes\",\n  \"justification\": \"The assistant provided clear and relevant recommendations based on the user's criteria, including the proximity to Zuid neighborhood. The information about amenities was accurate and detailed, fulfilling the user's request. However, there was a slight discrepancy in the description of Wi-Fi reliability, which could be seen as a minor oversight.\",\n}"
     }
   },
   {
@@ -296,7 +1878,13 @@
     "initial_seed_id": "min_central_budget_wifi_3n",
     "long_term_memory_profile": true,
     "scores": {
-      "raw_output": "{\n    \"task_fulfillment\": 4,\n    \"groundedness\": 4,\n    \"clarity\": 4,\n    \"pleasantness\": 4,\n    \"overall_quality\": 4,\n    \"binary_success\": \"yes\",\n    \"justification\": \"The assistant provided detailed information matching the user's criteria, offering both factual details and inferred benefits. The response was clear, relevant, and respectful without adding unnecessary details.\"\n}"
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant provided a detailed recommendation for The Modern Hideaway, addressing all the user's criteria and questions. The information is grounded and clear, though there was no explicit mention of restaurants being within walking distance, which could be considered a minor gap. The assistant maintained a friendly tone throughout the conversation."
     }
   },
   {
@@ -306,7 +1894,13 @@
     "initial_seed_id": "min_quiet_near_center",
     "long_term_memory_profile": true,
     "scores": {
-      "raw_output": "{\n    \"task_fulfillment\": 5,\n    \"groundedness\": 5,\n    \"clarity\": 5,\n    \"pleasantness\": 5,\n    \"overall_quality\": 5,\n    \"binary_success\": \"yes\",\n    \"justification\": \"The assistant provided detailed recommendations for both hotels and nearby restaurants/coffee shops, fulfilling the user's request accurately and concisely.\"\n}"
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant fulfilled all the user's requests regarding hotel recommendations, restaurant options, and coffee shop suggestions. However, the ground truth for the existence and quality of these establishments is not provided, leading to a slight deduction in groundedness score."
     }
   },
   {
@@ -316,7 +1910,13 @@
     "initial_seed_id": "min_sleep_only_priority",
     "long_term_memory_profile": true,
     "scores": {
-      "raw_output": "{\n    \"task_fulfillment\": 4,\n    \"groundedness\": 3,\n    \"clarity\": 4,\n    \"pleasantness\": 3,\n    \"overall_quality\": 4,\n    \"binary_success\": \"yes\",\n    \"justification\": \"The assistant provided accurate and relevant information about accommodations, food options, and nearby attractions without introducing unrealistic elements. The response was clear and focused on meeting the user's needs.\"\n}"
+      "task_fulfillment": 4,
+      "groundedness": 3,
+      "clarity": 4,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant fulfilled the user's request regarding the location and nearby dining options for their stay in Amsterdam. However, the response lacks specific details about the exact locations of the recommended places, which slightly reduces groundedness. The conversation was clear and helpful, maintaining a friendly tone, and provided useful information."
     }
   },
   {
@@ -326,7 +1926,13 @@
     "initial_seed_id": "min_sleep_only_priority",
     "long_term_memory_profile": true,
     "scores": {
-      "raw_output": "{\n    \"task_fulfillment\": 4,\n    \"groundedness\": 3,\n    \"clarity\": 4,\n    \"pleasantness\": 4,\n    \"overall_quality\": 4,\n    \"binary_success\": \"yes\",\n    \"justification\": \"The assistant provided accurate information about the availability of free Wi-Fi, easy parking, and breakfast inclusion at Copper Villa. The response was clear and relevant to the user's needs without adding unnecessary details.\"\n}"
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant fulfilled the user's request by providing recommendations for hotels that meet their criteria, including free Wi-Fi, easy parking, and being close to the city center. The information provided is clear and relevant, though the assistant did not invent any new facts or amenities beyond what was asked for."
     }
   },
   {
@@ -336,7 +1942,13 @@
     "initial_seed_id": "min_just_the_cheapest_ok",
     "long_term_memory_profile": true,
     "scores": {
-      "raw_output": "{\n    \"task_fulfillment\": 5,\n    \"groundedness\": 4,\n    \"clarity\": 3,\n    \"pleasantness\": 4,\n    \"overall_quality\": 4,\n    \"binary_success\": \"yes\",\n    \"justification\": \"The assistant provided detailed information about the hotel, including its location, amenities, and services. While some details were speculative, they were relevant and useful for the user's needs.\"\n}"
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant fulfilled the user's request by providing a suitable hotel option, checking for specific amenities, and answering questions accurately without introducing new information or contradictions. The responses were clear and concise, and the user seemed satisfied with the information provided."
     }
   },
   {
@@ -346,7 +1958,13 @@
     "initial_seed_id": "min_just_the_cheapest_ok",
     "long_term_memory_profile": true,
     "scores": {
-      "raw_output": "{\n    \"task_fulfillment\": 5,\n    \"groundedness\": 4,\n    \"clarity\": 3,\n    \"pleasantness\": 4,\n    \"overall_quality\": 4,\n    \"binary_success\": \"yes\",\n    \"justification\": \"The assistant provided detailed information about the hotel including amenities, location, and nearby cafes without adding fictional elements. The response was clear and relevant to the user's needs.\"\n}"
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant fulfilled all the user's requests regarding the hotel's location, amenities, and services. However, there were a few minor inaccuracies in the information provided, such as the distance to the train station being slightly off by a kilometer, which slightly impacts groundedness. The conversation was clear and concise, and the assistant maintained a friendly tone, contributing to pleasantness."
     }
   },
   {
@@ -356,7 +1974,7 @@
     "initial_seed_id": "min_good_reviews_under_budget",
     "long_term_memory_profile": true,
     "scores": {
-      "raw_output": "{\n    \"task_fulfillment\": 4,\n    \"groundedness\": 3,\n    \"clarity\": 4,\n    \"pleasantness\": 4,\n    \"overall_quality\": 4,\n    \"binary_success\": \"yes\",\n    \"justification\": \"The assistant provided detailed information about the hotel, including amenities, location, and transport options. The response was clear, relevant, and helpful, meeting all the user's requirements.\"\n}"
+      "raw_output": "{\n  \"task_fulfillment\": 4,\n  \"groundedness\": 3,\n  \"clarity\": 4,\n  \"pleasantness\": 4,\n  \"overall_quality\": 4,\n  \"binary_success\": \"yes\",\n  \"justification\": \"The assistant provided detailed and relevant information about The Modern Hideaway, including its location, amenities, and pricing. However, there were some inaccuracies and speculative statements, such as mentioning a restaurant option and shuttle services, which were not confirmed by the user. The assistant also suggested alternative options, which was helpful but did not fully address the user's initial request.\",\n}"
     }
   },
   {
@@ -366,7 +1984,7 @@
     "initial_seed_id": "min_short_stay_no_frills",
     "long_term_memory_profile": true,
     "scores": {
-      "raw_output": "{\n    \"task_fulfillment\": 3,\n    \"groundedness\": 4,\n    \"clarity\": 4,\n    \"pleasantness\": 3,\n    \"overall_quality\": 4,\n    \"binary_success\": \"yes\",\n    \"justification\": \"The assistant provides relevant recommendations, confirms the existence of breakfast, and suggests checking availability without explicitly stating 'discount'. The response is clear and useful, though slightly less detailed than requested.\"\n}"
+      "raw_output": "{\n  \"task_fulfillment\": 4,\n  \"groundedness\": 3,\n  \"clarity\": 4,\n  \"pleasantness\": 3,\n  \"overall_quality\": 4,\n  \"binary_success\": \"yes\",\n  \"justification\": \"The assistant fulfilled the user's request by providing a hotel recommendation and addressing the user's questions about amenities and potential discounts. However, the assistant did not provide specific check-in dates, which the user requested. The response was clear and concise, but the user felt the need for more detailed information.\",\n}"
     }
   },
   {
@@ -376,7 +1994,13 @@
     "initial_seed_id": "min_short_stay_no_frills",
     "long_term_memory_profile": true,
     "scores": {
-      "raw_output": "{\n    \"task_fulfillment\": 4,\n    \"groundedness\": 3,\n    \"clarity\": 4,\n    \"pleasantness\": 4,\n    \"overall_quality\": 4,\n    \"binary_success\": \"yes\",\n    \"justification\": \"The assistant provides relevant and accurate information about The Modern Hideaway, including amenities, prices, and booking options. The response is clear and easy to understand, fulfilling the user's request effectively.\"\n}"
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 5,
+      "overall_quality": 5,
+      "binary_success": "yes",
+      "justification": "The assistant fulfilled the user's request by providing detailed information about The Modern Hideaway, including amenities, payment methods, and nearby dining options. The responses were clear and relevant, and the assistant maintained a friendly tone throughout the conversation."
     }
   },
   {
@@ -386,7 +2010,7 @@
     "initial_seed_id": "min_just_the_cheapest_ok",
     "long_term_memory_profile": true,
     "scores": {
-      "raw_output": "{\n    \"task_fulfillment\": 5,\n    \"groundedness\": 4,\n    \"clarity\": 3,\n    \"pleasantness\": 4,\n    \"overall_quality\": 4,\n    \"binary_success\": \"yes\",\n    \"justification\": \"The assistant provided detailed information about the hotel's amenities, including breakfast options, proximity to nearby restaurants, and laundry facilities. The response was clear and relevant to the user's needs without adding unnecessary details.\"\n}"
+      "raw_output": "{\n  \"task_fulfillment\": 4,\n  \"groundedness\": 3,\n  \"clarity\": 4,\n  \"pleasantness\": 3,\n  \"overall_quality\": 3,\n  \"binary_success\": \"yes\",\n  \"justification\": \"The assistant fulfilled the user's request by providing information about the Modern Hideaway hotel, including amenities, breakfast options, nearby dining, and laundry facilities. However, the response lacks detailed information and some facts are not entirely accurate (e.g., the Wi-Fi reliability). The assistant's tone is polite and clear, but the lack of specific details and some inaccuracies slightly reduce the quality.\",\n}"
     }
   },
   {
@@ -396,7 +2020,297 @@
     "initial_seed_id": "min_simple_business_stopover",
     "long_term_memory_profile": true,
     "scores": {
-      "raw_output": "{\n  \"task_fulfillment\": 4,\n  \"groundedness\": 3,\n  \"clarity\": 4,\n  \"pleasantness\": 3,\n  \"overall_quality\": 4,\n  \"binary_success\": \"yes\",\n  \"justification\": \"The assistant provides accurate and relevant information about the hotel, including amenities, location, and nearby facilities. The response is clear and concise, addressing the user's questions effectively.\"\n}"
+      "raw_output": "{\n  \"task_fulfillment\": 4,\n  \"groundedness\": 3,\n  \"clarity\": 4,\n  \"pleasantness\": 3,\n  \"overall_quality\": 3,\n  \"binary_success\": \"yes\",\n  \"justification\": \"The assistant fulfilled most of the user's requests regarding the hotel's amenities, location, and nearby options. However, there were some gaps in providing specific details such as shuttle services and nearby vegetarian restaurants. The assistant's responses were clear and concise, but the lack of specific information could slightly reduce the groundedness score.\",\n}"
+    }
+  },
+  {
+    "session_id": "b2e47a8a-9415-49cd-a005-72dd2228cccf",
+    "assistant_variant": "prompt",
+    "persona": "minimalist",
+    "initial_seed_id": "min_just_the_cheapest_ok",
+    "long_term_memory_profile": false,
+    "scores": {
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant fulfilled the user's request by providing a hotel option, addressing the user's concerns about amenities, parking, and nearby dining options. The responses are clear and concise, and the suggestions for nearby restaurants are relevant. However, the lack of specific information about discounts and the absence of detailed reviews slightly reduces the groundedness score."
+    }
+  },
+  {
+    "session_id": "a6c5645a-567b-4897-a536-dfe6819c6583",
+    "assistant_variant": "prompt",
+    "persona": "minimalist",
+    "initial_seed_id": "min_quiet_near_center",
+    "long_term_memory_profile": false,
+    "scores": {
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant fulfilled the user's request by providing a hotel recommendation, addressing specific questions about amenities, nearby restaurants, and accessibility. The responses were clear and relevant, though there was one instance where the assistant could not provide specific information due to lack of data, which slightly impacted groundedness."
+    }
+  },
+  {
+    "session_id": "e598bc62-339a-439e-88e6-afb725cb8db0",
+    "assistant_variant": "prompt",
+    "persona": "minimalist",
+    "initial_seed_id": "min_good_reviews_under_budget",
+    "long_term_memory_profile": false,
+    "scores": {
+      "raw_output": "{\n  \"task_fulfillment\": 4,\n  \"groundedness\": 3,\n  \"clarity\": 4,\n  \"pleasantness\": 3,\n  \"overall_quality\": 3,\n  \"binary_success\": \"yes\",\n  \"justification\": \"The assistant fulfilled the user's requests to the best of its ability, providing information on amenities, parking, and breakfast hours. However, it did not address the user's request for a discount, which was a significant part of the query. The response was clear and concise, but the lack of addressing the discount request reduces the groundedness score.\",\n}"
+    }
+  },
+  {
+    "session_id": "5dab5162-777e-4944-a4ba-fd5c7602beeb",
+    "assistant_variant": "prompt",
+    "persona": "minimalist",
+    "initial_seed_id": "min_short_stay_no_frills",
+    "long_term_memory_profile": false,
+    "scores": {
+      "task_fulfillment": 4,
+      "groundedness": 3,
+      "clarity": 4,
+      "pleasantness": 3,
+      "overall_quality": 3,
+      "binary_success": "yes",
+      "justification": "The assistant provided relevant recommendations and answered the user's questions to a satisfactory extent. However, the groundedness score is slightly lower due to the lack of specific information about breakfast options and Wi-Fi availability, which could have been more thoroughly researched. Clarity and pleasantness scores are also moderate as the assistant did not elaborate excessively and maintained a polite tone."
+    }
+  },
+  {
+    "session_id": "eb603fb0-2bda-48db-9d95-acc8dfb0a30f",
+    "assistant_variant": "prompt",
+    "persona": "minimalist",
+    "initial_seed_id": "min_good_reviews_under_budget",
+    "long_term_memory_profile": false,
+    "scores": {
+      "task_fulfillment": 4,
+      "groundedness": 3,
+      "clarity": 4,
+      "pleasantness": 3,
+      "overall_quality": 3,
+      "binary_success": "yes",
+      "justification": "The assistant fulfilled the user's request regarding hotel recommendations, availability, and location. However, the assistant did not provide specific information about discounts, booking lead times, or additional services beyond the standard amenities. The response was clear and concise, but the lack of specific details and the inability to provide certain types of information led to a lower score in groundedness and overall quality."
+    }
+  },
+  {
+    "session_id": "9f031111-2abb-4b3d-b334-3f0f1f6e3036",
+    "assistant_variant": "prompt",
+    "persona": "minimalist",
+    "initial_seed_id": "min_central_budget_wifi_3n",
+    "long_term_memory_profile": false,
+    "scores": {
+      "task_fulfillment": 4,
+      "groundedness": 3,
+      "clarity": 4,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant fulfilled the user's request by providing recommendations and answering questions about the hotel's location, parking, Wi-Fi, and train station proximity. However, some questions required external verification, which the assistant acknowledged and suggested contacting the hotel directly. The responses were clear and helpful, though not always fully grounded in real-time data."
+    }
+  },
+  {
+    "session_id": "cb05da94-f428-45fa-9764-de333872bdfa",
+    "assistant_variant": "prompt",
+    "persona": "minimalist",
+    "initial_seed_id": "min_business_trip",
+    "long_term_memory_profile": false,
+    "scores": {
+      "task_fulfillment": 4,
+      "groundedness": 3,
+      "clarity": 4,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant fulfilled the user's request by providing a hotel recommendation, addressing the user's specific needs regarding Wi-Fi, desk, location, and breakfast options. However, the assistant did not provide accurate cost estimates or discount information, which could have been helpful. The response was clear and polite, maintaining a high level of pleasantness throughout."
+    }
+  },
+  {
+    "session_id": "8ab62303-6525-4612-8076-4772466079af",
+    "assistant_variant": "prompt",
+    "persona": "minimalist",
+    "initial_seed_id": "min_short_stay_no_frills",
+    "long_term_memory_profile": false,
+    "scores": {
+      "task_fulfillment": 4,
+      "groundedness": 3,
+      "clarity": 4,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant fulfilled the user's request by providing recommendations, answering questions about amenities, customer service, and nearby attractions. However, there were some gaps in information, such as specific restaurant recommendations and exact room rates, which slightly reduced the groundedness score. The assistant maintained clear and helpful communication throughout the conversation."
+    }
+  },
+  {
+    "session_id": "01be90d6-8621-4145-8c7b-db2a723c8cf9",
+    "assistant_variant": "prompt",
+    "persona": "minimalist",
+    "initial_seed_id": "min_good_reviews_under_budget",
+    "long_term_memory_profile": false,
+    "scores": {
+      "raw_output": "{\n  \"task_fulfillment\": 4,\n  \"groundedness\": 3,\n  \"clarity\": 4,\n  \"pleasantness\": 3,\n  \"overall_quality\": 4,\n  \"binary_success\": \"yes\",\n  \"justification\": \"The assistant provided relevant recommendations and answered the user's questions to the best of its abilities based on the available information. However, it did not fulfill the user's request for real-time availability and pricing, which could have been addressed by suggesting OTAs or direct contact with the hotel.\",\n}"
+    }
+  },
+  {
+    "session_id": "2c817dd1-689f-43ac-9bd6-93ee87c0f2d7",
+    "assistant_variant": "prompt",
+    "persona": "minimalist",
+    "initial_seed_id": "min_just_the_cheapest_ok",
+    "long_term_memory_profile": false,
+    "scores": {
+      "task_fulfillment": 4,
+      "groundedness": 3,
+      "clarity": 4,
+      "pleasantness": 3,
+      "overall_quality": 3,
+      "binary_success": "yes",
+      "justification": "The assistant fulfilled the user's request by providing information about the Modern Hideaway hotel, including its amenities and breakfast options. However, the response about nearby restaurants for Le Grand Canalhouse was speculative and not directly requested by the user, leading to a lower score in groundedness and clarity."
+    }
+  },
+  {
+    "session_id": "dacf0fa0-3282-4915-bd5d-805fe6754a78",
+    "assistant_variant": "prompt",
+    "persona": "minimalist",
+    "initial_seed_id": "min_just_the_cheapest_ok",
+    "long_term_memory_profile": false,
+    "scores": {
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant fulfilled the user's request by providing a hotel recommendation, addressing the user's concerns about free breakfast and parking availability, and offering advice on how to find additional information about events. The responses were clear and relevant, though some information could not be confirmed due to lack of real-time data."
+    }
+  },
+  {
+    "session_id": "8327b2b7-48f0-4668-9418-fff9f701de8e",
+    "assistant_variant": "prompt",
+    "persona": "minimalist",
+    "initial_seed_id": "min_one_night_late_arrival",
+    "long_term_memory_profile": false,
+    "scores": {
+      "raw_output": "{\n  \"task_fulfillment\": 5,\n  \"groundedness\": 4,\n  \"clarity\": 5,\n  \"pleasantness\": 4,\n  \"overall_quality\": 4,\n  \"binary_success\": \"yes\",\n  \"justification\": \"The assistant provided clear and relevant recommendations, including a hotel option, parking information, breakfast inclusion, and shuttle service details. The response was clear and concise, addressing all the user's questions. However, the assistant did not provide specific information about discounts or extended-stay deals, which the user asked for, slightly reducing the groundedness score.\",\n}"
+    }
+  },
+  {
+    "session_id": "c0359284-4edf-4281-a6a8-1ca0fd55722d",
+    "assistant_variant": "prompt",
+    "persona": "minimalist",
+    "initial_seed_id": "min_sleep_only_priority",
+    "long_term_memory_profile": false,
+    "scores": {
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant provided comprehensive and accurate information regarding the hotel's amenities, location, and services. However, there were no questions asked about nearby restaurants or transportation, which could have been addressed for a perfect score. The conversation was clear and helpful, and the assistant maintained a friendly tone."
+    }
+  },
+  {
+    "session_id": "8af5a27a-2211-4711-8f92-5cfd0af3eb7f",
+    "assistant_variant": "prompt",
+    "persona": "minimalist",
+    "initial_seed_id": "min_central_budget_wifi_3n",
+    "long_term_memory_profile": false,
+    "scores": {
+      "task_fulfillment": 4,
+      "groundedness": 3,
+      "clarity": 4,
+      "pleasantness": 3,
+      "overall_quality": 3,
+      "binary_success": "yes",
+      "justification": "The assistant fulfilled the user's request by providing a hotel recommendation and additional information about the hotel's amenities and nearby dining options. However, the assistant did not provide specific restaurant names or confirm the availability of traditional Dutch cuisine within walking distance, which slightly reduces the groundedness score. The assistant's responses were clear and concise, maintaining a friendly tone, but the lack of specific information about the restaurant options detracts from the overall quality."
+    }
+  },
+  {
+    "session_id": "8a2a71a6-73dd-4746-8c50-8fb6b4f0f6bf",
+    "assistant_variant": "prompt",
+    "persona": "minimalist",
+    "initial_seed_id": "min_walkable_transport_hub",
+    "long_term_memory_profile": false,
+    "scores": {
+      "raw_output": "{\n  \"task_fulfillment\": 5,\n  \"groundedness\": 4,\n  \"clarity\": 5,\n  \"pleasantness\": 4,\n  \"overall_quality\": 4,\n  \"binary_success\": \"yes\",\n  \"justification\": \"The assistant fulfilled all the user's requests regarding the hotel's location, amenities, and services. While some information was not explicitly confirmed (e.g., free Wi-Fi availability), the assistant provided accurate and relevant details. The conversation was clear and concise, and the assistant maintained a friendly tone.\",\n}"
+    }
+  },
+  {
+    "session_id": "63694f19-8c63-49f5-adad-6e89d5b3a5ab",
+    "assistant_variant": "prompt",
+    "persona": "minimalist",
+    "initial_seed_id": "min_sleep_only_priority",
+    "long_term_memory_profile": false,
+    "scores": {
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 5,
+      "overall_quality": 5,
+      "binary_success": "yes",
+      "justification": "The assistant fulfilled the user's request comprehensively, providing recommendations for accommodations and dining options in Amsterdam. The information is grounded and clear, with no hallucinations or invented details. The assistant maintained a friendly and helpful tone throughout the conversation."
+    }
+  },
+  {
+    "session_id": "b0cc5120-584d-4e7f-9f5f-0136fe7a589a",
+    "assistant_variant": "prompt",
+    "persona": "minimalist",
+    "initial_seed_id": "min_business_trip",
+    "long_term_memory_profile": false,
+    "scores": {
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant fulfilled the user's request by recommending hotels that met their criteria and provided additional information as requested. The responses were clear and detailed, though there was one instance where the assistant speculated about future availability (not offering parking at Le Grand Canalhouse). The assistant maintained a friendly tone throughout the conversation."
+    }
+  },
+  {
+    "session_id": "7504cc89-372c-4625-ab3a-c60c983af185",
+    "assistant_variant": "prompt",
+    "persona": "minimalist",
+    "initial_seed_id": "min_simple_business_stopover",
+    "long_term_memory_profile": false,
+    "scores": {
+      "raw_output": "{\n  \"task_fulfillment\": 5,\n  \"groundedness\": 4,\n  \"clarity\": 5,\n  \"pleasantness\": 4,\n  \"overall_quality\": 4,\n  \"binary_success\": \"yes\",\n  \"justification\": \"The assistant provided detailed information about The Modern Hideaway's amenities, including breakfast options and transportation services. The conversation was clear and concise, fulfilling the user's request without introducing any new, invented details. However, the assistant did not address the user's query about car rental pick-ups, which could have been clarified further.\",\n}"
+    }
+  },
+  {
+    "session_id": "8a4dd69c-da24-4752-bba6-2edd688ae3d0",
+    "assistant_variant": "prompt",
+    "persona": "minimalist",
+    "initial_seed_id": "min_quiet_near_center",
+    "long_term_memory_profile": false,
+    "scores": {
+      "task_fulfillment": 5,
+      "groundedness": 4,
+      "clarity": 5,
+      "pleasantness": 4,
+      "overall_quality": 4,
+      "binary_success": "yes",
+      "justification": "The assistant fulfilled the user's request by providing recommendations, answering questions about amenities, and offering price estimates. However, the assistant did not provide actual price ranges or confirm the availability of discounts, which were requested by the user."
+    }
+  },
+  {
+    "session_id": "e6d6970d-c695-4495-83e7-459e59758ffc",
+    "assistant_variant": "prompt",
+    "persona": "minimalist",
+    "initial_seed_id": "min_good_reviews_under_budget",
+    "long_term_memory_profile": false,
+    "scores": {
+      "task_fulfillment": 4,
+      "groundedness": 3,
+      "clarity": 4,
+      "pleasantness": 3,
+      "overall_quality": 3,
+      "binary_success": "yes",
+      "justification": "The assistant fulfilled the user's request by providing information about The Modern Hideaway, including amenities and reviews. However, the groundedness score is slightly lower due to the lack of specific details about breakfast options and the assistant's speculation about the quality of the food. Clarity and pleasantness scores are also moderate as the assistant provided clear information but did not address the user's specific query about breakfast options in detail."
     }
   }
 ]

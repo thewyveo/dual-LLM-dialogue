@@ -9,7 +9,7 @@ from llm_client import call_llm
 
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-LOGS_PATH = os.path.join(BASE_DIR, "data", "training_conversations.json")
+LOGS_PATH = os.path.join(BASE_DIR, "data", "merged_conversations.json")
 OUT_PATH = os.path.join(BASE_DIR, "results", "subjective_metrics.json")
 
 

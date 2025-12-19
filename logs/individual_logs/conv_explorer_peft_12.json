@@ -1,23 +1,23 @@
 {
-  "session_id": "2a0045a2-e553-49c6-b115-ef1120f24823",
+  "session_id": "0f3a7198-21fb-4cc4-b687-a943962623f7",
   "persona": "explorer",
   "assistant_variant": "peft",
   "history": [
     {
       "role": "user",
-      "content": "Can you suggest a hotel in Amsterdam that feels calm and green, maybe with a garden or relaxed atmosphere, but still connected to the city?"
+      "content": "I'm a foodie visiting Amsterdam and I want a hotel in an area with great restaurants and caf\u00e9s within walking distance. The hotel should be well-reviewed and not the absolute cheapest. Any recommendations?"
     },
     {
       "role": "assistant",
-      "content": "The Modern Hideaway seems like it might fit your criteria. It's located in Zuid and offers a garden and terrace, which should provide some relaxation amidst the bustling city life. However, I would recommend checking out the Copper Villa instead, as its proximity to the city makes it more accessible and convenient for exploring Amsterdam."
+      "content": "The Modern Hideaway seems to fit your criteria. It's located in Zuid, which is known for its diverse culinary scene, including several excellent restaurants and cafes within walking distance. The hotel also offers amenities like a terrace and free billiards, making it a comfortable choice for a foodie traveler."
     },
     {
       "role": "user",
-      "content": "Can you also tell me if there are any rooftop bars nearby? That would be great because I want to experience both the outdoors and the city nightlife."
+      "content": "That sounds promising! Could you tell me more about the restaurant options nearby?"
     },
     {
       "role": "assistant",
-      "content": "The Modern Hideaway does offer a rooftop terrace, so you can enjoy the outdoors while still being close to the city. As for rooftop bars, I'm afraid there aren't any specifically mentioned for this hotel. However, you might consider looking into nearby establishments like the Le Gallo or the Hotel de Loo, which are known for their rooftop lounges and views of the city skyline."
+      "content": "Certainly! The Modern Hideaway is conveniently situated near several popular dining spots in Zuid. Some highly-rated places include \"Bakkerij de Vries,\" which serves traditional Dutch cuisine, and \"De Grote Kerk,\" where you can enjoy delicious pastries and coffee."
     },
     {
       "role": "user",
@@ -27,6 +27,6 @@
   "finished": true,
   "num_turns": 2,
   "stop_reason": "user_satisfied",
-  "initial_seed_id": "exp_green_relaxed_area",
-  "long_term_memory_profile": true
+  "initial_seed_id": "exp_foodie_hotel_plus_restaurants",
+  "long_term_memory_profile": false
 }
