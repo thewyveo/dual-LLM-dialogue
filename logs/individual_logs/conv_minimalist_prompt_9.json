@@ -1,47 +1,31 @@
 {
-  "session_id": "658d74fc-e4b3-4b3f-94fa-adf8517ae750",
+  "session_id": "2c817dd1-689f-43ac-9bd6-93ee87c0f2d7",
   "persona": "minimalist",
   "assistant_variant": "prompt",
   "history": [
     {
       "role": "user",
-      "content": "I need a hotel in central Amsterdam for 3 nights next month, under 150 euros per night, with good reviews and reliable Wi-Fi. What would you recommend?"
+      "content": "Just give me the cheapest acceptable hotel in Amsterdam with decent reviews. I only care that it's not terrible and I can sleep."
     },
     {
       "role": "assistant",
-      "content": "Based on your criteria, I would suggest **The Modern Hideaway**. It's located in Zuid Amsterdam, which is centrally situated, and it offers great reviews with positive feedback on the staff going above and beyond to assist guests. Additionally, it provides reliable Wi-Fi working most of the time according to the reviews."
+      "content": "The Modern Hideaway is an affordable option with decent reviews. It offers room service, terrace, garden, free billiards, hot tub, and gym facilities. While the Wi-Fi works fine most of the time, there are some concerns about the walls being thin and hearing neighbors at night."
     },
     {
       "role": "user",
-      "content": "Do you think The Modern Hideaway also has parking facilities? That would be convenient since we're arriving from a long flight."
+      "content": "Could you also check if they offer breakfast? That's important for my travel plans."
     },
     {
       "role": "assistant",
-      "content": "Yes, The Modern Hideaway does offer parking facilities. This should make it very convenient for you to park your vehicle after arriving from a long flight."
+      "content": "The Modern Hideaway does offer breakfast included. This should meet your needs for a quick meal while traveling."
     },
     {
       "role": "user",
-      "content": "Do they have any restaurants nearby? I'd appreciate if there were at least two dining options within walking distance."
+      "content": "Could you also tell me more about the restaurant options available at these hotels? I don't mind if they're casual or fancy, just need something nearby where I can grab a quick bite after exploring Amsterdam."
     },
     {
       "role": "assistant",
-      "content": "The Modern Hideaway does provide complimentary breakfast in the morning, so you won't need to worry about finding food before heading out into the city. However, regarding dining options, while there isn't an explicit mention of them being close by, the proximity to the city makes it easy to explore various restaurants within walking distance. You might consider checking local recommendations or using apps like Google Maps to find some excellent dining spots near the hotel."
-    },
-    {
-      "role": "user",
-      "content": "Do they have any specific amenities or services that stand out compared to other hotels in the area?"
-    },
-    {
-      "role": "assistant",
-      "content": "Yes, The Modern Hideaway stands out due to its comprehensive set of amenities including room service, terrace, garden, free billiards, and a rooftop terrace. These additional perks can enhance your stay and create a more enjoyable experience."
-    },
-    {
-      "role": "user",
-      "content": "Do they have any fitness centers or recreational activities available? I'm looking forward to staying active during my visit."
-    },
-    {
-      "role": "assistant",
-      "content": "The Modern Hideaway offers a gym facility, which is a great addition for those looking to stay active during their stay. Additionally, it includes a rooftop terrace where you can enjoy outdoor spaces and possibly even engage in recreational activities depending on the weather conditions."
+      "content": "Certainly! Here are some nearby restaurant options for each hotel:\n\nFor **Le Grand Canalhouse**:\n- **Nearby Restaurants**: There are several casual dining options around Le Grand Canalhouse, including local cafes and bistros serving traditional Dutch cuisine. For a more upscale experience, consider visiting the trendy neighborhood of Nieuwmarkt, which is known for its diverse array of eateries ranging from cozy bistro-style spots to chic Italian restaurants."
     },
     {
       "role": "user",
@@ -49,8 +33,8 @@
     }
   ],
   "finished": true,
-  "num_turns": 5,
+  "num_turns": 3,
   "stop_reason": "user_satisfied",
-  "initial_seed_id": "min_central_budget_wifi_3n",
-  "long_term_memory_profile": true
+  "initial_seed_id": "min_just_the_cheapest_ok",
+  "long_term_memory_profile": false
 }

@@ -1,23 +1,23 @@
 {
-  "session_id": "505dcd7a-2708-4c7c-9e6d-d71c79e40417",
+  "session_id": "f17d4a43-948b-47dc-93d9-71c183767dda",
   "persona": "minimalist",
   "assistant_variant": "peft",
   "history": [
     {
       "role": "user",
-      "content": "Can you recommend a hotel in Amsterdam with consistently good reviews that stays within a reasonable budget? I don't need luxury."
+      "content": "Please recommend a quiet hotel in Amsterdam within walking distance of the city center, with at least a 4.0 rating and not too expensive."
     },
     {
       "role": "assistant",
-      "content": "Based on the criteria you've outlined - a central location, non-touristy neighborhood, quiet atmosphere, good Wi-Fi, desk workspace, breakfast included, and staying within a reasonable budget - I would suggest checking out The Modern Hideaway. It offers consistent positive reviews regarding its quiet environment, reliable Wi-Fi, and breakfast inclusion, making it a suitable choice for your needs."
+      "content": "The Grand Canalhouse is an excellent choice for you. It's located in De Pijp, just 5.9 km away from the city center, and offers a quiet environment with amenities like room service, hot tub, and 24-hour front desk. The bathroom cleanliness could be improved, but overall, it provides clean rooms with good water pressure."
     },
     {
       "role": "user",
-      "content": "Can you also tell me more about the restaurant options near this hotel? I'm looking for places where I can grab a quick bite after work without spending too much money."
+      "content": "Could you also provide more details on the restaurant options near these hotels? I'm looking for somewhere casual after a day exploring Amsterdam."
     },
     {
       "role": "assistant",
-      "content": "The Modern Hideaway is located in Zuid Amsterdam, which is known for having a variety of dining options. While I don't have detailed information on specific restaurant reviews, based on general knowledge, there are several popular spots nearby that offer quick bites without breaking the bank. Some examples include \"Bakkerie\" (bakery), \"Koekje\" (cake shop), and \"Patisserie\" (pastries)."
+      "content": "Certainly! For The Grand Canalhouse, there are several casual dining options available. A nearby caf\u00e9 serves delicious pastries and light meals, while another place offers a variety of Italian dishes."
     },
     {
       "role": "user",
@@ -27,6 +27,6 @@
   "finished": true,
   "num_turns": 2,
   "stop_reason": "user_satisfied",
-  "initial_seed_id": "min_good_reviews_under_budget",
-  "long_term_memory_profile": true
+  "initial_seed_id": "min_quiet_near_center",
+  "long_term_memory_profile": false
 }

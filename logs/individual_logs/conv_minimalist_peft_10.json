@@ -1,23 +1,47 @@
 {
-  "session_id": "4ca8ffc4-5720-4bbb-a96e-1bd8a9799083",
+  "session_id": "89fe6e31-816f-4b8a-92ae-6e6760163af1",
   "persona": "minimalist",
   "assistant_variant": "peft",
   "history": [
     {
       "role": "user",
-      "content": "I need a hotel in central Amsterdam for 3 nights next month, under 150 euros per night, with good reviews and reliable Wi-Fi. What would you recommend?"
+      "content": "Just give me the cheapest acceptable hotel in Amsterdam with decent reviews. I only care that it's not terrible and I can sleep."
     },
     {
       "role": "assistant",
-      "content": "Based on your criteria, I would suggest staying at The Modern Hideaway. It's located in Zuid Amsterdam, which is centrally situated, making it easy to explore the city. The hotel offers good Wi-Fi coverage throughout the day, ensuring you can stay connected while sightseeing."
+      "content": "The Grand Canalhouse is an affordable option with decent reviews. It offers room service, hot tub, and 24-hour front desk, making it suitable for those seeking comfort and convenience. However, please note that bathroom cleanliness could be improved."
     },
     {
       "role": "user",
-      "content": "Do you think The Modern Hideaway also has an outdoor pool? That would be great for relaxing after a busy day exploring Amsterdam."
+      "content": "Do you think the Hotel Amsterdam Centraal might fit my needs? It seems quite popular among travelers."
     },
     {
       "role": "assistant",
-      "content": "The Modern Hideaway does offer a terrace where guests can enjoy some fresh air and perhaps relax after a long day of sightseeing. However, there isn't any mention of an outdoor pool. Would you consider checking out The Vintage Hotel instead, which has a rooftop terrace?"
+      "content": "Hotel Amsterdam Centraal is another budget-friendly choice with reasonable prices and satisfactory reviews. While it doesn't offer all the amenities listed earlier, its proximity to the center makes it convenient for exploring the city. However, it does lack some modern conveniences like free WiFi and breakfast included."
+    },
+    {
+      "role": "user",
+      "content": "Do you have any idea when I should check-in at the Grand Canalhouse? I don't want to miss out on good deals if they're available soon."
+    },
+    {
+      "role": "assistant",
+      "content": "Unfortunately, I don't have access to real-time booking availability or future dates. You would need to contact the hotel directly or visit their website to inquire about current rates and availability."
+    },
+    {
+      "role": "user",
+      "content": "Could you also tell me which area of Amsterdam the Grand Canalhouse is located in? I'm looking for places close to museums or shopping districts."
+    },
+    {
+      "role": "assistant",
+      "content": "The Grand Canalhouse is located in the De Pijp neighborhood of Amsterdam. This area is known for its charming canal-side architecture and easy access to various cultural venues and shopping districts. It's a great spot for exploring the city while staying near interesting sights."
+    },
+    {
+      "role": "user",
+      "content": "Could you provide more information about the Grand Canalhouse's location within De Pijp? I'd appreciate knowing how easily accessible it is from major attractions like the Van Gogh Museum or the Rijksmuseum."
+    },
+    {
+      "role": "assistant",
+      "content": "The Grand Canalhouse is situated in the De Pijp neighborhood of Amsterdam, which is centrally located and easily accessible from major attractions like the Van Gogh Museum and the Rijksmuseum. It's just a short walk away from both sites, providing convenient access for visitors interested in exploring the city's rich history and art collections."
     },
     {
       "role": "user",
@@ -25,8 +49,8 @@
     }
   ],
   "finished": true,
-  "num_turns": 2,
+  "num_turns": 5,
   "stop_reason": "user_satisfied",
-  "initial_seed_id": "min_central_budget_wifi_3n",
-  "long_term_memory_profile": true
+  "initial_seed_id": "min_just_the_cheapest_ok",
+  "long_term_memory_profile": false
 }

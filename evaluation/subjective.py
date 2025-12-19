@@ -86,7 +86,7 @@ def main():
                 {"role": "system", "content": JUDGE_SYSTEM_PROMPT},
                 {"role": "user", "content": judge_prompt},
             ],
-            model="Qwen/Qwen2.5-1.5B-Instruct",
+            model="Qwen/Qwen2.5-3B-Instruct",
             temperature=0.0,
             max_tokens=256,
         )

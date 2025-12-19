@@ -1,72 +1,40 @@
 {
-  "session_id": "db7239b9-f9e4-4082-9480-0a663cbd57d9",
+  "session_id": "1a7237e3-6298-43ab-8dc2-c302e6724519",
   "persona": "minimalist",
   "assistant_variant": "peft",
   "history": [
     {
       "role": "user",
-      "content": "I'm staying just one or two nights in Amsterdam and want a no-frills hotel that's reliable and not overpriced. Any suggestions?"
+      "content": "I'm stopping in Amsterdam briefly for work and need a straightforward hotel that's quiet, dependable, and close enough to get around easily."
     },
     {
       "role": "assistant",
-      "content": "The Modern Hideaway seems like a solid choice based on its low price point and reasonable amenities. It offers a comfortable terrace and garden, which might suit your needs for relaxation while being budget-friendly. However, keep an eye out for potential issues mentioned in the reviews; the staff did go above and beyond to assist you, so it should provide a satisfactory experience overall."
+      "content": "Based on your needs, I would recommend staying at The Modern Hideaway. It is located near the center and offers room service, a terrace, and a hot tub, which should make your stay comfortable and convenient."
     },
     {
       "role": "user",
-      "content": "Do you think the Hotel Royal Amsterdam is worth considering? They offer free Wi-Fi and breakfast, which could be convenient for me."
+      "content": "Could you please provide more details on the breakfast options available? I'd appreciate knowing if they offer any vegan or vegetarian choices."
     },
     {
       "role": "assistant",
-      "content": "Yes, the Hotel Royal Amsterdam does sound like a suitable option. Free Wi-Fi and breakfast can be convenient extras, especially for short stays where guests often need quick access to internet and meals. Their proximity to the city center also makes them easily accessible for exploring Amsterdam."
+      "content": "The Modern Hideaway does offer breakfast inclusions, so there will likely be some choice available. However, I don't have detailed information on specific menu items, including dietary preferences. Please check the official website or contact the hotel directly for more details."
     },
     {
       "role": "user",
-      "content": "Do you have any recommendations for a hotel near the Dam that doesn't cost too much but still provides good value?"
+      "content": "Could you also tell me if there are any nearby cafes where I can grab a quick coffee break during my day?"
     },
     {
       "role": "assistant",
-      "content": "Le Grand Canalhouse is a great option near the Dam. While it has some minor drawbacks regarding bathroom cleanliness, the rest of the amenities are quite impressive, including room service, hot tub, and 24-hour front desk. This combination ensures a pleasant stay without breaking the bank."
+      "content": "The Modern Hideaway is conveniently located near several cafes, making it easy to find a place to grab a quick coffee break during your day. Some popular options include Caf\u00e9 de Wereld and Coffee & Tea House."
     },
     {
       "role": "user",
-      "content": "Could you please check if there are any deals available at the Hotel Royal Amsterdam right now? I'd appreciate knowing if they're offering any promotions that might make it even more affordable."
-    },
-    {
-      "role": "assistant",
-      "content": "Unfortunately, I don't have access to current pricing or promotional information for individual hotels. However, based on my knowledge of the Hotel Royal Amsterdam, it typically offers competitive rates compared to other accommodations in the area. To get the most up-to-date information, I recommend checking their official website or contacting their reservations department directly."
-    },
-    {
-      "role": "user",
-      "content": "Could you tell me more about the amenities offered at the Le Grand Canalhouse? I'm particularly interested in how close it is to the Dam."
-    },
-    {
-      "role": "assistant",
-      "content": "Certainly! The Le Grand Canalhouse is located near the Dam, making it easy to explore the historical areas of Amsterdam. Some of the amenities include room service, a hot tub, and a 24-hour front desk."
-    },
-    {
-      "role": "user",
-      "content": "Could you also confirm if the Le Grand Canalhouse offers a shuttle service to the airport? That would save me from having to take public transportation every day."
-    },
-    {
-      "role": "assistant",
-      "content": "Based on the information provided, the Le Grand Canalhouse does offer airport shuttles. This convenience can indeed make traveling easier and more efficient."
-    },
-    {
-      "role": "user",
-      "content": "Could you also check if there are any discounts available during off-peak times? I might be able to secure a better rate then."
-    },
-    {
-      "role": "assistant",
-      "content": "I don't have real-time availability or booking capabilities, but generally, hotels often offer discounts during off-peak seasons or early bookings. Checking the hotel's website or calling their customer service can provide you with the latest information on any available discounts or promotions."
-    },
-    {
-      "role": "user",
-      "content": "Thank you very much for all the helpful information, it really helps me narrow down my choices. I'll definitely consider these options and see which one works best for my needs."
+      "content": "Thank you, that was very helpful. That's all I needed, goodbye."
     }
   ],
   "finished": true,
-  "num_turns": 7,
+  "num_turns": 3,
   "stop_reason": "user_satisfied",
-  "initial_seed_id": "min_short_stay_no_frills",
-  "long_term_memory_profile": true
+  "initial_seed_id": "min_simple_business_stopover",
+  "long_term_memory_profile": false
 }

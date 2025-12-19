@@ -1,23 +1,23 @@
 {
-  "session_id": "4f77708c-e846-4124-82e2-c4bc5ed04114",
+  "session_id": "7e9b0865-2cac-497a-9b29-36b4ff81577c",
   "persona": "explorer",
   "assistant_variant": "prompt",
   "history": [
     {
       "role": "user",
-      "content": "I'm looking for a small, atmospheric hotel in Amsterdam with a nice canal view and a cozy vibe. I care more about character than price as long as it's not extreme. What would you recommend?"
+      "content": "Can you recommend a hotel in Amsterdam in a neighborhood that feels local and not too touristy, with good reviews and some interesting caf\u00e9s or bars nearby?"
     },
     {
       "role": "assistant",
-      "content": "Based on your preferences, I would suggest checking out **The Vintage Hotel**. It offers a charming atmosphere with a great location near the Oost neighborhood, which is known for its historic charm and proximity to canals. While some guests mention issues with Wi-Fi reliability, others appreciate the friendly staff who often go above and beyond to assist guests."
+      "content": "Based on the criteria you've outlined\u2014looking for a hotel in an area that feels local yet isn't overly touristy, with good reviews, and proximity to interesting cafes or bars\u2014I would suggest considering **The Modern Hideaway**. It's located in Zuid Amsterdam, which is known for its local vibe and offers a mix of traditional Dutch architecture alongside modern amenities. The hotel itself has received positive reviews regarding customer service and the quality of facilities, including the terrace and hot tub."
     },
     {
       "role": "user",
-      "content": "Do you think The Vintage Hotel also has bicycles available for rent? That would be really convenient for exploring the city!"
+      "content": "Can you tell me more about the caf\u00e9/bar options near The Modern Hideaway? I'm interested in trying some local specialties while staying there."
     },
     {
       "role": "assistant",
-      "content": "Yes, The Vintage Hotel does offer bicycle rental services. This makes it an excellent choice for those interested in exploring the city on two wheels. Enjoy your stay!"
+      "content": "Certainly! The Modern Hideaway is conveniently situated in the heart of Zuid Amsterdam, making it easy to explore various local spots. Here are a few notable cafes and bars that you might enjoy:\n\n1."
     },
     {
       "role": "user",
@@ -27,6 +27,6 @@
   "finished": true,
   "num_turns": 2,
   "stop_reason": "user_satisfied",
-  "initial_seed_id": "exp_canal_view_atmosphere",
-  "long_term_memory_profile": true
+  "initial_seed_id": "exp_local_neighborhood_feel",
+  "long_term_memory_profile": false
 }

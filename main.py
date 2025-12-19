@@ -7,7 +7,7 @@ def main():
         n_histories=20,
         personas=("explorer",),
         assistant_variants=("peft",),
-        use_memory=True,
+        use_memory=False,
     )
     print(f"Finished {len(results)} conversations. Logs saved to logs/conversations.json")
 

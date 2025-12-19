@@ -75,7 +75,7 @@ def run_conversation(
             content = msg["content"]
             memory.add_turn(session_id, role, content)
     else:
-        # fallback behavior: let the user LLM create the opener if the initial history is empty
+        # fallback behavior: let the user agent create the opener if the initial history is empty
         # (this doesnt happen in practice, just for safety fallback due to some previous mistakes 
         # i made that crashed the process after running for 30m) -k
         user_utt = user.initial_prompt(location=location)
