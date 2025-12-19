@@ -10,3 +10,7 @@ To use:
 Outputs are stored under results/conversations and resuts/plots. The raw metrics are also available under results/ and the generated profiles are under results/profiles. The initial profile seed is at the project root with the name "profiles_beginning.json"
 
 Dataset is under data/hotels_synth.json
+
+
+EXPLANATION FOR NO NOTEBOOK:
+The architecture is modular and using a notebook makes it significantly harder to chain modules together. They need initializations ran separately before the actual code. This makes it much more difficult to work with. Therefore, instead, a modular repository approach was chosen and everything can be controlled from main.py. Moreover, the content of this project is very large, and navigating through a notebook would've been inconvenient.
