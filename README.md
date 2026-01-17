@@ -7,7 +7,10 @@ Two conversational AI agents (User + Assistant) that talk to each other to book 
 3. Run main.py
 4. Sit back and relax, output takes around 20-30 minutes for 20 conversations.
 
+---
+
 **FILES**
+`
 dual-LLM-dialogue
     ├── agents/    folder containing agent codes
     │   ├── __init__.py    required to turn agents/ into a package (importing purposes)
@@ -87,7 +90,9 @@ dual-LLM-dialogue
         ├── __init__.py    required to turn utils/ into a package (importing purposes)
         ├── profile_cleaner.py    post-processing of profiles script
         └── repetition_filter.py    repetition filtering for both agents script
-
+`
+---
 
 **JUSTIFICATION FOR NO NOTEBOOK**
+
 The architecture is modular and using a notebook makes it significantly harder to chain modules together. They need initializations ran separately before the actual code. This makes it much more difficult to work with. Therefore, instead, a modular repository approach was chosen and everything can be controlled from main.py. Moreover, the content of this project is very large, and navigating through a notebook would've been inconvenient.
